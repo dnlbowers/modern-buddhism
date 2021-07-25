@@ -20,14 +20,26 @@ body {
 
 header {
     background-color: white;
+    display: inline-block;
+    width: 100%;
+    padding: 5px 5px;
 }
 
 /*heading style*/
-h1 {
+header h1 {
     font-family: Merienda, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #079DD9;
+    display: inline;
+    margin: 0 auto;
+}
+
+#logo-left{
+    float: left;
+}
+#logo-right{
+    float: right;
 }
 
 /*Container for all hero images - parts of all hero image related code taken from love running project*/
@@ -45,7 +57,7 @@ h1 {
     background: url('../images/temple-image.jpg') no-repeat center center;
     background-size: cover;
     animation-name: hero-image-zoom;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-fill-mode: forwards;
 }
 
@@ -55,6 +67,6 @@ h1 {
         transform: scale(1);
     }
     to{
-        transform: scale(1.1);
+        transform: scale(1.25);
     }
 }
