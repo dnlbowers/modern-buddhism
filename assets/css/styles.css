@@ -70,3 +70,11 @@ header h1 {
         transform: scale(1.25);
     }
 }
+
+/*Navigation bar*/
+#navigation-menu {
+    display: inline-block;
+}
+#navigation-menu li {
+    display: inline;
+}
