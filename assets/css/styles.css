@@ -9,8 +9,23 @@
     border: none;
 }
 
+/*set defaults for the page body and header*/
+
 body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
     color: black;
+    background-color: #05C7F2;
+}
+
+header {
+    background-color: white;
+}
+
+/*heading style*/
+h1 {
+    font-family: Merienda, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #079DD9;
 }
