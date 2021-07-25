@@ -20,9 +20,8 @@ body {
 
 header {
     background-color: white;
-    display: flex;
+    display: inline-block;
     width: 100%;
-    padding: 10px 10px;
 }
 
 /*heading style*/
@@ -41,6 +40,7 @@ header {
 }
 #logo-right{
     float: right;
+    padding-right: 5px;
 }
 
 /*Container for all hero images - parts of all hero image related code taken from love running project*/
