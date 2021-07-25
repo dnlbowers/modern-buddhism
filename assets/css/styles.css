@@ -1,2 +1,10 @@
 /*Fonts imported from google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Roboto&display=swap');
+
+/* Removing browser defaults. Code taken form Love Running project*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
