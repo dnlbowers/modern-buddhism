@@ -30,8 +30,8 @@ h1 {
     color: #079DD9;
 }
 
-/*Container for all hero images code taken from love running project*/
-.main-image-container {
+/*Container for all hero images - parts of all hero image related code taken from love running project*/
+.hero-image-container {
     height: 600px;
     width: 100%;
     overflow: hidden;
@@ -39,8 +39,22 @@ h1 {
 }
 
 /*Add hero images to each page*/
-#index-main-image {
+#index-hero-image {
     height: 600px;
     width: 100%;
     background: url('../images/temple-image.jpg') no-repeat center center;
+    background-size: cover;
+    animation-name: hero-image-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for hero image */
+@keyframes hero-image-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.2);
+    }
 }
