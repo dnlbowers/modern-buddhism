@@ -30,7 +30,7 @@ h1 {
     color: #079DD9;
 }
 
-/*Container for all hero images*/
+/*Container for all hero images code taken from love running project*/
 .main-image-container {
     height: 600px;
     width: 100%;
@@ -42,5 +42,5 @@ h1 {
 #index-main-image {
     height: 600px;
     width: 100%;
-    background: url('../images/Geshe-la-KMC-Brazil-hero-image-\ 2.jpg') no-repeat center center;
+    background: url('../images/temple-image.jpg') no-repeat center center;
 }
