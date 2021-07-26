@@ -20,8 +20,9 @@ body {
 
 header {
     background-color: white;
-    display: inline-block;
-    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     padding-bottom: 5px;
 }
 
@@ -29,20 +30,11 @@ header {
 #title {
     font-family: Merienda, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
     color: #079DD9;
-    display: inline;
-    margin: 0 auto;
-    position: absolute;
-    left: 33%;
+    font-size: 75%;
 }
-
-#logo-left{
-    float: left;
-}
-#logo-right{
-    float: right;
-    padding-right: 5px;
+.header-image {
+    transform: scale(0.75);
 }
 
 /*Navigation bar*/
@@ -104,4 +96,17 @@ header {
     text-align: right;
     position: absolute;
     right: 0;
+}
+
+/*576*/
+
+@media (min-width: 576px) {
+    #title{
+        font-size: 100%;
+        letter-spacing: 0.25rem;
+    }
+
+    .header-image {
+        transform: scale(1);
+    }
 }
