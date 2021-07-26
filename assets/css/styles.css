@@ -52,6 +52,10 @@ header {
 #navigation-menu li {
     display: inline;
 }
+#navigation-menu a {
+    text-decoration: none;
+}
+
 
 /*Container for all hero images - parts of all hero image related code taken from love running project*/
 .hero-image-container {
@@ -89,9 +93,15 @@ header {
     font-family: Merienda, sans-serif;
     text-transform: capitalize;
     letter-spacing: 4px;
-    padding: 20px;
-    background-color: rgba(249,248,113, .7);
+    padding: 10px 5px 25px;
+    background-color: rgba(249,248,113, .5);
     bottom: 30px;
     right: 0;
     position: absolute;
+}
+
+#index-quote-overlay h3 {
+    text-align: right;
+    position: absolute;
+    right: 0;
 }
