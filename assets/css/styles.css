@@ -34,7 +34,7 @@ header {
     display: inline;
     margin: 0 auto;
     position: absolute;
-    left: 30%;
+    left: 33%;
 }
 
 #logo-left{
@@ -43,6 +43,14 @@ header {
 #logo-right{
     float: right;
     padding-right: 5px;
+}
+
+/*Navigation bar*/
+#navigation-menu {
+    text-align: center;
+}
+#navigation-menu li {
+    display: inline;
 }
 
 /*Container for all hero images - parts of all hero image related code taken from love running project*/
@@ -74,10 +82,16 @@ header {
     }
 }
 
-/*Navigation bar*/
-#navigation-menu {
-    text-align: center;
-}
-#navigation-menu li {
-    display: inline;
+
+/*Add a text overly to the hero images, adapted code from love running project*/
+#index-quote-overlay {
+    font-size: 70%;
+    font-family: Merienda, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    padding: 20px;
+    background-color: rgba(249,248,113, .7);
+    bottom: 30px;
+    right: 0;
+    position: absolute;
 }
