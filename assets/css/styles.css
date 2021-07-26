@@ -33,7 +33,8 @@ header {
     color: #079DD9;
     display: inline;
     margin: 0 auto;
-    clear: none;
+    position: absolute;
+    left: 30%;
 }
 
 #logo-left{
