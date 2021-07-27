@@ -59,7 +59,7 @@ header {
 
 /*Container for all hero images - parts of all hero image related code taken from love running project*/
 .hero-image-container {
-    height: 600px;
+    height: 300px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -67,7 +67,7 @@ header {
 
 /*Add hero images to each page*/
 #index-hero-image {
-    height: 600px;
+    height: 50%;
     width: 100%;
     background: url('../images/temple-image.jpg') no-repeat center center;
     background-size: cover;
@@ -94,7 +94,7 @@ header {
     text-transform: capitalize;
     letter-spacing: 4px;
     padding: 10px 5px 25px;
-    background-color: rgba(249,248,113, .5);
+    background-color: rgb(249,248,113);
     bottom: 30px;
     right: 0;
     position: absolute;
