@@ -21,9 +21,9 @@ body {
 header {
     background-color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding-bottom: 5px;
+    padding: 5px 0;
     height: 3.125rem;
 }
 
@@ -32,7 +32,8 @@ header {
     font-family: Merienda, sans-serif;
     text-transform: uppercase;
     color: #079DD9;
-    font-size: 100%;
+    font-size: 97%;
+    padding-left: 10px;
 }
 
 #header-image-left {
@@ -41,6 +42,7 @@ header {
 
 #header-image-right {
     transform: scale(0.5);
+    padding-top: 5px;
 }
 
 /*Navigation bar*/
