@@ -4,9 +4,9 @@
 /* Removing browser defaults. Code taken form Love Running project*/
 
 * {
+    border: none;
     margin: 0;
     padding: 0;
-    border: none;
 }
 
 /*set defaults for the page body and header working from a default of 320px width to scale up from*/
@@ -47,19 +47,26 @@ header {
 
 /*Navigation bar*/
 
+#nav-wrap {
+    background-color: rgb(249,248,113);
+}
+
 #nav-menu {
     display: flex;
     justify-content: space-between;
     font-size: 80%;
-    
-}
-
-.nav-item {
+    font-weight: bold; 
     list-style-type: none;
 }
 
-.nav-item a {
+.nav-button {
+    padding: 6px;
+    
+}
+
+.nav-button a {
     text-decoration: none;
+    color: black;
 }
 
 
@@ -78,7 +85,7 @@ header {
     background: url('../images/temple-image.jpg') no-repeat center center;
     background-size: cover;
     animation-name: hero-image-zoom;
-    animation-duration: 10s;
+    animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
@@ -88,7 +95,7 @@ header {
         transform: scale(1);
     }
     to{
-        transform: scale(1.25);
+        transform: scale(1.1);
     }
 }
 
@@ -99,11 +106,8 @@ header {
     font-family: Merienda, sans-serif;
     text-transform: capitalize;
     letter-spacing: 4px;
-    padding: 10px 5px 25px;
+    padding: 25px 5px 25px;
     background-color: rgb(249,248,113);
-    bottom: 30px;
-    right: 0;
-    position: absolute;
 }
 
 .quote-overlay h3 {
