@@ -66,14 +66,14 @@ header {
     color: black;
 }
 
-.nav-menu a:hover {
-    border-bottom: 10px solid #3a3a3a;
-}
-
+/*shows active page and underlines when interacted with*/
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
 
+.nav-button:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
 
 /*Container for all hero images - parts of all hero image related code taken from love running project*/
 .hero-image-container {
