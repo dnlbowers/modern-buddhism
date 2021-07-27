@@ -9,7 +9,7 @@
     border: none;
 }
 
-/*set defaults for the page body and header*/
+/*set defaults for the page body and header working from a default of 320px width to scale up from*/
 
 body {
     font-family: Roboto, sans-serif;
@@ -21,9 +21,10 @@ body {
 header {
     background-color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     padding-bottom: 5px;
+    height: 3.125rem;
 }
 
 /*heading style*/
@@ -31,10 +32,15 @@ header {
     font-family: Merienda, sans-serif;
     text-transform: uppercase;
     color: #079DD9;
-    font-size: 75%;
+    font-size: 100%;
 }
-.header-image {
-    transform: scale(0.75);
+
+#header-image-left {
+    display: none;
+}
+
+#header-image-right {
+    transform: scale(0.5);
 }
 
 /*Navigation bar*/
@@ -98,7 +104,9 @@ header {
     right: 0;
 }
 
-/*576*/
+
+/* Media queries */
+/*for screen sizes over 576*/
 
 @media (min-width: 576px) {
     #title{
