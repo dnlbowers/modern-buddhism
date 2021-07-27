@@ -57,16 +57,21 @@ header {
     font-size: 80%;
     font-weight: bold; 
     list-style-type: none;
-}
-
-.nav-button {
     padding: 6px;
     
 }
 
-.nav-button a {
+#nav-menu a {
     text-decoration: none;
     color: black;
+}
+
+.nav-menu a:hover {
+    border-bottom: 10px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
 
 
