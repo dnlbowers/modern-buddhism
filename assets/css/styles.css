@@ -132,6 +132,10 @@ header {
     padding: 5% 5%;
     text-align: justify;
 }
+
+#tyl-download {
+    width:85%;
+}
 /* Media queries */
 /*for screen sizes over 576*/
 
