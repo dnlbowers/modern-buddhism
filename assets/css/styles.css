@@ -15,7 +15,7 @@ body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
     color: black;
-    background-color: #079DD9;
+    background-color: #05C7F2;
 }
 
 header {
@@ -113,7 +113,7 @@ header {
     text-transform: capitalize;
     letter-spacing: 4px;
     padding: 25px 5px 25px;
-    /*colour gradient taken from http://www.brandgradients.com/gold-gradient/*/
+     /*colour gradient taken from http://www.brandgradients.com/gold-gradient/*/
     background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728,#fbf5b7 );
 }
 
@@ -123,7 +123,14 @@ header {
     right: 0;
 }
 
+#index-content {
+    width: 95%;
+    background-color: white;
+}
 
+#index-content p {
+    width: 85%;
+}
 /* Media queries */
 /*for screen sizes over 576*/
 
