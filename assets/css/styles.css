@@ -15,7 +15,7 @@ body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
     color: black;
-    background-color: #05C7F2;
+    background-color: #079DD9;
 }
 
 header {
@@ -48,7 +48,8 @@ header {
 /*Navigation bar*/
 
 #nav-wrap {
-    background-color: rgb(249,248,113);
+    /*colour gradient taken from http://www.brandgradients.com/gold-gradient/*/
+    background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728,#fbf5b7 );
 }
 
 #nav-menu {
@@ -112,7 +113,8 @@ header {
     text-transform: capitalize;
     letter-spacing: 4px;
     padding: 25px 5px 25px;
-    background-color: rgb(249,248,113);
+    /*colour gradient taken from http://www.brandgradients.com/gold-gradient/*/
+    background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728,#fbf5b7 );
 }
 
 .quote-overlay h3 {
