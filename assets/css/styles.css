@@ -78,7 +78,7 @@ header {
 
 /*Container for all hero images - parts of all hero image related code taken from love running project*/
 .hero-image-container {
-    height: 350px;
+    height: 400px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -131,6 +131,10 @@ header {
 #index-content > p {
     padding: 5% 5%;
     text-align: justify;
+}
+
+#modern-buddhim-vid {
+    width: 90%;
 }
 
 #tyl-download {
