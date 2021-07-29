@@ -121,6 +121,17 @@ header {
     text-align: right;
 }
 
+#modern-buddism-vid {
+    width: 85%;
+    max-width: 560px;
+    height: 19.688rem;
+}
+
+#tyl-download {
+    width:85%;
+    max-width: 300px;
+}
+
 #index-content {
     width: 95%;
     background-color: white;
@@ -133,16 +144,29 @@ header {
     text-align: justify;
 }
 
-#modern-buddism-vid {
-    width: 85%;
-    max-width: 560px;
-    height: 19.688rem;
+
+footer {
+    height: 150px;
+    clear: both;
+    text-align: center;
 }
 
-#tyl-download {
-    width:85%;
-    max-width: 300px;
+.social-media {
+    text-align: center;
 }
+
+.social-media li {
+    display: inline;
+    list-style-type: none;
+}
+
+.social-media i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
 /* Media queries */
 /*for screen sizes over 576*/
 
