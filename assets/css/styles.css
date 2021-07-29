@@ -133,12 +133,15 @@ header {
     text-align: justify;
 }
 
-#modern-buddhim-vid {
-    width: 90%;
+#modern-buddism-vid {
+    width: 85%;
+    max-width: 560px;
+    height: 19.688rem;
 }
 
 #tyl-download {
     width:85%;
+    max-width: 300px;
 }
 /* Media queries */
 /*for screen sizes over 576*/
