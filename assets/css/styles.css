@@ -192,4 +192,21 @@ footer {
         height: 100px;
         display: inline;
     }
+
+    .quote-overlay {
+        bottom: 5px;
+        right: 10px;
+        position: absolute;
+        width: 75%;
+    }
+    .hero-image-container {
+        height: 375px;  
+    }
+    .hero-image {
+        height: 80%;
+        width: 100%;
+    }
+    .quote-overlay {
+        padding: 10px 10px;
+    }
 }
