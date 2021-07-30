@@ -156,7 +156,6 @@ header {
 
 
 footer {
-    height: 150px;
     color: #fff;
     clear: both;
     text-align: center;
@@ -179,7 +178,7 @@ footer {
 }
 
 /* Media queries */
-/*for screen sizes over 576*/
+/*for screen sizes over 576px wide*/
 
 @media (min-width: 576px) {
     #title{
@@ -187,6 +186,10 @@ footer {
         letter-spacing: 0.25rem;
     }
 
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
     .header-image {
         transform: scale(1);
     }
@@ -218,5 +221,13 @@ footer {
 
     #index-content {
         margin-top: 5px;
+    }
+}
+
+/*for screen sizes over 1200px wide*/
+
+@media (min-width: 1200px) {
+    .quote-overlay {
+        right: 0;
     }
 }
