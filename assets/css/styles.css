@@ -19,7 +19,7 @@ body {
 }
 
 header {
-    background-color: white;
+    background-color: #06304b;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,18 +31,22 @@ header {
 #title {
     font-family: Merienda, sans-serif;
     text-transform: uppercase;
-    color: #079DD9;
+    color: #fff;
     font-size: 97%;
     padding-left: 10px;
 }
 
 #header-image-left {
+    transform: scale(0.5);
+    padding-top: 5px;
+    height: 100px;
     display: none;
 }
 
 #header-image-right {
     transform: scale(0.5);
     padding-top: 5px;
+    height: 100px;
 }
 
 /*Navigation bar*/
@@ -148,7 +152,7 @@ header {
 
 footer {
     height: 150px;
-    
+    color: #fff;
     clear: both;
     text-align: center;
 }
@@ -166,7 +170,7 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #3a3a3a;
+    color: #fff;
 }
 
 /* Media queries */
@@ -180,5 +184,12 @@ footer {
 
     .header-image {
         transform: scale(1);
+    }
+    #header-image-left {
+        transform: scale(0.5);
+        padding-top: 5px;
+        justify-content: space-around;
+        height: 100px;
+        display: inline;
     }
 }
