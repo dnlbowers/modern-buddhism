@@ -121,6 +121,10 @@ header {
     background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728,#fbf5b7 );
 }
 
+.quote-overlay h2 {
+    text-align: left;
+}
+
 .quote-overlay h3 {
     text-align: right;
 }
@@ -188,7 +192,7 @@ footer {
 
     header {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     .header-image {
         transform: scale(1);
@@ -227,6 +231,11 @@ footer {
 /*for screen sizes over 1200px wide*/
 
 @media (min-width: 1200px) {
+    header {
+        display: flex;
+        justify-content: space-around;
+    }
+    
     .quote-overlay {
         right: 0;
     }
