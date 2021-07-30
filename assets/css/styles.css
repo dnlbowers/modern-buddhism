@@ -58,7 +58,7 @@ header {
 
 #nav-menu {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 80%;
     font-weight: bold; 
     list-style-type: none;
@@ -73,11 +73,11 @@ header {
 
 /*shows active page and underlines when interacted with*/
 .active {
-    border-bottom: 2px solid #3a3a3a;
+    border-bottom: 2px solid #fff;
 }
 
 .nav-button:hover {
-    border-bottom: 2px solid #3a3a3a;
+    border-bottom: 2px solid #fff;
 }
 
 /*Container for all hero images - parts of all hero image related code taken from love running project*/
@@ -208,5 +208,10 @@ footer {
     }
     .quote-overlay {
         padding: 10px 10px;
+        right: 2.5%;
+    }
+
+    #index-content {
+        margin-top: 5px;
     }
 }
