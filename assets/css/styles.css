@@ -144,8 +144,13 @@ header {
     color: #fff
 }
 
+#index-content > h2 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
 #index-content > p {
-    padding: 5% 5%;
+    padding: 10px 10px 10px;
     text-align: justify;
 }
 
