@@ -197,9 +197,11 @@ footer {
         justify-content: center;
         font-size: 25px;
     }
+
     .header-image {
         transform: scale(1);
     }
+
     #header-image-left {
         transform: scale(0.5);
         padding-top: 5px;
@@ -212,6 +214,7 @@ footer {
         height: 375px;
         margin-bottom: 2.5%;  
     }
+    
     .hero-image {
         height: 95%;
         width: 100%;
