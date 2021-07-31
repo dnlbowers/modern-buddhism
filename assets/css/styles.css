@@ -113,22 +113,22 @@ header {
 /*Add a text overly to the hero images, adapted code from love running project*/
 .quote-overlay {
     font-size: 70%;
-    
     text-transform: capitalize;
     letter-spacing: 4px;
     padding: 25px 10px;
+    font-family: Oswald, sans-serif;
      /*colour gradient taken from http://www.brandgradients.com/gold-gradient/*/
     background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728,#fbf5b7 );
 }
 
 .quote-overlay h2 {
     text-align: left;
-    font-family: Oswald, cursive;
 }
 
 .quote-overlay h3 {
     text-align: right;
-    font-family: Oswald, cursive;
+    text-transform: uppercase;
+    letter-spacing: 4px;
 }
 
 #modern-buddism-vid {
@@ -186,7 +186,7 @@ footer {
 /* Media queries */
 /*for screen sizes over 576px wide*/
 
-@media (min-width: 576px) {
+@media (min-width: 530px) {
     #title{
         font-size: 100%;
         letter-spacing: 0.25rem;
@@ -195,6 +195,7 @@ footer {
     header {
         display: flex;
         justify-content: center;
+        font-size: 25px;
     }
     .header-image {
         transform: scale(1);
@@ -207,22 +208,22 @@ footer {
         display: inline;
     }
 
-    .quote-overlay {
-        bottom: 5px;
-        right: 10px;
-        position: absolute;
-        width: 75%;
-    }
     .hero-image-container {
-        height: 375px;  
+        height: 375px;
+        margin-bottom: 2.5%;  
     }
     .hero-image {
-        height: 80%;
+        height: 95%;
         width: 100%;
     }
+    
     .quote-overlay {
+        position: absolute;
+        width: fit-content;
+        background: linear-gradient(to right, rgba(191, 149, 63, 0.6), rgba(252, 246, 186, 0.65), rgba(179, 135, 40, 0.75),rgba(251, 245, 183, 0.8) );
+        bottom: 10px;
+        right: 0;
         padding: 10px 10px;
-        right: 2.5%;
     }
 
     #index-content {
@@ -237,8 +238,29 @@ footer {
         display: flex;
         justify-content: center;
     }
+
+    .hero-image-container {
+        height: 375px;  
+    }
+
+    .hero-image {
+        height: 100%;
+    }
+
+    @keyframes hero-image-zoom {
+        from{
+            transform: scale(0.9);
+        }
+        to{
+            transform: scale(1.0);
+        }
+    }
+    
     
     .quote-overlay {
+        font-size: 70%;   
+        position: absolute;
         right: 0;
+        width: fit-content;
     }
 }
