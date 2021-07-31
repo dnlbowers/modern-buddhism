@@ -1,5 +1,5 @@
 /*Fonts imported from google fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Pacifico&display=swap');
 
 /* Removing browser defaults. Code taken form Love Running project*/
 
@@ -12,7 +12,7 @@
 /*set defaults for the page body and header working from a default of 320px width to scale up from*/
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family: 'Francois One', sans-serif;
     font-weight: 300;
     color: black;
     background-color: #06304b;
@@ -29,7 +29,7 @@ header {
 
 /*heading style*/
 #title {
-    font-family: Merienda, sans-serif;
+    font-family: Oswald, cursive;
     text-transform: uppercase;
     color: #fff;
     font-size: 97%;
@@ -113,7 +113,7 @@ header {
 /*Add a text overly to the hero images, adapted code from love running project*/
 .quote-overlay {
     font-size: 70%;
-    font-family: Merienda, sans-serif;
+    
     text-transform: capitalize;
     letter-spacing: 4px;
     padding: 25px 10px;
@@ -123,10 +123,12 @@ header {
 
 .quote-overlay h2 {
     text-align: left;
+    font-family: Oswald, cursive;
 }
 
 .quote-overlay h3 {
     text-align: right;
+    font-family: Oswald, cursive;
 }
 
 #modern-buddism-vid {
@@ -192,7 +194,7 @@ footer {
 
     header {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
     }
     .header-image {
         transform: scale(1);
@@ -233,7 +235,7 @@ footer {
 @media (min-width: 1200px) {
     header {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
     }
     
     .quote-overlay {
