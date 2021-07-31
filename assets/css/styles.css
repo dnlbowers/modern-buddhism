@@ -14,7 +14,7 @@
 body {
     font-family: 'Francois One', sans-serif;
     font-weight: 300;
-    color: black;
+    color:#fff;
     background-color: #06304b;
 }
 
@@ -32,7 +32,7 @@ header {
     font-family: Oswald, cursive;
     text-transform: uppercase;
     color: #fff;
-    font-size: 97%;
+    font-size: 90%;
     padding-left: 10px;
 }
 
@@ -117,6 +117,7 @@ header {
     letter-spacing: 4px;
     padding: 25px 10px;
     font-family: Oswald, sans-serif;
+    color: #000;
      /*colour gradient taken from http://www.brandgradients.com/gold-gradient/*/
     background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728,#fbf5b7 );
 }
@@ -188,7 +189,7 @@ footer {
 
 @media (min-width: 530px) {
     #title{
-        font-size: 100%;
+        font-size: 65%;
         letter-spacing: 0.25rem;
     }
 
@@ -214,7 +215,7 @@ footer {
         height: 375px;
         margin-bottom: 2.5%;  
     }
-    
+
     .hero-image {
         height: 95%;
         width: 100%;
