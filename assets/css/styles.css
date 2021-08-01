@@ -146,7 +146,7 @@ header {
 #index-content {
     width: 95%;
     background-color: #0094b6;
-    margin: 2.5%;
+    margin: 1% 2.5%;
     text-align: center;
     color: #fff
 }
@@ -179,8 +179,8 @@ footer {
 .social-media i {
     font-size: 160%;
     margin: 1%;
-    padding: 5%;
     color: #fff;
+    padding: 5px;
 }
 
 /* Media queries */
