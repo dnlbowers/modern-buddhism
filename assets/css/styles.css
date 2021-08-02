@@ -37,16 +37,16 @@ header {
 }
 
 #header-image-left {
-    transform: scale(0.5);
     padding-top: 5px;
-    height: 100px;
+    height: 50px;
+    width: 50px;
     display: none;
 }
 
 #header-image-right {
-    transform: scale(0.5);
     padding-top: 5px;
-    height: 100px;
+    height: 50px;
+    width: 50px;
 }
 
 /*Navigation bar*/
@@ -192,20 +192,14 @@ footer h3 {
 
 @media (min-width: 576px) {
 
-    .header-image {
-        transform: scale(1);
-    }
-
     #title{
         letter-spacing: 0.25rem;
-        font-size: 65%;
+        font-size: 165%;
     }
 
     #header-image-left {
-        transform: scale(0.5);
         padding-top: 5px;
         justify-content: space-around;
-        height: 100px;
         display: inline;
     }
 
