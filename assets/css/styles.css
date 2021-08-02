@@ -236,10 +236,6 @@ footer h3 {
 
 @media (min-width: 768px) {
     
-    header {
-        
-    }
-
     #header-image-left {
         height: 90px;
         width: 90px;
@@ -252,6 +248,24 @@ footer h3 {
     #header-image-right  {
         height: 90px;
         width: 90px;
+    }
+}
+
+/*for screen sizes over 979px and under 1024px wide*/
+
+@media (min-width: 980px) {
+    #header-image-left {
+        height: 100px;
+        width: 100px;
+    }
+
+    #title {
+        font-size: 300%;
+    }
+
+    #header-image-right  {
+        height: 100px;
+        width: 100px;
     }
 }
 
