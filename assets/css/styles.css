@@ -21,10 +21,9 @@ body {
 header {
     background-color: #06304b;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     padding: 10px;
-    height: 3.125rem;
 }
 
 /*heading style*/
@@ -37,14 +36,12 @@ header {
 }
 
 #header-image-left {
-    padding-top: 5px;
     height: 50px;
     width: 50px;
     display: none;
 }
 
 #header-image-right {
-    padding-top: 5px;
     height: 50px;
     width: 50px;
 }
@@ -192,17 +189,25 @@ footer h3 {
 
 @media (min-width: 576px) {
 
+    header {
+        justify-content: space-evenly;
+    }
+
+    #header-image-left {
+        display: inline;
+        height: 70px;
+        width: 70px;
+    }
+
     #title{
         letter-spacing: 0.25rem;
         font-size: 165%;
     }
 
-    #header-image-left {
-        padding-top: 5px;
-        justify-content: space-around;
-        display: inline;
+    #header-image-right {
+        height: 70px;
+        width: 70px;
     }
-
     .hero-image-container {
         height: 375px;
         margin-bottom: 2.5%;  
