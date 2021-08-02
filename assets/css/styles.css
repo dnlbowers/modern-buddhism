@@ -185,7 +185,7 @@ footer h3 {
 }
 
 /* Media queries */
-/*for screen sizes over 576px wide*/
+/*for screen sizes over 576px and under 767px wide*/
 
 @media (min-width: 576px) {
 
@@ -229,6 +229,29 @@ footer h3 {
 
     #index-content {
         margin-top: 5px;
+    }
+}
+
+/*for screen sizes over 768px and under 979px wide*/
+
+@media (min-width: 768px) {
+    
+    header {
+        
+    }
+
+    #header-image-left {
+        height: 90px;
+        width: 90px;
+    }
+
+    #title {
+        font-size: 250%;
+    }
+
+    #header-image-right  {
+        height: 90px;
+        width: 90px;
     }
 }
 
