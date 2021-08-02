@@ -167,6 +167,10 @@ footer {
     text-align: center;
 }
 
+footer h3 {
+    font-size: 1.67em;
+}
+
 .social-media {
     text-align: center;
 }
