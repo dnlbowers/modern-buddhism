@@ -31,19 +31,19 @@ header {
     font-family: Oswald, cursive;
     text-transform: uppercase;
     color: #fff;
-    font-size: 90%;
+    font-size: 130%;
     padding-left: 10px;
 }
 
 #header-image-left {
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
     display: none;
 }
 
 #header-image-right {
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
 }
 
 /*Navigation bar*/
@@ -195,8 +195,6 @@ footer h3 {
 
     #header-image-left {
         display: inline;
-        height: 70px;
-        width: 70px;
     }
 
     #title{
@@ -204,10 +202,6 @@ footer h3 {
         font-size: 165%;
     }
 
-    #header-image-right {
-        height: 70px;
-        width: 70px;
-    }
     .hero-image-container {
         height: 375px;
         margin-bottom: 2.5%;  
