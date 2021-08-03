@@ -155,7 +155,7 @@ header {
 .content {
     width: 95%;
     background-color: #06304b;
-    margin: 1% auto;
+    margin: 0 auto;
     text-align: center;
     color: #fff
 }
@@ -233,6 +233,11 @@ footer h3 {
         height: 95%;
         width: 100%;
     }
+
+    #teachings-hero-image {
+        height: 450px;
+        margin-bottom: 2.5%;
+    }
     
     .quote-overlay {
         position: absolute;
@@ -267,6 +272,10 @@ footer h3 {
     }
 
     #index-hero-image {
+        height: 100%;
+    }
+
+    #teachings-hero-image {
         height: 100%;
     }
 }
