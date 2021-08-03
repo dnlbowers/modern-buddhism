@@ -185,7 +185,8 @@ footer h3 {
 }
 
 /* Media queries */
-/*for screen sizes over 576px and under 767px wide*/
+
+/*for screen sizes over 360px and under 540px wide*/
 
 @media (min-width: 360px) {
     header{
@@ -194,7 +195,7 @@ footer h3 {
     
 }
 
-/*for screen sizes over 576px and under 767px wide*/
+/*for screen sizes over 540px and under 767px wide*/
 
 @media (min-width: 540px) {
 
