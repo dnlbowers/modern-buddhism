@@ -133,6 +133,7 @@ header {
     width: 85%;
     max-width: 560px;
     height: 19.688rem;
+    margin: 10px;
 }
 
 #tyl-download {
@@ -143,7 +144,7 @@ header {
 #index-content {
     width: 95%;
     background-color: #06304b;
-    margin: 1% 2.5%;
+    margin: 1% auto;
     text-align: center;
     color: #fff
 }
@@ -230,10 +231,6 @@ footer h3 {
         right: 0;
         padding: 10px 10px;
     }
-
-    #index-content {
-        margin-top: 5px;
-    }
 }
 
 /*for screen sizes over 768px and under 979px wide*/
@@ -255,7 +252,7 @@ footer h3 {
     }
 
     .hero-image-container {
-        height: 600px;  
+        height: 500px;  
     }
 
     .hero-image {
@@ -285,10 +282,17 @@ footer h3 {
 
 @media (min-width: 1200px) {
     
+    .hero-image-container {
+        height: 600px;
+    }
     .quote-overlay {
         font-size: 70%;   
         position: absolute;
         right: 0;
         width: fit-content;
+    }
+
+    .index-content {
+        margin: 0 auto;
     }
 }
