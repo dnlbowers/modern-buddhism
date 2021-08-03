@@ -15,7 +15,7 @@ body {
     font-family: 'Francois One', sans-serif;
     font-weight: 300;
     color:#fff;
-    background-color: #06304b;
+    background-color: #0094b6;
 }
 
 header {
@@ -142,7 +142,7 @@ header {
 
 #index-content {
     width: 95%;
-    background-color: #0094b6;
+    background-color: #06304b;
     margin: 1% 2.5%;
     text-align: center;
     color: #fff
@@ -213,7 +213,7 @@ footer h3 {
     }
 
     .hero-image-container {
-        height: 375px;
+        height: 450px;
         margin-bottom: 2.5%;  
     }
 
@@ -253,6 +253,14 @@ footer h3 {
         height: 90px;
         width: 90px;
     }
+
+    .hero-image-container {
+        height: 600px;  
+    }
+
+    .hero-image {
+        height: 100%;
+    }
 }
 
 /*for screen sizes over 979px and under 1024px wide*/
@@ -276,23 +284,6 @@ footer h3 {
 /*for screen sizes over 1200px wide*/
 
 @media (min-width: 1200px) {
-
-    .hero-image-container {
-        height: 375px;  
-    }
-
-    .hero-image {
-        height: 100%;
-    }
-
-    @keyframes hero-image-zoom {
-        from{
-            transform: scale(0.9);
-        }
-        to{
-            transform: scale(1.0);
-        }
-    }
     
     .quote-overlay {
         font-size: 70%;   
