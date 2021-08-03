@@ -27,7 +27,7 @@ header {
 }
 
 /*heading style*/
-#title {
+.title {
     font-family: Oswald, cursive;
     text-transform: uppercase;
     color: #fff;
@@ -35,25 +35,25 @@ header {
     padding-left: 10px;
 }
 
-#header-image-left {
+.header-image-left {
     height: 70px;
     width: 70px;
     display: none;
 }
 
-#header-image-right {
+.header-image-right {
     height: 70px;
     width: 70px;
 }
 
 /*Navigation bar*/
 
-#nav-wrap {
+.nav-wrap {
     /*colour gradient taken from http://www.brandgradients.com/gold-gradient/*/
     background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728,#fbf5b7 );
 }
 
-#nav-menu {
+.nav-menu {
     display: flex;
     justify-content: space-evenly;
     font-size: 80%;
@@ -63,18 +63,18 @@ header {
     
 }
 
-#nav-menu a {
+.nav-menu a {
     text-decoration: none;
     color: black;
 }
 
 /*shows active page and underlines when interacted with*/
 .active {
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #06304b;
 }
 
 .nav-button:hover {
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #06304b;
 }
 
 /*Container for all hero images - parts of all hero image related code taken from love running project*/
@@ -86,7 +86,7 @@ header {
 }
 
 /*Add hero images to each page*/
-.hero-image {
+#index-hero-image {
     height: 65%;
     width: 100%;
     background: url('../images/temple-image.jpg') no-repeat center center;
@@ -141,7 +141,7 @@ header {
     max-width: 300px;
 }
 
-#index-content {
+.content {
     width: 95%;
     background-color: #06304b;
     margin: 1% auto;
@@ -149,12 +149,12 @@ header {
     color: #fff
 }
 
-#index-content > h2 {
+.content > h2 {
     padding-top: 10px;
     padding-bottom: 5px;
 }
 
-#index-content > p {
+.content > p {
     padding: 10px 10px 10px;
     text-align: justify;
 }
@@ -204,11 +204,11 @@ footer h3 {
         justify-content: space-evenly;
     }
 
-    #header-image-left {
+    .header-image-left {
         display: inline;
     }
 
-    #title{
+    .title{
         letter-spacing: 0.25rem;
         font-size: 165%;
     }
@@ -218,7 +218,7 @@ footer h3 {
         margin-bottom: 2.5%;  
     }
 
-    .hero-image {
+    #index-hero-image {
         height: 95%;
         width: 100%;
     }
@@ -237,16 +237,16 @@ footer h3 {
 
 @media (min-width: 768px) {
     
-    #header-image-left {
+    .header-image-left {
         height: 90px;
         width: 90px;
     }
 
-    #title {
+    .title {
         font-size: 250%;
     }
 
-    #header-image-right  {
+    .header-image-right  {
         height: 90px;
         width: 90px;
     }
@@ -255,7 +255,7 @@ footer h3 {
         height: 500px;  
     }
 
-    .hero-image {
+    #index-hero-image {
         height: 100%;
     }
 }
@@ -263,16 +263,16 @@ footer h3 {
 /*for screen sizes over 979px and under 1024px wide*/
 
 @media (min-width: 980px) {
-    #header-image-left {
+    .header-image-left {
         height: 100px;
         width: 100px;
     }
 
-    #title {
+    .title {
         font-size: 300%;
     }
 
-    #header-image-right  {
+    .header-image-right  {
         height: 100px;
         width: 100px;
     }
@@ -292,7 +292,7 @@ footer h3 {
         width: fit-content;
     }
 
-    .index-content {
+    .content {
         margin: 0 auto;
     }
 }
