@@ -170,6 +170,10 @@ header {
     text-align: justify;
 }
 
+#center {
+    text-align: center;
+}
+
 
 footer {
     color: #fff;
