@@ -171,6 +171,14 @@ header {
     text-align: justify;
 }
 
+.content a {
+    color:#fff
+}
+
+.content a:hover {
+    color: gold;
+}
+
 #center {
     text-align: center;
 }
