@@ -150,6 +150,7 @@ header {
 #tyl-download {
     width:85%;
     max-width: 300px;
+    margin-bottom: 2rem;
 }
 
 .content {
@@ -189,11 +190,16 @@ footer {
     background-color: #06304b;
     margin: 0 auto;
     width: 95%;
-
 }
 
 footer h3 {
     font-size: 1.67em;
+    padding: 1rem;
+}
+
+footer h4 {
+    font-size: 0.7rem;
+    padding: 1rem;
 }
 
 .social-media {
