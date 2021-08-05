@@ -106,6 +106,15 @@ header {
     animation-fill-mode: forwards;
 }
 
+#contact-hero-image {
+    height: 65%;
+    width: 100%;
+    background: url('../images/contact-banner.jpg') no-repeat center center;
+    background-size: cover;
+    animation-name: hero-image-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
 
 /* creates the level of zoom for hero image */
 @keyframes hero-image-zoom {
