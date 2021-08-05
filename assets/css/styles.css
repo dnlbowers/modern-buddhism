@@ -134,8 +134,7 @@ header {
 /*Add a text overly to the hero images, adapted code from love running project*/
 .quote-overlay {
     font-size: 70%;
-    text-transform: capitalize;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
     padding: 25px 10px;
     font-family: Oswald, sans-serif;
     color: #000;
