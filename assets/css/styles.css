@@ -83,7 +83,6 @@ header {
     width: 100%;
     overflow: hidden;
     position: relative;
-    margin-bottom: 0.5rem;
 }
 
 /*Add hero images to each page*/
@@ -156,7 +155,7 @@ header {
 .content {
     width: 95%;
     background-color: #06304b;
-    margin: 0 auto;
+    margin: 0.5rem auto;
     text-align: center;
     color: #fff;
 }
@@ -188,7 +187,9 @@ footer {
     color: #fff;
     text-align: center;
     background-color: #06304b;
-    margin-top: 0.5rem;
+    margin: 0 auto;
+    width: 95%;
+
 }
 
 footer h3 {
@@ -266,6 +267,10 @@ footer h3 {
     .content {
         width: 97%;
     }
+
+    footer {
+        width: 97%;
+    }
 }
 
 /*for screen sizes over 768px and under 979px wide*/
@@ -319,6 +324,10 @@ footer h3 {
     .content {
         width: 98%;
     }
+
+    footer {
+        width: 98%;
+    }
 }
 
 /*for screen sizes over 1200px wide*/
@@ -337,6 +346,10 @@ footer h3 {
 
     .content {
         margin: 0 auto;
+        width: 99%;
+    }
+
+    footer {
         width: 99%;
     }
 }
