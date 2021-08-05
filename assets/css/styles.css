@@ -86,6 +86,8 @@ header {
 }
 
 /*Add hero images to each page*/
+
+/*image taken from https://www.meditateinlondon.org/new-kadampa-tradition/*/
 #index-hero-image {
     height: 65%;
     width: 100%;
@@ -96,6 +98,7 @@ header {
     animation-fill-mode: forwards;
 }
 
+/*Image taken from https://www.meditateinperth.org/about-buddhism/*/
 #teachings-hero-image {
     height: 65%;
     width: 100%;
@@ -106,6 +109,7 @@ header {
     animation-fill-mode: forwards;
 }
 
+/*Image taken from https://meditateinleicester.org/buddhism-3/*/
 #contact-hero-image {
     height: 65%;
     width: 100%;
