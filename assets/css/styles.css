@@ -122,6 +122,16 @@ header {
     animation-fill-mode: forwards;
 }
 
+#community-hero-image {
+    height: 65%;
+    width: 100%;
+    background: url('../images/kadampa-festival-wide.jpg') no-repeat center center;
+    background-size: cover;
+    animation-name: hero-image-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
 /* creates the level of zoom for hero image */
 @keyframes hero-image-zoom {
     from{
@@ -297,6 +307,10 @@ footer h4 {
         height: 95%;
     }
 
+    #community-hero-image {
+        height: 95%;
+    }
+
     #contact-hero-image {
         height: 95%;
     }
@@ -355,6 +369,14 @@ footer h4 {
     }
 
     #teachings-hero-image {
+        height: 100%;
+    }
+
+    #community-hero-image {
+        height: 100%;
+    }
+
+    #contact-hero-image {
         height: 100%;
     }
 
