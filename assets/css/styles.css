@@ -265,12 +265,14 @@ footer h4 {
 
     #index-hero-image {
         height: 95%;
-        width: 100%;
     }
 
     #teachings-hero-image {
         height: 95%;
-        width: 100%;
+    }
+
+    #contact-hero-image {
+        height: 95%;
     }
     
     .quote-overlay {
@@ -363,7 +365,7 @@ footer h4 {
     }
 
     .content {
-        margin: 0 auto;
+        margin: 0.5rem auto;
         width: 99%;
     }
 
