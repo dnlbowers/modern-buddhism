@@ -70,11 +70,13 @@ header {
 
 /*shows active page and underlines when interacted with*/
 .active {
-    border-bottom: 2px solid #06304b;
-}
+    border-bottom: 2px solid #fff;
+    }
 
 .nav-button:hover {
-    border-bottom: 2px solid #06304b;
+    border-bottom: 2px solid #fff;
+    background-color: #06304b;
+    color: #fff;
 }
 
 /*Container for all hero images - parts of all hero image related code taken from love running project*/
@@ -251,6 +253,10 @@ footer h4 {
         justify-content: space-around;
     }
 
+    .nav-menu {
+        font-size: 95%;
+    }
+
     .contact{
         width: 80%;
     }
@@ -272,6 +278,10 @@ footer h4 {
     .title{
         letter-spacing: 0.25rem;
         font-size: 165%;
+    }
+
+    .nav-menu {
+        font-size: 105%;
     }
 
     .hero-image-container {
@@ -330,6 +340,10 @@ footer h4 {
     .header-image-right  {
         height: 90px;
         width: 90px;
+    }
+
+    .nav-menu {
+        font-size: 120%;
     }
 
     .hero-image-container {
