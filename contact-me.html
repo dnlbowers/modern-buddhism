@@ -69,16 +69,16 @@
             <label for="email">E-mail:</label>
             <input type="email" id="email" name="email" placeholder="Required field" required>
             <br>
+            <label for="message">Message:</label><br>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="(Optional) Send me a message..." required></textarea>
+            <br>
             <p>
                 Would you like to join or mailing list?
             </p>
-            <input type="radio" id="join" name="mailing_list" value="join_mailing_list">
-            <label for="join">Yes, please keep me updated.</label>
-            <input type="radio" id="no-join" name="mailing_list" value="do_not_mail">
-            <label for="no-join">No thanks, you've said enough.</label>
-            <br>
-            <label for="message">Message:</label><br>
-            <textarea name="message" id="message" cols="30" rows="10" placeholder="(Optional) Send me a message..." required></textarea>
+                <input type="checkbox" id="join" name="join" value="mail">
+                <label for="join">Yes please.</label><br>
+                <input type="checkbox" id="no-join" name="no-join" value="do_not_mail">
+                <label for="no-join"> No thanks.</label><br>
             <br>
             <input type="submit" id="submit" value="Submit">
         </form>
