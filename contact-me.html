@@ -64,19 +64,22 @@
         </p>
         <form class="contact" action="form-feedback.html" method="get">
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="What should I call you?" required>
+            <input type="text" id="name" name="name" placeholder="Required field" required>
             <br>
             <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" placeholder="example@domain.com.mt" required><br>
-            <label for="message">Message:</label><br>
-            <textarea name="message" id="message" cols="30" rows="10" placeholder="Send me a message..." required></textarea>
+            <input type="email" id="email" name="email" placeholder="Required field" required>
+            <br>
             <p>
-                Should a mailing list ever be created would you wish to receive updates regarding New Kadampa Buddhism in Malta?
+                Would you like to join or mailing list?
             </p>
             <input type="radio" id="join" name="mailing_list" value="join_mailing_list">
             <label for="join">Yes, please keep me updated.</label>
             <input type="radio" id="no-join" name="mailing_list" value="do_not_mail">
-            <label for="no-join">No thanks, you've said enough.</label><br>
+            <label for="no-join">No thanks, you've said enough.</label>
+            <br>
+            <label for="message">Message:</label><br>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="(Optional) Send me a message..." required></textarea>
+            <br>
             <input type="submit" id="submit" value="Submit">
         </form>
     </section>
