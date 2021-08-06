@@ -140,7 +140,7 @@ header {
     color: #000;
      /*colour gradient taken from http://www.brandgradients.com/gold-gradient/*/
     background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728,#fbf5b7 );
-}
+    }
 
 .quote-overlay h2 {
     text-align: left;
@@ -189,6 +189,14 @@ header {
 
 .content a:hover {
     color: gold;
+}
+
+.contact {
+    display: grid;
+    justify-content: center;
+    background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728,#fbf5b7 );
+    color: black;
+
 }
 
 #center {
