@@ -197,7 +197,7 @@ header {
     justify-content: center;
     background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728,#fbf5b7 );
     color: black;
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
     border-radius: 10px;
     padding: 10px 5px;
@@ -250,6 +250,10 @@ footer h4 {
     header{
         justify-content: space-around;
     }
+
+    .contact{
+        width: 80%;
+    }
     
 }
 
@@ -298,6 +302,11 @@ footer h4 {
 
     .content {
         width: 97%;
+        padding-bottom: 25px;
+    }
+
+    .contact {
+        width: 60%;
     }
 
     footer {
@@ -334,6 +343,10 @@ footer h4 {
     #teachings-hero-image {
         height: 100%;
     }
+
+    .contact {
+        width: 40%;
+    }
 }
 
 /*for screen sizes over 979px and under 1024px wide*/
@@ -355,6 +368,10 @@ footer h4 {
 
     .content {
         width: 98%;
+    }
+
+    .contact {
+        width: 30%;
     }
 
     footer {
@@ -379,6 +396,10 @@ footer h4 {
     .content {
         margin: 0.5rem auto;
         width: 99%;
+    }
+
+    .contact {
+        width: 25%;
     }
 
     footer {
