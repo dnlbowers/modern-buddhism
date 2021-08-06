@@ -171,6 +171,7 @@ header {
     margin: 0.5rem auto;
     text-align: center;
     color: #fff;
+    padding-bottom: 10px;
 }
 
 .content > h2 {
@@ -196,7 +197,10 @@ header {
     justify-content: center;
     background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728,#fbf5b7 );
     color: black;
-
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 10px 5px;
 }
 
 #center {
