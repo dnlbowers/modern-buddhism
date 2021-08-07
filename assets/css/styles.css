@@ -207,7 +207,7 @@ header {
 .contact {
     display: grid;
     justify-content: center;
-    background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728,#fbf5b7 );
+    background: linear-gradient(to right, rgba(191, 149, 63, 0.6), rgba(252, 246, 186, 0.65), rgba(179, 135, 40, 0.6),rgba(251, 245, 183, 0.65) );
     color: black;
     width: 85%;
     margin: 0 auto;
@@ -380,6 +380,10 @@ footer h4 {
         height: 100%;
     }
 
+    .content > p {
+        padding: 1rem 13% 25px;
+    }
+
     .contact {
         width: 40%;
     }
@@ -404,6 +408,10 @@ footer h4 {
 
     .content {
         width: 98%;
+    }
+
+    .content > p {
+        padding: 1rem 20% 25px;
     }
 
     .contact {
@@ -434,11 +442,21 @@ footer h4 {
         width: 99%;
     }
 
+    .content > p {
+        padding: 1rem 26% 25px;
+    }
+
     .contact {
         width: 25%;
     }
 
     footer {
         width: 99%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .content p {
+        padding: 1rem 30% 25px;
     }
 }
