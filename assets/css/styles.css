@@ -191,8 +191,8 @@ header {
     text-decoration: underline;
 }
 
-.content > p {
-    padding: 1rem 2rem;
+.content p {
+    padding: 1rem 5% 2rem;
     text-align: justify;
 }
 
@@ -207,12 +207,18 @@ header {
 .contact {
     display: grid;
     justify-content: center;
-    background: linear-gradient(to right, rgba(191, 149, 63, 0.6), rgba(252, 246, 186, 0.65), rgba(179, 135, 40, 0.6),rgba(251, 245, 183, 0.65) );
-    color: black;
-    width: 85%;
+    background-color: #36454F;
+    color: #fff;
+    width: 90%;
     margin: 0 auto;
     border-radius: 10px;
     padding: 10px 5px;
+    font-weight: bold;
+}
+
+#p-in-contact {
+    padding: 1rem 0;
+    font-size: smaller;
 }
 
 #center {
@@ -265,12 +271,11 @@ footer h4 {
 
     .nav-menu {
         font-size: 95%;
-    }
+    }    
 
-    .contact{
-        width: 80%;
+    #p-in-contact {
+        font-size: inherit;
     }
-    
 }
 
 /*for screen sizes over 540px and under 767px wide*/
@@ -329,8 +334,12 @@ footer h4 {
         padding-bottom: 25px;
     }
 
+    .content p {
+        padding: 1rem 5% 25px;
+    }
+
     .contact {
-        width: 60%;
+        width: 90%;
     }
 
     footer {
@@ -385,7 +394,7 @@ footer h4 {
     }
 
     .contact {
-        width: 40%;
+        width: 74%;
     }
 }
 
@@ -415,7 +424,7 @@ footer h4 {
     }
 
     .contact {
-        width: 30%;
+        width: 60%;
     }
 
     footer {
@@ -447,7 +456,7 @@ footer h4 {
     }
 
     .contact {
-        width: 25%;
+        width: 48%;
     }
 
     footer {
@@ -458,5 +467,9 @@ footer h4 {
 @media (min-width: 1200px) {
     .content p {
         padding: 1rem 30% 25px;
+    }
+
+    .contact {
+        width: 40%;
     }
 }
