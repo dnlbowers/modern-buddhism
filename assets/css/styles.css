@@ -179,10 +179,10 @@ header {
 
 .content {
     width: 95%;
-    background-color: #06304b;
+    background-color: #cfebfd;
     margin: 0.5rem auto;
     text-align: center;
-    color: #fff;
+    color: #000;
     padding-bottom: 10px;
 }
 
@@ -197,17 +197,17 @@ header {
 }
 
 .content a {
-    color:#fff
+    color:#000;
 }
 
 .content a:hover {
-    color: gold;
+    color: #b38728;
 }
 
 .contact {
     display: grid;
     justify-content: center;
-    background-color: #36454F;
+    background-color: #06304b;
     color: #fff;
     width: 90%;
     margin: 0 auto;
