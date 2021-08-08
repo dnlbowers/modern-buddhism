@@ -164,6 +164,13 @@ header {
     letter-spacing: 4px;
 }
 
+.surround {
+    background-color: #06304b;
+    margin: 0 auto;
+    width: 90%;
+    border-radius: 10px;
+}
+
 #modern-buddism-vid {
     width: 85%;
     max-width: 560px;
@@ -342,6 +349,10 @@ footer h4 {
         width: 90%;
     }
 
+    .surround {
+        width: 90%;
+    }
+
     footer {
         width: 97%;
     }
@@ -396,6 +407,10 @@ footer h4 {
     .contact {
         width: 74%;
     }
+
+    .surround {
+        width: 74%;
+    }
 }
 
 /*for screen sizes over 979px and under 1024px wide*/
@@ -424,6 +439,10 @@ footer h4 {
     }
 
     .contact {
+        width: 60%;
+    }
+
+    .surround {
         width: 60%;
     }
 
@@ -459,6 +478,10 @@ footer h4 {
         width: 48%;
     }
 
+    .surround {
+        width: 48%;
+    }
+
     footer {
         width: 99%;
     }
@@ -470,6 +493,10 @@ footer h4 {
     }
 
     .contact {
+        width: 40%;
+    }
+
+    .surround {
         width: 40%;
     }
 }
