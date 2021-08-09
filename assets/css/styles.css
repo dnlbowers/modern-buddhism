@@ -176,6 +176,7 @@ header {
     width: 300px;
     background: url('../images/guru-sumati-buddha-heruka.jpg') no-repeat center center;
     margin: 0 auto;
+    border-radius: 100%;
 }
 
 #modern-buddism-vid {
