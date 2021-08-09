@@ -55,12 +55,15 @@ header {
 
 .nav-menu {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     font-size: 80%;
     font-weight: bold; 
     list-style-type: none;
-    padding: 6px;
-    
+    padding: 6px;  
+}
+
+.nav-menu li {
+    margin: 0 5px;
 }
 
 .nav-menu a {
