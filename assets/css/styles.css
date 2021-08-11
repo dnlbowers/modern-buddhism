@@ -72,15 +72,15 @@ header {
 }
 
 /*shows active page and underlines when interacted with*/
-.active {
-    border-bottom: 2px solid #fff;
-    }
-
 .nav-button:hover {
     border-bottom: 2px solid #fff;
     background-color: #06304b;
     color: #fff;
 }
+
+.active {
+    border-bottom: 2px solid #fff;
+    }
 
 /*Container for all hero images - parts of all hero image related code taken from love running project*/
 .hero-image-container {
@@ -220,6 +220,11 @@ header {
 
 .content a:hover {
     color: #b38728;
+}
+
+#temple-image {
+    height: 250px;
+    width: 300px;
 }
 
 .contact {
