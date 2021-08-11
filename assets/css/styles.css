@@ -227,6 +227,11 @@ header {
     width: 300px;
 }
 
+#geshe-brazil {
+    height: 250px;
+    width: 300px;
+}
+
 .contact {
     display: grid;
     justify-content: center;
