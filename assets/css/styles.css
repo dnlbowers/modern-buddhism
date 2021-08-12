@@ -70,7 +70,7 @@ header {
 .nav-menu a {
     text-decoration: none;
     color: black;
-    padding: 6px;
+    padding: 7px;
 }
 
 /*shows active page and underlines when interacted with*/
@@ -81,10 +81,8 @@ header {
 }
 
 #active {
-    border: 2px solid #fff;
     background-color: #06304b;
     color: #fff;
-    text-decoration: underline;
     }
 
 /*Container for all hero images - parts of all hero image related code taken from love running project*/
