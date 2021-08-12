@@ -246,13 +246,17 @@ figure {
 }
 
 #geshe-brazil {
-    height: inherit;
-    width: inherit;
+    height: 200px;
+    width: 250px;
 }
 
 #at-work {
     height: inherit;
     width: inherit; 
+}
+
+figcaption {
+    font-size: 65%;
 }
 
 .contact {
