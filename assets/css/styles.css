@@ -228,8 +228,18 @@ header {
 }
 
 #geshe-brazil {
-    height: 250px;
-    width: 300px;
+    height: inherit;
+    width: inherit;
+}
+
+figure {
+    background-color: #06304b;
+    color: #fff;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 10px 5px;
+    font-weight: bold;
 }
 
 .contact {
@@ -366,6 +376,10 @@ footer h4 {
         padding: 1rem 5% 25px;
     }
 
+    figure {
+        width: 90%;
+    }
+
     .contact {
         width: 90%;
     }
@@ -425,6 +439,10 @@ footer h4 {
         padding: 1rem 13% 25px;
     }
 
+    figure {
+        width: 74%;
+    }
+
     .contact {
         width: 74%;
     }
@@ -457,6 +475,10 @@ footer h4 {
 
     .content > p {
         padding: 1rem 20% 25px;
+    }
+
+    figure{
+        width: 60%;
     }
 
     .contact {
@@ -495,6 +517,10 @@ footer h4 {
         padding: 1rem 26% 25px;
     }
 
+    figure {
+        width: 48%;
+    }
+
     .contact {
         width: 48%;
     }
@@ -511,6 +537,10 @@ footer h4 {
 @media (min-width: 1200px) {
     .content p {
         padding: 1rem 30% 25px;
+    }
+
+    figure {
+        width: 40%;
     }
 
     .contact {
