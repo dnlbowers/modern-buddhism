@@ -230,8 +230,8 @@ header {
 }
 
 #temple-image {
-    height: 250px;
-    width: 300px;
+    height: 10%;
+    width: 90%;
 }
 
 
@@ -388,6 +388,11 @@ footer h4 {
         padding: 1rem 5% 25px;
     }
 
+    #temple-image {
+        height: 10%;
+        width: 74%;
+    }
+
     figure {
         width: 90%;
     }
@@ -514,6 +519,11 @@ footer h4 {
 
     .content > p {
         padding: 1rem 15% 25px;
+    }
+
+    #temple-image {
+        width: 679.13px;
+        height: 509.34px;
     }
 
     .contact {
