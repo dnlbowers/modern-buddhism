@@ -125,14 +125,16 @@ header {
     animation-fill-mode: forwards;
 }
 
+/*image taken from https://kadampa.org/international-courses*/
 #community-hero-image {
     height: 65%;
     width: 100%;
-    background: url('../images/kadampa-festival-wide.jpg') no-repeat center center;
+    background: url('../images/community-photo.jpg') no-repeat center center;
     background-size: cover;
     animation-name: hero-image-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+    background-position-y: 100%;
 }
 
 /* creates the level of zoom for hero image */
@@ -227,10 +229,6 @@ header {
     width: 300px;
 }
 
-#geshe-brazil {
-    height: inherit;
-    width: inherit;
-}
 
 figure {
     background-color: #06304b;
@@ -240,6 +238,16 @@ figure {
     border-radius: 10px;
     padding: 10px 5px;
     font-weight: bold;
+}
+
+#geshe-brazil {
+    height: inherit;
+    width: inherit;
+}
+
+#at-work {
+    height: inherit;
+    width: inherit; 
 }
 
 .contact {
