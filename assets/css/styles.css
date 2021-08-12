@@ -84,6 +84,7 @@ header {
     border: 2px solid #fff;
     background-color: #06304b;
     color: #fff;
+    text-decoration: underline;
     }
 
 /*Container for all hero images - parts of all hero image related code taken from love running project*/
