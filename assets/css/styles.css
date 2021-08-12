@@ -245,14 +245,9 @@ figure {
     font-weight: bold;
 }
 
-#geshe-brazil {
+#geshe-brazil, #at-work {
     height: 200px;
     width: 250px;
-}
-
-#at-work {
-    height: 200px;
-    width: 250px; 
 }
 
 figcaption {
@@ -397,6 +392,15 @@ footer h4 {
         width: 90%;
     }
 
+    #geshe-brazil, #at-work {
+        height: 266px;
+        width: 400px;
+    }
+
+    figcaption {
+        font-size: 80%;
+    }
+
     .contact {
         width: 90%;
     }
@@ -456,8 +460,26 @@ footer h4 {
         padding: 1rem 13% 25px;
     }
 
+    #ways-to-connect {
+        display: flex;
+        justify-content: center;
+    }
+
+    #working-hol, #int-festival {
+        width: 45%;
+        margin: 0 auto;
+        border-radius: 10px;
+        background-color: #fff;
+        padding-top: 20px;
+    }
+
     figure {
-        width: 74%;
+        width: 90%;
+    }
+
+    #geshe-brazil, #at-work {
+        height: inherit;
+        width: inherit;
     }
 
     .contact {
@@ -469,7 +491,7 @@ footer h4 {
     }
 }
 
-/*for screen sizes over 979px and under 1024px wide*/
+/*for screen sizes over 979px and under 1200px wide*/
 
 @media (min-width: 980px) {
     .header-image-left {
@@ -492,14 +514,6 @@ footer h4 {
 
     .content > p {
         padding: 1rem 15% 25px;
-    }
-
-    #ways-to-connect {
-        display: flex;
-    }
-
-    figure{
-        width: 60%;
     }
 
     .contact {
@@ -534,10 +548,6 @@ footer h4 {
         width: 99%;
     }
 
-    figure {
-        width: 48%;
-    }
-
     .contact {
         width: 48%;
     }
@@ -552,10 +562,6 @@ footer h4 {
 }
 
 @media (min-width: 1400px) {
-
-    figure {
-        width: 40%;
-    }
 
     .contact {
         width: 40%;
