@@ -58,17 +58,19 @@ header {
     justify-content: center;
     font-size: 80%;
     font-weight: bold; 
-    list-style-type: none;
-    padding: 6px;  
+    list-style-type: none;  
+    height: 35px;
+    align-items: center;
 }
 
 .nav-menu li {
-    margin: 0 5px;
+    margin: 0 2.5px;
 }
 
 .nav-menu a {
     text-decoration: none;
     color: black;
+    padding: 6px;
 }
 
 /*shows active page and underlines when interacted with*/
@@ -78,8 +80,10 @@ header {
     color: #fff;
 }
 
-.active {
-    border-bottom: 2px solid #fff;
+#active {
+    border: 2px solid #fff;
+    background-color: #06304b;
+    color: #fff;
     }
 
 /*Container for all hero images - parts of all hero image related code taken from love running project*/
@@ -482,7 +486,11 @@ footer h4 {
     }
 
     .content > p {
-        padding: 1rem 20% 25px;
+        padding: 1rem 15% 25px;
+    }
+
+    #ways-to-connect {
+        display: flex;
     }
 
     figure{
@@ -521,10 +529,6 @@ footer h4 {
         width: 99%;
     }
 
-    .content > p {
-        padding: 1rem 26% 25px;
-    }
-
     figure {
         width: 48%;
     }
@@ -542,10 +546,7 @@ footer h4 {
     }
 }
 
-@media (min-width: 1200px) {
-    .content p {
-        padding: 1rem 30% 25px;
-    }
+@media (min-width: 1400px) {
 
     figure {
         width: 40%;
