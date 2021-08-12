@@ -239,7 +239,7 @@ figure {
     background-color: #06304b;
     color: #fff;
     width: 90%;
-    margin: 0 auto;
+    margin: 10px auto;
     border-radius: 10px;
     padding: 10px 5px;
     font-weight: bold;
@@ -251,8 +251,8 @@ figure {
 }
 
 #at-work {
-    height: inherit;
-    width: inherit; 
+    height: 200px;
+    width: 250px; 
 }
 
 figcaption {
