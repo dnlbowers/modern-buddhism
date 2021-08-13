@@ -466,6 +466,7 @@ footer h4 {
     #ways-to-connect {
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
     }
 
     #working-hol, #int-festival {
