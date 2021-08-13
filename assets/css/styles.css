@@ -1,5 +1,5 @@
 /*Fonts imported from google fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Open+Sans:wght@600&family=Oswald:wght@700&display=swap');
 
 /* Removing browser defaults. Code taken form Love Running project*/
 
@@ -12,7 +12,7 @@
 /*set defaults for the page body and header working from a default of 320px width to scale up from*/
 
 body {
-    font-family: 'Francois One', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color:#fff;
     background-color: #06304b;
@@ -28,7 +28,7 @@ header {
 
 /*heading style*/
 .title {
-    font-family: Oswald, cursive;
+    font-family:'Oswald', sans-serif;
     text-transform: uppercase;
     color: #fff;
     font-size: 130%;
@@ -54,6 +54,7 @@ header {
 }
 
 .nav-menu {
+    font-family: 'DM Sans', sans-serif;
     display: flex;
     justify-content: center;
     font-size: 80%;
@@ -161,6 +162,10 @@ header {
      /*colour gradient taken from http://www.brandgradients.com/gold-gradient/*/
     background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728,#fbf5b7 );
     }
+
+h2, h3, h4, h5, h6 {
+    font-family: 'DM Sans', sans-serif;
+}
 
 .quote-overlay h2 {
     text-align: left;
