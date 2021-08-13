@@ -9,6 +9,6 @@ This website introduces people to a modern form of Buddhism without any cultural
 
 The navigation bar appears on all five pages (including the form feedback page). It contains links to the about, teachings, community and contact page to allow easy navigation around the website. Each page includes a hyperlink at the bottom of the content. "Return to top of the page" takes the user back to the navigation bar if they have had to scroll a long way down to read all the content.
 
-## About page.
-### Hero-image.
+## About page
+### Hero-image
 The hero image depicts Geshe Kelsang Gyatso, who was the founder of the New Kadampa Tradition. He is smiling and waving as if welcoming the user to the page. Behind him is the primary temple of the tradition, which holds great significance to the tradition. The temple pictured is considered the centre of its international operations based within the grounds of its mother centre in the lake district, England.
