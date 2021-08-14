@@ -178,10 +178,10 @@ h2, h3, h4, h5, h6 {
 }
 
 .surround {
-    background-color: #06304b;
+    
     margin: 0 auto;
     width: 90%;
-    border-radius: 10px;
+    
 }
 
 #guru {
@@ -196,7 +196,9 @@ h2, h3, h4, h5, h6 {
     width: 85%;
     max-width: 560px;
     height: 19.688rem;
-    margin: 10px;
+    background-color: #06304b;
+    border-radius: 10px;
+    padding: 20px;
 }
 
 #tyl-download {
