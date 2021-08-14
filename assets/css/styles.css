@@ -377,7 +377,7 @@ footer h4 {
         font-size: 70%;
         position: absolute;
         width: fit-content;
-        background: linear-gradient(to right, rgba(191, 149, 63, 0.6), rgba(252, 246, 186, 0.65), rgba(179, 135, 40, 0.75),rgba(251, 245, 183, 0.8) );
+        background: linear-gradient(to right, rgba(191, 149, 63, 0.8), rgba(252, 246, 186, 0.9), rgba(179, 135, 40, 0.85),rgba(251, 245, 183, 0.95) );
         bottom: 10px;
         right: 0;
         padding: 10px 10px;
