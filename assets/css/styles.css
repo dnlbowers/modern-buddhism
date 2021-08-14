@@ -107,48 +107,34 @@ header {
 /*Add hero images to each page*/
 
 /*image taken from https://meditationindarlington.org/buddhist-tradition*/
-#index-hero-image {
-    height: 65%;
-    width: 100%;
+.index-hero-image {
     background: url('../images/geshe-la-outside-temple.jpg') no-repeat center center;
-    background-size: cover;
-    animation-name: hero-image-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
 }
 
 /*Image taken from https://www.meditateinperth.org/about-buddhism/*/
-#teachings-hero-image {
-    height: 65%;
-    width: 100%;
+.teachings-hero-image {
     background: url('../images/geshe-kelsang-gyatso-hero-image.jpg') no-repeat center center;
-    background-size: cover;
-    animation-name: hero-image-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
 }
 
 /*Image taken from https://meditateinleicester.org/buddhism-3/*/
-#contact-hero-image {
-    height: 65%;
-    width: 100%;
+.contact-hero-image {
     background: url('../images/contact-banner.jpg') no-repeat center center;
-    background-size: cover;
-    animation-name: hero-image-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
 }
 
 /*image taken from https://kadampafestivals.org/2019/05/pre-festival-diaries-4*/
-#community-hero-image {
+.community-hero-image {
+    background: url('../images/community-photo.jpg') no-repeat center center;
+    background-position-y: 100%;
+}
+
+.hero-animation {
     height: 65%;
     width: 100%;
-    background: url('../images/community-photo.jpg') no-repeat center center;
     background-size: cover;
     animation-name: hero-image-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-    background-position-y: 100%;
+        
 }
 
 /* creates the level of zoom for hero image */
@@ -173,6 +159,7 @@ header {
     background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728,#fbf5b7 );
     }
 
+    /* change this to a heading class*/
 h2, h3, h4, h5, h6 {
     font-family: 'DM Sans', sans-serif;
 }
@@ -365,19 +352,19 @@ footer h4 {
         margin-bottom: 0.5rem;  
     }
 
-    #index-hero-image {
+    .index-hero-image {
         height: 95%;
     }
 
-    #teachings-hero-image {
+    .teachings-hero-image {
         height: 95%;
     }
 
-    #community-hero-image {
+    .community-hero-image {
         height: 95%;
     }
 
-    #contact-hero-image {
+    .contact-hero-image {
         height: 95%;
     }
     
@@ -457,19 +444,19 @@ footer h4 {
         height: 500px;  
     }
 
-    #index-hero-image {
+    .index-hero-image {
         height: 100%;
     }
 
-    #teachings-hero-image {
+    .teachings-hero-image {
         height: 100%;
     }
 
-    #community-hero-image {
+    .community-hero-image {
         height: 100%;
     }
 
-    #contact-hero-image {
+    .contact-hero-image {
         height: 100%;
     }
 
