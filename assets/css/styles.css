@@ -71,7 +71,7 @@ header {
 .nav-button {
     padding: 9px 10px;
     text-decoration: none;
-    color: black;
+    color: #000;
 }
 
 /*shows active page and underlines when interacted with*/
