@@ -125,7 +125,7 @@ header {
 
 /*image taken from https://kadampafestivals.org/2019/05/pre-festival-diaries-4*/
 .community-hero-image {
-    background: url('../images/community-photo.jpg') no-repeat center center;
+    background: url('../images/community-hero-image.jpg') no-repeat center center;
     background-position-y: 100%;
 }
 
