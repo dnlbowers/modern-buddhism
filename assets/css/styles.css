@@ -65,7 +65,7 @@ header {
 }
 
 .nav-menu li {
-    margin: 0 2.5px;
+    padding: 7px 1%;
 }
 
 .nav-menu a {
@@ -154,10 +154,10 @@ header {
 
 /*Add a text overly to the hero images, adapted code from love running project*/
 .quote-overlay {
-    font-size: 70%;
+    font-size: 55%;
     letter-spacing: 1px;
     padding: 25px 10px;
-    font-family: Oswald, sans-serif;
+    font-family: 'DM Sans', sans-serif;
     color: #000;
      /*colour gradient taken from http://www.brandgradients.com/gold-gradient/*/
     background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728,#fbf5b7 );
@@ -374,6 +374,7 @@ footer h4 {
     }
     
     .quote-overlay {
+        font-size: 70%;
         position: absolute;
         width: fit-content;
         background: linear-gradient(to right, rgba(191, 149, 63, 0.6), rgba(252, 246, 186, 0.65), rgba(179, 135, 40, 0.75),rgba(251, 245, 183, 0.8) );
