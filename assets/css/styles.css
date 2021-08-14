@@ -15,6 +15,10 @@
     padding-bottom: 14px;
 }
 
+.center-text {
+    text-align: center;
+}
+
 /*set defaults for the page body and header working from a default of 320px width to scale up from*/
 
 body {
@@ -282,11 +286,6 @@ figcaption {
     padding: 1rem 0;
     font-size: smaller;
 }
-
-#center {
-    text-align: center;
-}
-
 
 footer {
     color: #fff;
