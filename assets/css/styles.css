@@ -184,6 +184,7 @@ header {
     font-family: 'DM Sans', sans-serif;
     text-transform: capitalize;
     text-decoration: underline;
+    padding: 0 5%;
 }
 
 .sub-heading {
