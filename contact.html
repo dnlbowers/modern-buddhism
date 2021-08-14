@@ -80,13 +80,10 @@
         <form class="contact" action="form-feedback.html" method="get">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" placeholder="Required field" required>
-            <br>
             <label for="email">E-mail:</label>
             <input type="email" id="email" name="email" placeholder="Required field" required>
-            <br>
-            <label for="message">Message:</label><br>
+            <label for="message">Message:</label>
             <textarea name="message" id="message" cols="30" rows="10" placeholder="(Optional) Send me a message..."></textarea>
-            <br>
             <p id="p-in-contact">
                 Would you like to join our mailing list?
             </p>
@@ -94,11 +91,10 @@
                 <input type="radio" id="join" name="mailing_list" value="mail">
                 <label for="join">Yes please.</label>
             </div>
-            <div>
+            <div class="line-break-below">
                 <input type="radio" id="no-join" name="mailing_list" value="do_not_mail">
                 <label for="no-join"> No thanks.</label>
             </div>
-            <br>
             <input type="submit" id="submit" value="Submit">
         </form>
     </section>
