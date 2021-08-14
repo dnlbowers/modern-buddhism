@@ -239,24 +239,25 @@ h2, h3, h4, h5, h6 {
     width: 90%;
 }
 
-
 figure {
-    background-color: #06304b;
-    color: #fff;
-    width: 90%;
-    margin: 10px auto;
-    border-radius: 10px;
-    padding: 10px 5px;
-    font-weight: bold;
+    margin: 0 auto;
 }
 
 #geshe-brazil, #at-work {
     height: 200px;
     width: 250px;
+    background-color: #06304b;
+    padding: 25px;
+    margin: 0 auto;
+    border-radius: 10px;
 }
 
 figcaption {
     font-size: 65%;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    bottom: 25px;
 }
 
 .contact {
