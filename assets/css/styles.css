@@ -65,13 +65,13 @@ header {
 }
 
 .nav-menu li {
-    padding: 7px 1%;
+    margin: 0 1%;
 }
 
-.nav-menu a {
+.nav-button {
+    padding: 8px 10px;
     text-decoration: none;
     color: black;
-    padding: 7px;
 }
 
 /*shows active page and underlines when interacted with*/
