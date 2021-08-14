@@ -15,6 +15,10 @@
     padding-bottom: 14px;
 }
 
+.primary-bg-color{
+    background-color: #06304b;
+}
+
 .center-text {
     text-align: center;
 }
@@ -91,7 +95,6 @@ header {
 }
 
 #active {
-    background-color: #06304b;
     color: #fff;
     }
 
@@ -221,7 +224,6 @@ header {
     width: 85%;
     max-width: 560px;
     height: 19.688rem;
-    background-color: #06304b;
     border-radius: 10px;
     padding: 20px;
 }
@@ -244,7 +246,6 @@ figure {
 #geshe-brazil, #at-work {
     height: 200px;
     width: 250px;
-    background-color: #06304b;
     padding: 25px;
     margin: 0 auto;
     border-radius: 10px;
@@ -258,10 +259,9 @@ figcaption {
     bottom: 25px;
 }
 
-.contact {
+#contact {
     display: grid;
     justify-content: center;
-    background-color: #06304b;
     color: #fff;
     width: 90%;
     margin: 0 auto;
