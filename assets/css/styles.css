@@ -29,7 +29,6 @@ body {
 }
 
 header {
-    background-color: #06304b;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -277,7 +276,6 @@ figcaption {
 footer {
     color: #fff;
     text-align: center;
-    background-color: #06304b;
     margin: 0 auto;
     width: 95%;
 }
