@@ -9,6 +9,12 @@
     padding: 0;
 }
 
+/*Generic style rules to avoid repetition*/
+
+.line-break-below {
+    padding-bottom: 14px;
+}
+
 /*set defaults for the page body and header working from a default of 320px width to scale up from*/
 
 body {
