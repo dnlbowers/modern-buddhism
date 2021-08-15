@@ -83,14 +83,11 @@ header {
     list-style-type: none;  
     height: 35px;
     align-items: center;
-}
-
-.nav-menu li {
-    
+    text-transform: uppercase;
 }
 
 .nav-button {
-    padding: 9px 9px 8.5px;
+    padding: 9px 8px 8.5px;
     text-decoration: none;
     color: #000;
 }
@@ -366,11 +363,11 @@ footer h4 {
     }
 
     .nav-menu {
-        font-size: 90%;
+        font-size: 85%;
     }
 
     .nav-button {
-        padding: 9px 12px 8.5px;
+        padding: 9px 11.25px 8.5px;
     }
 
     #p-in-contact {
@@ -395,7 +392,13 @@ footer h4 {
         font-size: 165%;
     }
 
+    .nav-menu {
+        font-size: 100%;
+    }
 
+    .nav-button {
+        padding: 7.5px 15px;
+    }
 
     .hero-image-container {
         height: 450px;
@@ -486,7 +489,13 @@ footer h4 {
         width: 90px;
     }
 
+    .nav-menu {
+        font-size: 105%;
+    }
 
+    .nav-button {
+        padding: 7px 40px;
+    }
 
     .hero-image-container {
         height: 500px;  
@@ -561,6 +570,14 @@ footer h4 {
         width: 100px;
     }
 
+    .nav-menu {
+        font-size: 135%;
+    }
+
+    .nav-button {
+        padding: 4px 60px;
+    }
+
     .content {
         width: 98%;
     }
@@ -601,6 +618,14 @@ footer h4 {
         width: fit-content;
     }
 
+    .nav-menu {
+        font-size: 150%;
+    }
+
+    .nav-button {
+        padding: 0px 80px;
+    }
+
     .content {
         margin: 0.5rem auto;
         width: 99%;
@@ -621,6 +646,13 @@ footer h4 {
 
 @media (min-width: 1400px) {
 
+    .nav-menu {
+        font-size: 150%;
+    }
+
+    .nav-button {
+        padding: 2px 80px;
+    }
     .contact {
         width: 40%;
     }
