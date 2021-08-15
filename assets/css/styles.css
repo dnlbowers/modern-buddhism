@@ -362,7 +362,11 @@ footer h4 {
 
     .nav-menu {
         font-size: 95%;
-    }    
+    } 
+       
+    .nav-button {
+        padding: 8px 10px;
+    }
 
     #p-in-contact {
         font-size: inherit;
