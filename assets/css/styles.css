@@ -166,7 +166,7 @@ header {
     font-family: 'DM Sans', sans-serif;
     color: #000;
      /*colour gradient taken from http://www.brandgradients.com/gold-gradient/*/
-    background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728,#fbf5b7 );
+    background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728,#fbf5b7);
     }
 
     /* change this to a heading class*/
@@ -305,6 +305,22 @@ figcaption {
 
 .mailing-list-option {
     font-size: smaller;
+}
+
+#submit-btn {
+    background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728,#fbf5b7);
+    border-radius: 28px;
+    font-weight: 300;
+    font-family: 'Open sans', sans-serif;
+    font-size: larger;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    border: 1px solid #b38728;
+}
+
+#submit-btn:hover {
+    background: linear-gradient(to right, #fcf6ba,#b38728,#fbf5b7,#bf953f);
+    
 }
 
 footer {
