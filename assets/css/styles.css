@@ -15,12 +15,20 @@
     padding-bottom: 14px;
 }
 
+.line-break-top-bottom {
+    padding: 14px 0;
+}
+
 .primary-bg-color{
     background-color: #06304b;
 }
 
 .center-text {
     text-align: center;
+}
+
+.text-left {
+    text-align: left;
 }
 
 /*set defaults for the page body and header working from a default of 320px width to scale up from*/
