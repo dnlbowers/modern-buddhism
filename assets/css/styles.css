@@ -186,7 +186,6 @@ header {
     font-family: 'DM Sans', sans-serif;
     text-transform: capitalize;
     text-decoration: underline;
-    padding: 0 5%;
 }
 
 .sub-heading {
@@ -209,14 +208,23 @@ header {
 
 .surround {
     margin: 0 auto;
-    width: 90%;}
+    width: 90%;
+}
+
+/*image from https://www.pngwing.com/en/free-png-cjota*/
+
+#buddha-shakyamuni {
+    height: 300px;
+    background: url('../images/buddha-shakyamuni.png') no-repeat center center;
+    margin: 0 auto;
+}
+
+/*image from https://www.pngwing.com/en/free-png-zntlx*/
 
 #guru-sumanti {
     height: 300px;
-    width: 300px;
-    background: url('../images/guru-sumati-buddha-heruka.jpg') no-repeat center center;
+    background: url('../images/guru-sumanti.png') no-repeat center center;
     margin: 0 auto;
-    border-radius: 100%;
 }
 
 #modern-buddhism-vid {
@@ -242,7 +250,7 @@ figure {
     margin: 0 auto;
 }
 
-#geshe-brazil, #at-work {
+#geshe-brazil, #at-work, #worried-man {
     height: 200px;
     width: 250px;
     padding: 25px;
