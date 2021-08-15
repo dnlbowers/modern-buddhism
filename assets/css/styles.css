@@ -281,6 +281,7 @@ figcaption {
     bottom: 25px;
 }
 
+/*form styling*/
 #contact {
     display: grid;
     justify-content: center;
@@ -292,8 +293,17 @@ figcaption {
     font-weight: bold;
 }
 
+#name, #email, #message {
+    line-height: 30px;
+}
+
+
 #p-in-contact {
-    padding: 1rem 0;
+    padding: 1rem 0 0.5rem;
+    font-size: smaller;
+}
+
+.mailing-list-option {
     font-size: smaller;
 }
 
