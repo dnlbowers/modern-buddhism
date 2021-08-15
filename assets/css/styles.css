@@ -78,7 +78,7 @@ header {
     font-family: 'DM Sans', sans-serif;
     display: flex;
     justify-content: center;
-    font-size: 74%;
+    font-size: 70%;
     font-weight: bold; 
     list-style-type: none;  
     height: 35px;
@@ -86,24 +86,25 @@ header {
 }
 
 .nav-menu li {
-    margin: 0 0.5%;
+    
 }
 
 .nav-button {
-    padding: 10px 10px;
+    padding: 6.5px;
     text-decoration: none;
     color: #000;
 }
 
 /*shows active page and underlines when interacted with*/
 .nav-button:hover {
-    border-bottom: 2px solid #fff;
+    border: 2px solid #fff;
     background-color: #06304b;
     color: #fff;
 }
 
 #active {
     color: #fff;
+    border: 2px solid #fff;
     }
 
 /*Container for all hero images - parts of all hero image related code taken from love running project*/
@@ -160,13 +161,16 @@ header {
 
 /*Add a text overly to the hero images, adapted code from love running project*/
 .quote-overlay {
+    display: grid;
     font-size: 55%;
     letter-spacing: 1px;
-    padding: 25px 10px;
+    height: 35%;
     font-family: 'DM Sans', sans-serif;
     color: #000;
      /*colour gradient taken from http://www.brandgradients.com/gold-gradient/*/
     background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728,#fbf5b7);
+    justify-content: center;
+    align-content: center;
     }
 
     /* change this to a heading class*/
@@ -360,14 +364,6 @@ footer h4 {
         justify-content: space-around;
     }
 
-    .nav-menu {
-        font-size: 95%;
-    } 
-       
-    .nav-button {
-        padding: 8px 10px;
-    }
-
     #p-in-contact {
         font-size: inherit;
     }
@@ -390,9 +386,7 @@ footer h4 {
         font-size: 165%;
     }
 
-    .nav-menu {
-        font-size: 105%;
-    }
+
 
     .hero-image-container {
         height: 450px;
@@ -483,9 +477,7 @@ footer h4 {
         width: 90px;
     }
 
-    .nav-menu {
-        font-size: 120%;
-    }
+
 
     .hero-image-container {
         height: 500px;  
