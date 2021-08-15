@@ -78,7 +78,7 @@ header {
     font-family: 'DM Sans', sans-serif;
     display: flex;
     justify-content: center;
-    font-size: 70%;
+    font-size: 80%;
     font-weight: bold; 
     list-style-type: none;  
     height: 35px;
@@ -90,21 +90,21 @@ header {
 }
 
 .nav-button {
-    padding: 6.5px;
+    padding: 9px 9px 8.5px;
     text-decoration: none;
     color: #000;
 }
 
 /*shows active page and underlines when interacted with*/
 .nav-button:hover {
-    border: 2px solid #fff;
     background-color: #06304b;
+    text-decoration: underline;
     color: #fff;
 }
 
 #active {
     color: #fff;
-    border: 2px solid #fff;
+    text-decoration: underline;
     }
 
 /*Container for all hero images - parts of all hero image related code taken from love running project*/
@@ -170,7 +170,8 @@ header {
      /*colour gradient taken from http://www.brandgradients.com/gold-gradient/*/
     background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728,#fbf5b7);
     justify-content: center;
-    align-content: center;
+    align-content: space-evenly;
+    padding: 10px 10px;
     }
 
     /* change this to a heading class*/
@@ -362,6 +363,14 @@ footer h4 {
 @media (min-width: 360px) {
     header{
         justify-content: space-around;
+    }
+
+    .nav-menu {
+        font-size: 90%;
+    }
+
+    .nav-button {
+        padding: 9px 12px 8.5px;
     }
 
     #p-in-contact {
