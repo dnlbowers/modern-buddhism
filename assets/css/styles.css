@@ -218,11 +218,6 @@ header {
     color: #b38728;
 }
 
-.surround {
-    margin: 0 auto;
-    width: 90%;
-}
-
 /*image from https://www.pngwing.com/en/free-png-cjota*/
 
 #buddha-shakyamuni {
@@ -286,15 +281,16 @@ figcaption {
 }
 
 /*form styling*/
-#contact {
+#contact-form {
     display: grid;
     justify-content: center;
     color: #fff;
     width: 90%;
     margin: 0 auto;
-    border-radius: 10px;
-    padding: 10px 5px;
+    border-radius: 30px;
+    padding: 30px 12px;
     font-weight: bold;
+    max-width: 400px;
 }
 
 #name, #email, #message {
@@ -372,7 +368,7 @@ footer h4 {
         padding: 7px 11px;
     }
 
-    #p-in-contact {
+    #p-in-form {
         font-size: inherit;
     }
 }
@@ -459,12 +455,8 @@ footer h4 {
         font-size: 80%;
     }
 
-    .contact {
-        width: 90%;
-    }
-
-    .surround {
-        width: 90%;
+    #contact-form {
+        padding: 30px;
     }
 
     footer {
@@ -544,14 +536,6 @@ footer h4 {
         height: inherit;
         width: inherit;
     }
-
-    .contact {
-        width: 74%;
-    }
-
-    .surround {
-        width: 74%;
-    }
 }
 
 /*for screen sizes over 979px and under 1200px wide*/
@@ -592,14 +576,6 @@ footer h4 {
         height: 509.34px;
     }
 
-    .contact {
-        width: 60%;
-    }
-
-    .surround {
-        width: 60%;
-    }
-
     footer {
         width: 98%;
     }
@@ -631,14 +607,6 @@ footer h4 {
         width: 99%;
     }
 
-    .contact {
-        width: 48%;
-    }
-
-    .surround {
-        width: 48%;
-    }
-
     footer {
         width: 99%;
     }
@@ -648,13 +616,5 @@ footer h4 {
 
     .nav-menu {
         font-size: 150%;
-    }
-
-    .contact {
-        width: 40%;
-    }
-
-    .surround {
-        width: 40%;
     }
 }
