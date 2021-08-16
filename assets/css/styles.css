@@ -98,7 +98,6 @@ header {
 .nav-button:hover {
     background-color: #06304b;
     color: #fff;
-    border-radius: 10px;
     border: 2px solid #fff;
 }
 
