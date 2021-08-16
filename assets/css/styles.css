@@ -78,8 +78,7 @@ header {
     font-family: 'DM Sans', sans-serif;
     display: flex;
     justify-content: center;
-    font-size: 75%;
-    font-weight: bold; 
+    font-size: 74%; 
     list-style-type: none;  
     height: 35px;
     align-items: center;
@@ -87,7 +86,7 @@ header {
 }
 
 .nav-button {
-    padding: 10px 8px 9px;
+    padding: 8px 8px 6.8px;
     text-decoration: none;
     color: #000;
 }
@@ -95,13 +94,14 @@ header {
 /*shows active page and underlines when interacted with*/
 .nav-button:hover {
     background-color: #06304b;
-    text-decoration: underline;
     color: #fff;
+    border-radius: 10px;
+    border: 2px solid #fff;
 }
 
 #active {
     color: #fff;
-    text-decoration: underline;
+    border: 2px solid #fff;
     }
 
 /*Container for all hero images - parts of all hero image related code taken from love running project*/
@@ -367,7 +367,7 @@ footer h4 {
     }
 
     .nav-button {
-        padding: 9px 11.25px 8.5px;
+        padding: 7px 11px;
     }
 
     #p-in-contact {
@@ -397,7 +397,7 @@ footer h4 {
     }
 
     .nav-button {
-        padding: 7.5px 15px;
+        padding: 5px 15px;
     }
 
     .hero-image-container {
@@ -494,7 +494,7 @@ footer h4 {
     }
 
     .nav-button {
-        padding: 7px 40px;
+        padding: 4.5px 40px;
     }
 
     .hero-image-container {
@@ -575,7 +575,7 @@ footer h4 {
     }
 
     .nav-button {
-        padding: 4px 60px;
+        padding: 1.5px 60px;
     }
 
     .content {
@@ -650,9 +650,6 @@ footer h4 {
         font-size: 150%;
     }
 
-    .nav-button {
-        padding: 2px 80px;
-    }
     .contact {
         width: 40%;
     }
