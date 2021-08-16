@@ -320,7 +320,6 @@ figcaption {
 
 #submit-btn:hover {
     background: linear-gradient(to right, #fcf6ba,#b38728,#fbf5b7,#bf953f);
-    
 }
 
 footer {
@@ -423,9 +422,8 @@ footer h4 {
         font-size: 70%;
         position: absolute;
         background: linear-gradient(to bottom, rgba(191, 149, 63, 0.7), rgba(252, 246, 186, 0.95), rgba(179, 135, 40, 0.95),rgba(251, 245, 183, 0.7) );
-        bottom: 0;
+        bottom: 10px;
         right: 0;
-        padding: 15px 10px 5px;
     }
 
     .content {
