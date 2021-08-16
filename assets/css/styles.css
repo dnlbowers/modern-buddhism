@@ -11,6 +11,9 @@
 
 /*Generic style rules to avoid repetition*/
 
+a:hover {
+    cursor: pointer;
+}
 .line-break-below {
     padding-bottom: 14px;
 }
