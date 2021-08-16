@@ -168,7 +168,7 @@ header {
     background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728,#fbf5b7);
     justify-content: center;
     align-content: space-evenly;
-    padding: 10px 10px;
+    padding: 5px 10px;
     }
 
     /* change this to a heading class*/
@@ -422,13 +422,13 @@ footer h4 {
     }
     
     .quote-overlay {
+        height: 25%;
         font-size: 70%;
         position: absolute;
-        width: fit-content;
-        background: linear-gradient(to right, rgba(191, 149, 63, 0.8), rgba(252, 246, 186, 0.9), rgba(179, 135, 40, 0.85),rgba(251, 245, 183, 0.95) );
-        bottom: 10px;
+        background: linear-gradient(to right, rgba(191, 149, 63, 0.9), rgba(252, 246, 186, 0.95), rgba(179, 135, 40, 0.95),rgba(251, 245, 183, 0.95) );
+        bottom: 0;
         right: 0;
-        padding: 10px 10px;
+        padding: 15px 10px 5px;
     }
 
     .content {
@@ -612,10 +612,10 @@ footer h4 {
         height: 600px;
     }
     .quote-overlay {
-        font-size: 70%;   
+        font-size: 100%;   
         position: absolute;
         right: 0;
-        width: fit-content;
+        padding: 0 10px;
     }
 
     .nav-menu {
