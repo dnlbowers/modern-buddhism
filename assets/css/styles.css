@@ -283,6 +283,7 @@ figcaption {
 }
 
 /*form styling*/
+
 #contact-form {
     display: grid;
     justify-content: center;
@@ -293,7 +294,7 @@ figcaption {
     padding: 30px 12px;
     font-weight: bold;
     max-width: 400px;
-    border: 3px solid #bf953f;
+    border: 4px solid #bf953f;
 }
 
 #name, #email, #message {
@@ -460,7 +461,7 @@ footer h4 {
     }
 
     #contact-form {
-        padding: 30px;
+        border: 6px solid #bf953f;
     }
 
     footer {
