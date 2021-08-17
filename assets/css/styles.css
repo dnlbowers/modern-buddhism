@@ -629,9 +629,18 @@ footer h4 {
         padding: 1rem 15% 25px;
     }
 
-    #temple-image {
-        width: 679.13px;
-        height: 509.34px;
+    #int-fest-fig, #work-hol-fig {
+        height: 350px;
+        width: 400px;
+    }
+
+    #int-fest-img, #work-hol-img {
+        height: 300px;
+        width: 350px;
+    }
+
+    #fig-caption-fest, #fig-caption-work {
+        font-size: 78%;
     }
 }
 
