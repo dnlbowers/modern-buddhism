@@ -224,7 +224,7 @@ header {
 
 #buddha-shakyamuni-fig, #guru-sumanti-fig, #buddha-maitreya-fig {
     height: 350px;
-    width: 310px;
+    width: 320px;
     margin: 0 auto;
 }
 
@@ -232,6 +232,11 @@ header {
     height: 300px;
     width: 300px;
     margin: 25px auto 0;
+}
+
+.teaching-pg-figcap {
+    font-size: 80%;
+    font-style: italic;
 }
 
 #dorje-shugden {
