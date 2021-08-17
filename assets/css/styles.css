@@ -56,7 +56,7 @@ header {
     text-transform: uppercase;
     color: #fff;
     font-size: 130%;
-    padding-left: 10px;
+    padding: 0 5px;
 }
 
 .header-image-left {
@@ -187,11 +187,10 @@ header {
 }
 
 .content {
-    width: 95%;
     background-color: #cfebfd;
-    margin: 0.5rem auto;
     color: #000;
     padding: 20px 0;
+    border-top: 0.5rem solid #06304b;
 }
 
 .main-heading {
@@ -255,11 +254,17 @@ header {
     margin-bottom: 2rem;
 }
 
-#temple-image {
-    height: 10%;
-    width: 90%;
-    border-radius: 30px;
-    padding: 10px;
+#temple-fig {
+    height: 250px;
+    width: 300px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#temple-img {
+    height: 200px;
+    width: 250px;
+    padding-top: 25px;
 }
 
 #int-fest-fig, #work-hol-fig {
@@ -332,8 +337,6 @@ figcaption {
 
 footer {
     color: #fff;
-    margin: 0 auto;
-    width: 95%;
 }
 
 footer h3 {
@@ -446,7 +449,6 @@ footer h4 {
     }
 
     .content {
-        width: 97%;
         padding-bottom: 25px;
     }
 
@@ -479,10 +481,6 @@ footer h4 {
 
     #name, #email, #message {
        line-height: 40px; 
-    }
-
-    footer {
-        width: 97%;
     }
 }
 
@@ -592,10 +590,6 @@ footer h4 {
         width: 679.13px;
         height: 509.34px;
     }
-
-    footer {
-        width: 98%;
-    }
 }
 
 /*for screen sizes over 1200px wide*/
@@ -618,14 +612,6 @@ footer h4 {
 
     .nav-button {
         padding: 0px 80px;
-    }
-
-    .content {
-        width: 99%;
-    }
-
-    footer {
-        width: 99%;
     }
 }
 
