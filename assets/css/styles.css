@@ -244,7 +244,7 @@ header {
     width: 85%;
     max-width: 560px;
     height: 19.688rem;
-    border-radius: 10px;
+    border-radius: 30px;
     padding: 20px;
 }
 
@@ -260,13 +260,13 @@ header {
     height: 250px;
     width: 300px;
     margin: auto;
-    border-radius: 15px;
+    border-radius: 30px;
 }
 
 #temple-img {
     height: 200px;
     width: 250px;
-    margin-top: 25px;
+    margin-top: 23px;
     border-radius: 15px;
 }
 
@@ -274,13 +274,13 @@ header {
     height: 250px;
     width: 300px;
     margin: auto;
-    border-radius: 15px;
+    border-radius: 30px;
 }
 
 #int-fest-img, #work-hol-img {
     height: 200px;
     width: 250px;
-    margin-top: 25px;
+    margin-top: 23px;
     border-radius: 15px;
 }
 
@@ -544,28 +544,26 @@ footer h4 {
         flex-wrap: wrap;
     }
 
+    /*figure elements and their children on community page*/
+
     #working-hol, #int-festival {
         width: 45%;
         margin: 0 auto;
-        border-radius: 10px;
+        border-radius: 30px;
         background-color: #fff;
         padding-top: 20px;
     }
-
-    /*figure elements and their children on community page*/
 
     #temple-fig {
         height: 500px;
         width: 600px;
         margin: auto;
-        border-radius: 15px;
     }
 
     #temple-img {
         height: 400px;
         width: 500px;
         margin-top: 50px;
-        border-radius: 15px;
     }
 
     #fig-caption-temple {
@@ -573,17 +571,19 @@ footer h4 {
         padding-top: 9px;
     }
 
+    #int-festival p, #working-hol p {
+        padding: 1rem 7% 25px;
+    }
+
     #int-fest-fig, #work-hol-fig {
         height: 250px;
         width: 300px;
         margin: auto;
-        border-radius: 15px;
     }
 
     #int-fest-img, #work-hol-img {
         height: 200px;
         width: 250px;
-        margin-top: 25px;
         border-radius: 15px;
     }
 
@@ -626,13 +626,13 @@ footer h4 {
     }
 
     #int-fest-fig, #work-hol-fig {
-        height: 350px;
-        width: 400px;
+        height: 325px;
+        width: 375px;
     }
 
     #int-fest-img, #work-hol-img {
-        height: 300px;
-        width: 350px;
+        height: 275px;
+        width: 325px;
     }
 
     #fig-caption-fest, #fig-caption-work {
@@ -660,6 +660,9 @@ footer h4 {
 
     .nav-button {
         padding: 0px 80px;
+    }
+    #working-hol, #int-festival {
+        width: 540px;
     }
 }
 
