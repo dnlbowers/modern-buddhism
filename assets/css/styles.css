@@ -254,33 +254,37 @@ header {
     margin-bottom: 2rem;
 }
 
+/*figure elements and their children on community page*/
+
 #temple-fig {
     height: 250px;
     width: 300px;
     margin: auto;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 #temple-img {
     height: 200px;
     width: 250px;
-    padding-top: 25px;
+    margin-top: 25px;
+    border-radius: 15px;
 }
 
 #int-fest-fig, #work-hol-fig {
     height: 250px;
     width: 300px;
     margin: auto;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 #int-fest-img, #work-hol-img {
     height: 200px;
     width: 250px;
-    padding-top: 25px;
+    margin-top: 25px;
+    border-radius: 15px;
 }
 
-figcaption {
+#fig-caption-temple, #fig-caption-fest, #fig-caption-work {
     font-size: 65%;
     color: #fff;
     font-weight: bold;
@@ -548,8 +552,47 @@ footer h4 {
         padding-top: 20px;
     }
 
-    figure {
-        width: 90%;
+    /*figure elements and their children on community page*/
+
+    #temple-fig {
+        height: 500px;
+        width: 600px;
+        margin: auto;
+        border-radius: 15px;
+    }
+
+    #temple-img {
+        height: 400px;
+        width: 500px;
+        margin-top: 50px;
+        border-radius: 15px;
+    }
+
+    #fig-caption-temple {
+        font-size: 100%;
+        padding-top: 9px;
+    }
+
+    #int-fest-fig, #work-hol-fig {
+        height: 250px;
+        width: 300px;
+        margin: auto;
+        border-radius: 15px;
+    }
+
+    #int-fest-img, #work-hol-img {
+        height: 200px;
+        width: 250px;
+        margin-top: 25px;
+        border-radius: 15px;
+    }
+
+    
+
+    #fig-caption-community {
+        font-size: 65%;
+        color: #fff;
+        font-weight: bold;
     }
 }
 
