@@ -14,6 +14,7 @@
 a:hover {
     cursor: pointer;
 }
+
 .line-break-below {
     padding-bottom: 14px;
 }
@@ -217,23 +218,22 @@ header {
     color: #b38728;
 }
 
-/*image from https://www.pngwing.com/en/free-png-cjota*/
 
-#buddha-shakyamuni {
-    height: 300px;
-    background: url('../images/buddha-shakyamuni.png') no-repeat center center;
+/*images from https://www.pngwing.com*/
+
+
+#buddha-shakyamuni-fig, #guru-sumanti-fig, #buddha-maitreya-fig {
+    height: 350px;
+    width: 310px;
     margin: 0 auto;
 }
 
-/*image from https://www.pngwing.com/en/free-png-zntlx*/
-
-#guru-sumanti {
+#buddha-shakyamuni-img, #guru-sumanti-img, #buddha-maitreya-img {
     height: 300px;
-    background: url('../images/guru-sumanti.png') no-repeat center center;
-    margin: 0 auto;
+    width: 300px;
+    margin: 25px auto 0;
 }
 
-/*image from https://www.pngwing.com/en/free-png-pintv*/
 #dorje-shugden {
     height: 300px;
     background: url('../images/dorje-shugden.png') no-repeat center center;
@@ -470,10 +470,6 @@ footer h4 {
         height: 266px;
         width: 400px;
         padding: 35px;
-    }
-
-    figcaption {
-        font-size: 80%;
     }
 
     #contact-form {
