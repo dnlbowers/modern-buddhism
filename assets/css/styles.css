@@ -197,17 +197,6 @@ header {
     padding: 20px 0;
 }
 
-#form-feedback-content {
-    background-color: #cfebfd;
-    color: #000;
-    padding: 20px 0;
-}
-
-#form-feedback-content p {
-    padding: 1rem 5% 2rem;
-    text-align: center;  
-}
-
 .main-heading {
     font-family: 'DM Sans', sans-serif;
     text-transform: capitalize;
@@ -219,10 +208,23 @@ header {
     text-transform: capitalize;
 }
 
+#form-feedback-content {
+    background-color: #cfebfd;
+    color: #000;
+    padding: 20px 0;
+}
+
 .content p {
     padding: 1rem 5% 2rem;
     text-align: justify;
 }
+
+#form-feedback-content p {
+    padding: 1rem 5% 2rem;
+    text-align: center;  
+}
+
+
 
 /*used ID to center last p tag on teachings page to override the .content p class*/
 
@@ -233,6 +235,9 @@ header {
 .content a {
     color:#000;
 }
+
+#form-feedback-content a {
+    color: #000;}
 
 .content a:hover {
     color: #b38728;
