@@ -228,7 +228,7 @@ header {
 
 /*used ID to center last p tag on teachings page to override the .content p class*/
 
-#center-on-teach-pg {
+#center-p-on-teach-page {
     text-align: center;
 }
 
