@@ -101,18 +101,15 @@ header {
 }
 
 /*shows active page and underlines when interacted with*/
-.nav-button:hover {
+
+.active, .nav-button:hover {
     background-color: #06304b;
     color: #fff;
     border: 2px solid #fff;
 }
 
-#active {
-    color: #fff;
-    border: 2px solid #fff;
-    }
-
 /*Container for all hero images - parts of all hero image related code taken from love running project*/
+
 .hero-image-container {
     height: 400px;
     width: 100%;
@@ -241,9 +238,7 @@ header {
     color: #b38728;
 }
 
-
 /*fig images on teachings page images from https://www.pngwing.com*/
-
 
 #buddha-shakyamuni-fig, #guru-sumanti-fig, #buddha-maitreya-fig {
     height: 310px;
