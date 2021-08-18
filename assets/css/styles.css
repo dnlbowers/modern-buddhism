@@ -97,6 +97,7 @@ header {
     padding: 8px 8px 6.8px;
     text-decoration: none;
     color: #000;
+    border: 2px solid transparent;
 }
 
 /*shows active page and underlines when interacted with*/
