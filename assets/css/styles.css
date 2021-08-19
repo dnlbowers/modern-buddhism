@@ -166,7 +166,7 @@ header {
 
 
 /*Add a text overly to the hero images, adapted code from love running project*/
-.quote-overlay {
+.quote-background {
     display: grid;
     font-size: 55%;
     letter-spacing: 1px;
@@ -182,12 +182,12 @@ header {
 
     /* change this to a heading class*/
 
-.quote-overlay h2 {
+.quote {
     text-align: left;
     text-transform: capitalize;
 }
 
-.quote-overlay h3 {
+.quote-author {
     text-align: right;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -484,7 +484,7 @@ footer h4 {
         height: 95%;
     }
     
-    .quote-overlay {
+    .quote-background {
         height: 25%;
         font-size: 70%;
         position: absolute;
@@ -666,7 +666,7 @@ footer h4 {
         height: 600px;
     }
 
-    .quote-overlay {
+    .quote-background {
         position: absolute;
         right: 0;
         padding: 0 10px;
