@@ -260,9 +260,21 @@ header {
     margin: 0 auto;
 }
 
-#buddha-shakyamuni-img, #guru-sumanti-img, #buddha-maitreya-img {
+#buddha-shakyamuni-img  {
     height: 300px;
-    width: 300px;
+    width: 300.24px;
+    margin: 0 auto;
+}
+
+#guru-sumanti-img {
+    height: 300px;
+    width: 300.06px;
+    margin: 0 auto;
+}
+
+#buddha-maitreya-img {
+    height: 300px;
+    width: 300.12px;
     margin: 0 auto;
 }
 
