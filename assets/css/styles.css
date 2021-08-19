@@ -9,7 +9,7 @@
     padding: 0;
 }
 
-/*Generic style rules to avoid repetition*/
+/*Generic style rules to avoid repetition and remove <br> tags from HTML code*/
 
 a:hover {
     cursor: pointer;
@@ -215,7 +215,7 @@ header {
 }
 
 .content p {
-    padding: 1rem 5% 2rem;
+    padding: 1rem 7% 2rem;
     text-align: justify;
 }
 
@@ -223,8 +223,6 @@ header {
     padding: 1rem 5% 2rem;
     text-align: center;  
 }
-
-
 
 /*used ID to center last p tag on teachings page to override the .content p class*/
 
@@ -286,29 +284,33 @@ header {
 /*figure elements and their children on community page*/
 
 #temple-fig {
-    height: 250px;
-    width: 300px;
+    height: 10%;
+    width: 86%;
     margin: auto;
     border-radius: 30px;
+    max-width: 686px;
+    max-height: 447px;
 }
 
 #temple-img {
-    height: 200px;
-    width: 250px;
-    margin-top: 23px;
+    height: 80%;
+    width: 90%;
+    margin-top: 15px;
     border-radius: 15px;
+    max-width: 618px;
+    max-height: 397px;
 }
 
 #int-fest-fig, #work-hol-fig {
-    height: 250px;
-    width: 300px;
+    height: 20%;
+    width: 86%;
     margin: auto;
     border-radius: 30px;
 }
 
 #int-fest-img, #work-hol-img {
-    height: 200px;
-    width: 250px;
+    height: 85%;
+    width: 90%;
     margin-top: 23px;
     border-radius: 15px;
 }
@@ -487,11 +489,20 @@ footer h4 {
         padding: 1rem 5% 25px;
     }
 
-    #temple-image {
-        height: 10%;
-        width: 74%;
-        padding: 35px;
+ 
+    #temple-fig {
+        width: 90%;
     }
+
+    /* #temple-fig {
+        height: 400px;
+        width: 500px;
+    }
+    
+    #temple-img {
+        height: 350px;
+        width: 450px;
+    }*/
 
     #geshe-brazil, #at-work {
         height: 266px;
@@ -583,15 +594,7 @@ footer h4 {
     }
 
     #temple-fig {
-        height: 500px;
-        width: 600px;
-        margin: auto;
-    }
-
-    #temple-img {
-        height: 400px;
-        width: 500px;
-        margin-top: 50px;
+        width: 74%;
     }
 
     #fig-caption-temple {
@@ -604,14 +607,10 @@ footer h4 {
     }
 
     #int-fest-fig, #work-hol-fig {
-        height: 250px;
-        width: 300px;
         margin: auto;
     }
 
     #int-fest-img, #work-hol-img {
-        height: 200px;
-        width: 250px;
         border-radius: 15px;
     }
 
@@ -652,15 +651,10 @@ footer h4 {
         padding: 1rem 15% 25px;
     }
 
-    #int-fest-fig, #work-hol-fig {
-        height: 325px;
-        width: 375px;
+    #temple-fig {
+        width: 70%;
     }
 
-    #int-fest-img, #work-hol-img {
-        height: 275px;
-        width: 325px;
-    }
 
     #fig-caption-fest, #fig-caption-work {
         font-size: 78%;
@@ -687,9 +681,6 @@ footer h4 {
 
     .nav-button {
         padding: 0px 80px;
-    }
-    #working-hol, #int-festival {
-        width: 45%;
     }
 }
 
