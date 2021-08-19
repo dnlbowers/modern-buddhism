@@ -262,13 +262,13 @@ header {
 /* images from https://www.pngwing.com*/
 
 #buddha-shakyamuni-fig, #guru-sumanti-fig, #buddha-maitreya-fig {
-    height: 310px;
-    width: 310px;
+    height: 300px;
+    width: 300px;
     margin: 0 auto;
 }
 
 #buddha-shakyamuni-img, #guru-sumanti-img, #buddha-maitreya-img  {
-    height: 300px;
+    height: 270px;
     width: 300px;
     margin: 0 auto;
 }
