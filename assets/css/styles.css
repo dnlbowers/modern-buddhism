@@ -156,6 +156,7 @@ header {
 }
 
 /* creates the level of zoom for hero image */
+
 @keyframes hero-image-zoom {
     from{
         transform: scale(1);
@@ -164,7 +165,6 @@ header {
         transform: scale(1.1);
     }
 }
-
 
 /*Add a text overly to the hero images, adapted code from love running project*/
 
@@ -193,7 +193,7 @@ header {
     letter-spacing: 4px;
 }
 
-/*Content classes for text*/
+/*styles for any text on the main content sections of the page for text*/
 
 .main-heading {
     font-family: 'DM Sans', sans-serif;
@@ -215,7 +215,7 @@ header {
 
 .content p {
     padding: 1rem 7% 2rem;
-    text-align: left;
+    text-align: justify;
     max-width: 1400px;
     margin: 0 auto;
 }
@@ -229,6 +229,8 @@ header {
 #center-p-on-about-page {
     text-align: center;
 }
+
+/*rules for anchor tag which are children ".content"*/
 
 .content a {
     color:#000;
@@ -511,6 +513,8 @@ footer h4 {
 
     .content p {
         padding: 1rem 5% 25px;
+        text-align: left;
+
     }
 
  
