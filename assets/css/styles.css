@@ -217,7 +217,7 @@ header {
 
 .content p {
     padding: 1rem 7% 2rem;
-    text-align: justify;
+    text-align: left;
     max-width: 1400px;
     margin: 0 auto;
 }
