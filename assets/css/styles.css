@@ -48,6 +48,8 @@ body {
     background-color: #06304b;
 }
 
+/*header style rules*/
+
 header {
     display: flex;
     justify-content: space-between;
@@ -55,7 +57,6 @@ header {
     padding: 10px;
 }
 
-/*heading style*/
 #title {
     font-family:'Oswald', sans-serif;
     text-transform: uppercase;
@@ -75,7 +76,7 @@ header {
     width: 70px;
 }
 
-/*Navigation bar*/
+/*Navigation bar style rules*/
 
 .nav-wrap {
     /*colour gradient taken from http://www.brandgradients.com/gold-gradient/*/
@@ -100,7 +101,7 @@ header {
     border: 2px solid transparent;
 }
 
-/*shows active page and underlines when interacted with*/
+/*shows active page and style's menu button when interacted with*/
 
 .active, .nav-button:hover {
     background-color: #06304b;
@@ -108,7 +109,7 @@ header {
     border: 2px solid #fff;
 }
 
-/*Container for all hero images - parts of all hero image related code taken from love running project*/
+/*Container for all hero images*/
 
 .hero-image-container {
     height: 400px;
@@ -119,7 +120,7 @@ header {
     border-bottom: 0.5rem solid #06304b;
 }
 
-/*Add hero images to each page*/
+/*Adds hero images to each page*/
 
 /*image taken from https://www.kadampafestivalus.org/geshe-kelsang-gyatso/geshe-la-at-kmc-new-york/*/
 .index-hero-image {
@@ -166,6 +167,7 @@ header {
 
 
 /*Add a text overly to the hero images, adapted code from love running project*/
+
 .quote-background {
     display: grid;
     font-size: 55%;
