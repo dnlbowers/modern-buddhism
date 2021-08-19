@@ -199,7 +199,8 @@ header {
     font-family: 'DM Sans', sans-serif;
     text-transform: capitalize;
     text-decoration: underline;
-    padding: 0 7%;
+    padding-left:7%;
+    padding-right: 7%;
 }
 
 .sub-heading {
@@ -517,7 +518,6 @@ footer h4 {
 
     }
 
- 
     #temple-fig {
         width: 90%;
     }
