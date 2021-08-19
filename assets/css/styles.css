@@ -324,7 +324,7 @@ header {
     text-transform: capitalize;
 }
 
-/*images relating to external media/download*/
+/*images relating to external media/downloads*/
 
 #modern-buddhism-vid {
     width: 85%;
@@ -334,12 +334,11 @@ header {
     padding: 10px;
 }
 
-#tyl-download {
+.tyl-download {
     width:300px;
     height: 250px;
     margin-bottom: 2rem;
 }
-
 
 #contact-form {
     display: grid;
