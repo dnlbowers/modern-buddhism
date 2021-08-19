@@ -252,7 +252,8 @@ header {
 }
 
 #form-feedback-content a {
-    color: #000;}
+    color: #000;
+}
 
 /*figure, and their children on teachings page*/
 /* images from https://www.pngwing.com*/
@@ -334,11 +335,13 @@ header {
     padding: 10px;
 }
 
-.tyl-download {
+#tyl-download {
     width:300px;
     height: 250px;
     margin-bottom: 2rem;
 }
+
+/*Styling for the form on contact.html"*/
 
 #contact-form {
     display: grid;
@@ -386,6 +389,8 @@ header {
 #submit-btn:hover {
     background: linear-gradient(to right, #fcf6ba,#b38728,#fbf5b7,#bf953f);
 }
+
+/*Styling for the page footers*/
 
 footer {
     color: #fff;
