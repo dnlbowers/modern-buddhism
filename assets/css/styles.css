@@ -266,12 +266,14 @@ header {
     font-size: 80%;
     font-style: italic;
     margin-top: 3px;
+    text-transform: capitalize;
 }
 
 .teaching-pg-figcap {
     font-size: 80%;
     font-style: italic;
     margin-top: 3px;
+    text-transform: capitalize;
 }
 
 #modern-buddhism-vid {
@@ -326,6 +328,7 @@ header {
     font-size: 65%;
     color: #fff;
     font-weight: bold;
+    text-transform: capitalize;
 }
 
 #contact-form {
@@ -501,16 +504,6 @@ footer h4 {
         width: 90%;
     }
 
-    /* #temple-fig {
-        height: 400px;
-        width: 500px;
-    }
-    
-    #temple-img {
-        height: 350px;
-        width: 450px;
-    }*/
-
     #geshe-brazil, #at-work {
         height: 266px;
         width: 400px;
@@ -602,11 +595,6 @@ footer h4 {
 
     #temple-fig {
         width: 74%;
-    }
-
-    #fig-caption-temple {
-        font-size: 100%;
-        padding-top: 9px;
     }
 
     #int-festival p, #working-hol p {
