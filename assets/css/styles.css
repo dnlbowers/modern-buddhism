@@ -121,7 +121,7 @@ header {
 
 /*Add hero images to each page*/
 
-/*image taken from https://meditationindarlington.org/buddhist-tradition*/
+/*image taken from https://www.kadampafestivalus.org/geshe-kelsang-gyatso/geshe-la-at-kmc-new-york/*/
 .index-hero-image {
     background: url('../images/geshe-la-outside-temple.jpg') no-repeat center center;
 }
@@ -136,11 +136,13 @@ header {
     background: url('../images/contact-banner.jpg') no-repeat center center;
 }
 
-/*image taken from https://kadampafestivals.org/2019/05/pre-festival-diaries-4*/
+/*image taken from https://www.wiseattention.org/blog/2012/02/21/nkt-succession-and-the-rules/*/
 .community-hero-image {
     background: url('../images/community-hero-image.jpg') no-repeat center center;
     background-position-y: 100%;
 }
+
+/*sets the rules for all hero images and links the keyframe rules to them*/
 
 .hero-animation {
     height: 65%;
