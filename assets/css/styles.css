@@ -379,9 +379,11 @@ header {
     text-align: center;
 }
 
-.mailing-list-option {
+.mailing-list-options {
     font-size: smaller;
 }
+
+/*Form submit button and hover styling*/
 
 #submit-btn {
     background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728,#fbf5b7);
@@ -414,6 +416,8 @@ footer h4 {
     padding: 1rem;
 }
 
+/*style for the social media links*/
+
 .social-media li {
     display: inline;
     list-style-type: none;
@@ -431,9 +435,14 @@ footer h4 {
 /*for screen sizes over 360px and under 540px wide*/
 
 @media (min-width: 360px) {
+    
+    /*style changes to the header*/
+    
     header{
         justify-content: space-around;
     }
+
+    /*Style changes to nav bar*/
 
     .nav-menu {
         font-size: 79%;
@@ -442,6 +451,8 @@ footer h4 {
     .nav-button {
         padding: 7px 11px;
     }
+
+    /*Style changes to the contact form*/
 
     #contact-form {
         color: #fff;
@@ -463,6 +474,8 @@ footer h4 {
 
 @media (min-width: 540px) {
 
+    /*Style changes to the header*/ 
+   
     header {
         justify-content: space-evenly;
     }
@@ -476,6 +489,8 @@ footer h4 {
         font-size: 165%;
     }
 
+    /*Style changes to Nav bar*/
+
     .nav-menu {
         font-size: 100%;
     }
@@ -483,6 +498,8 @@ footer h4 {
     .nav-button {
         padding: 5px 15px;
     }
+
+    /*Style changes to the hero-image container on each page*/
 
     .hero-image-container {
         height: 450px; 
@@ -503,6 +520,8 @@ footer h4 {
     .contact-hero-image {
         height: 95%;
     }
+
+    /*style changes to the quote overlay on the hero image*/
     
     .quote-background {
         height: 25%;
@@ -511,6 +530,7 @@ footer h4 {
         background: linear-gradient(to bottom, rgba(191, 149, 63, 0.7), rgba(252, 246, 186, 0.95), rgba(179, 135, 40, 0.95),rgba(251, 245, 183, 0.7) );
         bottom: 10px;
         right: 0;
+        padding: 0 10px;
     }
 
     .content {
@@ -523,6 +543,8 @@ footer h4 {
 
     }
 
+    /*Style change to figures and the contained images on the community page*/
+
     #temple-fig {
         width: 90%;
     }
@@ -532,6 +554,8 @@ footer h4 {
         width: 400px;
         padding: 35px;
     }
+
+    /*Style changes to the contact form*/
 
     #contact-form {
         border: 6px solid #bf953f;
@@ -549,6 +573,8 @@ footer h4 {
 
 @media (min-width: 768px) {
     
+    /*Style changes to the hear*/
+
     .header-image-left {
         height: 90px;
         width: 90px;
@@ -563,6 +589,8 @@ footer h4 {
         width: 90px;
     }
 
+    /*style changes to the nav bar*/
+
     .nav-menu {
         font-size: 105%;
     }
@@ -570,6 +598,8 @@ footer h4 {
     .nav-button {
         padding: 4.5px 40px;
     }
+
+    /*style changes to the hero image container*/
 
     .hero-image-container {
         height: 500px;  
@@ -591,6 +621,8 @@ footer h4 {
         height: 100%;
     }
 
+    /*Style changes to the main content of the pages*/
+
     .content > p {
         padding: 1rem 13% 25px;
     }
@@ -606,7 +638,7 @@ footer h4 {
         align-items: stretch
     }
 
-    /*figure elements and their children on community page*/
+    /*Style changes to figure elements and their children on community page*/
 
     #working-hol, #int-festival {
         width: 45%;
@@ -642,7 +674,9 @@ footer h4 {
 /*for screen sizes over 979px and under 1200px wide*/
 
 @media (min-width: 980px) {
-   
+    
+    /*style change to the header*/
+
     .header-image-left {
         height: 100px;
         width: 100px;
@@ -657,6 +691,8 @@ footer h4 {
         width: 100px;
     }
 
+    /*Style changes to the nav bar*/
+
     .nav-menu {
         font-size: 135%;
     }
@@ -664,6 +700,8 @@ footer h4 {
     .nav-button {
         padding: 1.5px 60px;
     }
+
+    /*style changes to the main content on the pages*/
 
     .content > p {
         padding: 1rem 15% 25px;
@@ -683,15 +721,20 @@ footer h4 {
 
 @media (min-width: 1200px) {
     
+    /*Style change to hero-container size*/
+
     .hero-image-container {
         height: 600px;
     }
 
+    /*style change to quote overlay*/
+
     .quote-background {
         position: absolute;
         right: 0;
-        padding: 0 10px;
     }
+
+    /*style change to the nav bar*/
 
     .nav-menu {
         font-size: 150%;
@@ -703,6 +746,8 @@ footer h4 {
 }
 
 @media (min-width: 1400px) {
+
+    /*style change to the nac bar*/
 
     .nav-menu {
         font-size: 150%;
