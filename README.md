@@ -1,12 +1,13 @@
-# Modern Buddhism.
+# Modern Buddhism
 
 This website introduces people to a modern form of Buddhism without any cultural influence from the east. The ultimate intention is to attract those craving to be happy yet have failed to find the answers outside of themselves in the world around them. It is helpful to those who want to learn more about the New Kadampa Tradition and wish to seek out further free resources online or connect directly with one of the already pre-existing communities worldwide.
 
-<am I responsive screenshot>
+![Am I responsive screenshot](assets/readme/am-i-responsive.jpg)
 
 ## Features
 ### Header
 The header includes the name of the tradition, which is the theme of the website. I have included one of the tradition's logos on smaller screens and increased it to two on a larger screen to give better symmetry to the header. 
+
 
 ### Site Navigation
 
