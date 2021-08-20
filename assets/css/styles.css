@@ -57,12 +57,17 @@ header {
     padding: 10px;
 }
 
+.title-anchor {
+    text-decoration: none;
+}
+
 .title {
     font-family:'Oswald', sans-serif;
     text-transform: uppercase;
     color: #fff;
     font-size: 130%;
     padding: 0 5px;
+    
 }
 
 .header-image-left {
