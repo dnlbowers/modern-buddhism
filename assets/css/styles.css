@@ -92,7 +92,7 @@ header {
     font-family: 'DM Sans', sans-serif;
     display: flex;
     justify-content: center;
-    font-size: 74%; 
+    font-size: 70%; 
     list-style-type: none;  
     height: 35px;
     align-items: center;
@@ -100,7 +100,7 @@ header {
 }
 
 .nav-button {
-    padding: 8px 8px 6.8px;
+    padding: 9px 8px 7.8px;
     text-decoration: none;
     color: #000;
     border: 2px solid transparent;
