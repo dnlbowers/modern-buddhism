@@ -34,17 +34,15 @@
             </li>
         </ul>
     </nav> 
-        
     <!--Container for hero image and quote overlay-->   
     <section class="hero-image-container">
-        <div class="hero-animation contact-hero-image">
-            
-        </div>
+        <div class="hero-animation contact-hero-image"></div>
         <div class="quote-background">
             <h2 class="quote">"If we want to be truly happy and free from suffering, we must learn how to control our mind."</h2>
             <h3 class="quote-author">~ Geshe Kelsang Gyatso</h3>
         </div>
     </section>
+    <!--Main content of the page-->
     <section class="content center-text">
         <h2 class="main-heading line-break-top-bottom">How to contact the New Kadampa Tradition</h2>
         <p>
@@ -83,6 +81,7 @@
             would like notifications on any news related to the tradition via a newsletter, please fill 
             out the relevant parts of the form below, and let's stay in touch. 
         </p>
+        <!--Contact form with get request to take the user to form-feedback page-->
         <form id="contact-form" class="primary-bg-color line-break-top-bottom" action="form-feedback.html" method="get">
             <label for="name" class="line-break-below text-left">Name:</label>
             <input type="text" id="name" class="center-text" name="name" placeholder="Joe Bloggs" required>
@@ -93,6 +92,7 @@
             <p id="p-in-form">
                 Want to join our mailing list?
             </p>
+            <!--Mailing list options Div added so the radio buttons and labels aligned-->
             <div>
                 <input type="radio" id="join" name="mailing_list" value="mail">
                 <label for="join" class="mailing-list-option">Yes please.</label>
@@ -103,12 +103,12 @@
             </div>
             <input type="submit" id="submit-btn" value="Submit">
         </form>
+        <!--Link to return the user back to the top of the page-->
         <div class="line-break-top-bottom">
             <a href="#title" class="line-break-below center-text" aria-label="Returns you back to the top of the contact page to the site navigation menu">Return to the top of this page</a>
         </div>
     </section>
-        
-
+    <!--Footer with social media links-->
     <footer id="footer" class="center-text">
         <h3 class="sub-heading">Follow The New Kadampa Tradition On Social Media</h3>
         <ul class="social-media">
