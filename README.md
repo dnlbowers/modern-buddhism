@@ -4,29 +4,28 @@ This website introduces people to a modern form of Buddhism without any cultural
 
 ![Am I responsive screenshot](assets/readme/am-i-responsive.jpg)
 
-## Features
-### Header
+## Current Features
+###  Header
 
 #### Title
-The header includes the name of the tradition, which is the theme of the website. 
-
 ![Page title](assets/readme/title.jpg)
 
 * The title serves to clearly state the name of the tradition.
 * It also serves as a navigation link to the home page in this case called "about" as per the well establish convention expected by the user.
 
 #### Logos
-I have included one of the tradition's logos on smaller screens
-
-![Mobile header](assets/readme/mobile-header.jpg)
-
- And increased it to two on a larger screen. 
-
-![Desktop header](assets/readme/desktop-header.jpg)
-
 * The logos are to illustrate the subject of the site, as well as to offer something to appease the users eye filling the blank space without distracting from the title.
-* One logo on mobile devices was to ensure the title stays as big as possible on a smaller screen there by improving the user experience.
-* Two logos on larger screens gave better symmetry to the header whilst filling the excess white space provided by a wider screen size.
+
+    * One logo on mobile devices was to ensure the title stays as big as possible on a smaller screen there by improving the user experience.
+
+        ![Mobile header](assets/readme/mobile-header.jpg)
+
+    * Two logos on larger screens gave better symmetry to the header whilst filling the excess white space provided by a wider screen size.
+
+        ![Desktop header](assets/readme/desktop-header.jpg)
+
+
+
 
 
 
