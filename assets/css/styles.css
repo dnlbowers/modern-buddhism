@@ -57,7 +57,7 @@ header {
     padding: 10px;
 }
 
-#title {
+.title {
     font-family:'Oswald', sans-serif;
     text-transform: uppercase;
     color: #fff;
@@ -466,7 +466,7 @@ footer h4 {
         display: inline;
     }
 
-    #title{
+    .title{
         letter-spacing: 0.25rem;
         font-size: 165%;
     }
@@ -549,7 +549,7 @@ footer h4 {
         width: 90px;
     }
 
-    #title {
+    .title {
         font-size: 250%;
     }
 
@@ -643,7 +643,7 @@ footer h4 {
         width: 100px;
     }
 
-    #title {
+    .title {
         font-size: 300%;
     }
 
