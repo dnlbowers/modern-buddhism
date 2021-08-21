@@ -25,14 +25,14 @@ The New Kadampa Tradition (NKT) is a modern form of Buddhism without any cultura
 
 * The site will provide multiple free resources such as 
     * Two free e-books with an excerpt used on the teaching page to highlight a core concept in Buddhism.
-    *Links to further free resources via the NKT's own homepage and their social media pages. 
-    *Embedded YouTube videos.
+    * Links to further free resources via the NKT's own homepage and their social media pages. 
+    * Embedded YouTube videos.
 
 * The site will provided information on the options available to engage with the international community.
-    *Working holidays.
-    *International festivals.
+    * Working holidays.
+    * International festivals.
 
-* The site provides a link to a center locator tool on Kadampa.org. This tool can be used by the user to see if the NKT have a base of operations close to where they live. 
+* The site provides a link to a meditation center locator tool hosted on Kadampa.org. This tool can be used by the user to see if the NKT have a preexisting base of operations close to where they live. 
 
 * If the user is in a country or region without a nearby centre, I have included a contact form to connect with me directly. The reason for this also relates to the [Future-enhancements](#future-enhancements) section listed later in this readme. 
 
