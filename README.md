@@ -47,7 +47,7 @@ Eventually, when Malta was designated, a teacher by the head office these would 
 * Times/dates/venues/fees for Public talks/events
 * Include a bio for Malta's officially designated teacher at the end of the traditions lineage page or add to a new page that summarizes their experience.
 
-Once I better understand Javascript, I would also like to add a burger menu for mobile-sized device screens. I found articles on how to achieve this with CSS and HTML alone; however, to create the Minimum viable product, I did not deem this necessary.
+Once I better understand Javascript, I would like to add a burger menu for mobile-sized device screens. I found articles on how to achieve this with CSS and HTML alone; however, I did not deem this necessary to create the minimum viable product.
 
 
 ## Current Features
