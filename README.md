@@ -23,13 +23,17 @@ The New Kadampa Tradition (NKT) is a modern form of Buddhism without any cultura
 ### How is this achieved?
 * The home page provides the user with a summary of the tradition and how it came to be.
 
-* The site provides multiple free resources such as two free e-books, an excerpt for one of the free e-books and links to further free resources via the traditions own site and social media pages. 
+* The site provides multiple free resources such as two free e-books, an excerpt for one of the free e-books and links to further free resources via the traditions an external site and the traditions social media pages. 
 
-* The site also provides information on the options available to engage with the international community and ways to check if they have a local base of operations close to where they live. If the user is in a country or region without a nearby centre, I have included a contact form to connect with me directly. The reason for this also relates to the future development idea listed below.
+* The site provides information on the options available to engage with the international community.
+
+* The site provides a link to a center locator tool on Kadampa.org so the user can see if they have a base of operations close to where they live. 
+
+* If the user is in a country or region without a nearby centre, I have included a contact form to connect with me directly. The reason for this also relates to the future development idea listed below.
 
 ### Future enhancements
 
-The future intention of the site would be to serve as a website specifically for Malta, where there is no community until now. However, Due to the summer break, which the tradition undergoes every year, I could not reach the traditions director with my request for permission, so I decided to build a tribute site to showcase to the head office and adapt the content to be more Malta specific later on. 
+The future intention of the site would be to serve as a website specifically for Malta, where there is no community until now. However, Due to the summer break, which the tradition undergoes every year, I could not reach the traditions director with my request for permission. I decided to build a tribute site to showcase to the head office and adapt the content to be more Malta specific later on. 
 
 At first, the purpose would remain to educate and raise awareness meaning the current content would still be applicable; however, There would be additional content I could add as interest grew. Such things would be: -
 
