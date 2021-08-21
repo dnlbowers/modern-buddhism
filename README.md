@@ -1,8 +1,50 @@
 # Modern Buddhism
 
-This website introduces people to a modern form of Buddhism without any cultural influence from the east. The ultimate intention is to attract those craving to be happy yet have failed to find the answers outside of themselves in the world around them. It is helpful to those who want to learn more about the New Kadampa Tradition and wish to seek out further free resources online or connect directly with one of the already pre-existing communities worldwide.
+## What the site is about
+The New Kadampa Tradition (NKT) is a modern form of Buddhism without any cultural influence from the east. It stems from Tibetan Buddhism, which is publicly known in the west but is more accessible to people with a busy lifestyle. It removes a lot of the cultural aspects of the Tibetan nations and provides everything in English.  Typically when someone wishes to learn the teachings from the Tibetan schools, they would be required to learn Tibetan and perform lengthy rituals to gain the full benefit of the practice.  The founder of the NKT, Geshe Kelsang Gyatso saw that cultural influences from Tibet were an obstacle to western practitioners and worked diligently to create a structure that was more suited to modern life.
 
 ![Am I responsive screenshot](assets/readme/am-i-responsive.jpg)
+
+##
+
+### Who is the site intended for? (target audiences)
+* Users craving to be happy yet have failed to find the answers outside in the world outside of themselves. 
+* Users with a general interest in Buddhism and want to learn more.
+* Users who have never heard of the NKT.
+* Users who have heard of the NKT but would like to find more information on the tradition.
+
+### Site aims
+* To educate the user on the NKT.
+* To educate the user on the core value of Buddhism.
+* To offer the user a chance to connect to the international community in person.
+* Provide the user with the information required to check for a base of operations close to them.
+* To offer the user a less formal point of contact to discuss Buddhism/the NKT (me)
+
+### How is this achieved?
+* The home page provides the user with a summary of the tradition and how it came to be.
+
+* The site provides multiple free resources such as two free e-books, an excerpt for one of the free e-books and links to further free resources via the traditions own site and social media pages. 
+
+* The site also provides information on the options available to engage with the international community and ways to check if they have a local base of operations close to where they live. If the user is in a country or region without a nearby centre, I have included a contact form to connect with me directly. The reason for this also relates to the future development idea listed below.
+
+### Future enhancements
+
+The future intention of the site would be to serve as a website specifically for Malta, where there is no community until now. However, Due to the summer break, which the tradition undergoes every year, I could not reach the traditions director with my request for permission, so I decided to build a tribute site to showcase to the head office and adapt the content to be more Malta specific later on. 
+
+At first, the purpose would remain to educate and raise awareness meaning the current content would still be applicable; however, There would be additional content I could add as interest grew. Such things would be: -
+
+* Times/dates/venues for Meetups in Malta to build a community
+* Times/dates/venues for Book clubs to study and discuss the materials and methods to apply them to daily life.
+* More information on the lineage of the tradition to include short biographies.
+
+Eventually, when Malta was designated, a teacher by the head office these would then convert into: -
+
+* Times/dates/venues/fees for Formal classes
+* Times/dates/venues/fees for Public talks/events
+* Include a bio for Malta's officially designated teacher at the end of the traditions lineage page or add to a new page that summarizes their experience.
+
+Once I better understand Javascript, I would also like to add a burger menu for mobile-sized device screens. I found articles on how to achieve this with CSS and HTML alone; however, to create the Minimum viable product, I did not deem this necessary.
+
 
 ## Current Features
 ###  Header
