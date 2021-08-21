@@ -6,7 +6,7 @@
 ## What the site is about
 The New Kadampa Tradition (NKT) is a modern form of Buddhism without any cultural influence from the east. It stems from Tibetan Buddhism, which is publicly known in the west but is more accessible to people with a busy lifestyle. It removes a lot of the cultural aspects of the Tibetan nations and provides everything in English.  Typically when someone wishes to learn the teachings from the Tibetan schools, they would be required to learn Tibetan and perform lengthy rituals to gain the full benefit of the practice.  The founder of the NKT, Geshe Kelsang Gyatso saw that cultural influences from Tibet were an obstacle to western practitioners and worked diligently to create a structure that was more suited to modern life.
 
-![Am I responsive screenshot](assets/readme/am-i-responsive.jpg)
+![Am I responsive screenshot](assets/readme/screenshots/am-i-responsive.jpg)
 
 ### Who is the site intended for? (target audiences)
 * Users craving to be happy yet have failed to find the answers outside in the world outside of themselves. 
@@ -58,7 +58,7 @@ Once I better understand Javascript, I would like to add a burger menu for mobil
 ###  Header
 
 #### Title
-![Page title](assets/readme/title.jpg)
+![Page title](assets/readme/screenshots/title.jpg)
 
 * The title serves to clearly state the name of the tradition.
 * It also serves as a navigation link to the home page in this case called "about" as per the well establish convention expected by the user.
@@ -68,11 +68,11 @@ Once I better understand Javascript, I would like to add a burger menu for mobil
 
     * One logo on mobile devices was to ensure the title stays as big as possible on a smaller screen there by improving the user experience.
 
-        ![Mobile header](assets/readme/mobile-header.jpg)
+        ![Mobile header](assets/readme/screenshots/mobile-header.jpg)
 
     * Two logos on larger screens gave better symmetry to the header whilst filling the excess white space provided by a wider screen size.
 
-        ![Desktop header](assets/readme/desktop-header.jpg)
+        ![Desktop header](assets/readme/screenshots/desktop-header.jpg)
 
 
 
