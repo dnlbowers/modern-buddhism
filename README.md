@@ -19,9 +19,10 @@ The New Kadampa Tradition (NKT) is a modern form of Buddhism without any cultura
 * To offer the user a chance to connect to the international community in person.
 * Provide the user with the information required to check for a base of operations close to them.
 * To offer the user a to contact the site author for further info or discussion.
+* Provide a method by which the user can subscribe to a newsletter.
 
 ### How is this will be achieved
-* The home page provides the user with a summary of the tradition and how it came to be.
+* The home page provides the user with a summary of the tradition, how it is suitable for modern people and how the NKT came to be.
 
 * The site will provide multiple free resources such as 
     * Two free e-books with an excerpt used on the teaching page to highlight a core concept in Buddhism.
@@ -32,9 +33,11 @@ The New Kadampa Tradition (NKT) is a modern form of Buddhism without any cultura
     * Working holidays.
     * International festivals.
 
-* The site provides a link to a meditation center locator tool hosted on Kadampa.org. This tool can be used by the user to see if the NKT have a preexisting base of operations close to where they live. 
+* The site provides a link to a meditation center locator tool hosted on Kadampa.org. 
 
-* If the user is in a country or region without a nearby centre, I have included a contact form to connect with me directly. The reason for this also relates to the [Future-enhancements](#future-enhancements) section listed later in this readme. 
+* If the user is in a country or region without a nearby centre, or wishes to speak to someone informally about the subject I have included a contact form to connect the site author directly. The reason for this also relates to the [Future-enhancements](#future-enhancements) section listed later in this readme. 
+
+* Providing a newsletter to which the user can subscribe whilst sending the site author a message our else by omitting the message and selecting the relevant option before clicking the submit button
 
 ## Current Features
 ###  Header
