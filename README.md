@@ -114,9 +114,6 @@ The hero image depicts Geshe Kelsang Gyatso, who was the founder of the New Kada
 ##### Quote:
 The quote included on the about page is "We Need Modern Ideas, But We Also Need Ancient Wisdom." and can be seen on the above screenshot. This perfectly sums up the subject matter of the page which begins with what the NKT is about.
 
-### Quote Overlay
-Taken from the book "Modern Buddhism", this quote gives an example of what Buddhism can do for the user and how to achieve this goal.
-
 ### Content
 This section gives a brief historical summary of the New Kadampa tradition, a quick overview of how it came to be, and a short video of how it differs from traditional Kadampa Buddhism. At the end of the content, there is an embedded anchor tag so they can download a free copy of one of Geshe Kelsang Gyatso's books in electronic format to read on their phone or their kindle. The is another book that is available for free download. However, I chose not to include this on the site as it covers a more advanced set of topics in its later chapters.
 
