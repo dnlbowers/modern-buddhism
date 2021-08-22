@@ -8,20 +8,20 @@ The New Kadampa Tradition (NKT) is a modern form of Buddhism without any cultura
 
 ## **Planning stage**
 ***
-### ***Who is the site intended for? (target audiences):***
+### **Who is the site intended for? (target audiences):**
 * Users craving to be happy yet have failed to find the answers outside in the world outside of themselves. 
 * Users with a general interest in Buddhism and want to learn more.
 * Users who have never heard of the NKT.
 * Users who have heard of the NKT but would like to find more information on the tradition.
 
-### ***User story's:***
+### **User story's:**
 * As a user I want to be able to see clearly what the page is about.
 * As a user I want to be able to easily navigate the page to find what I require.
 * As a user I want to be able to leave feeling like I knew more that I did when I arrived at the site.
 * As a user I was to be able to easily navigate my way to free resources
 * As a user I want to be able to reach out and connect to discuss/experience the subject matter on a deeper level. 
 
-### ***Site aims:***
+### **Site aims:**
 * To educate the user on the NKT.
 * To educate the user on the core value of Buddhism.
 * To offer the user a chance to connect to the international community in person.
@@ -29,7 +29,7 @@ The New Kadampa Tradition (NKT) is a modern form of Buddhism without any cultura
 * To offer the user a to contact the site author for further info or discussion.
 * Provide a method by which the user can subscribe to a newsletter.
 
-### ***How is this will be achieved:***
+### **How is this will be achieved:**
 * The home page provides the user with a summary of the tradition, how it is suitable for modern people and how the NKT came to be.
 
 * The site will provide multiple free resources such as 
@@ -47,7 +47,7 @@ The New Kadampa Tradition (NKT) is a modern form of Buddhism without any cultura
 
 * Providing a newsletter to which the user can subscribe whilst sending the site author a message our else by omitting the message and selecting the relevant option before clicking the submit button.
 
-### ***Wireframes:***
+### **Wireframes:**
 To organize my thoughts and prevent scope creep I decided to create wireframes even though they were not specifically required to this project. Below are links to each of the mobile and desktop versions of the 4 intended pages. 
 
 * Mobile Wireframes:
@@ -70,21 +70,21 @@ During the project there was some deviation from the original wireframes in orde
 * A second logo was added to the header on larger screens to add symmetry and make the design more appeasing to the eye.
 * The two boxes in the footer were originally intended to be the images for the e-book downloads used in the final design. This idea was abandoned as not to increase the footer height to much on mobile devices and to improve the flow of information as the user progressed through the pages.
 
-### ***Color scheme:***
+### **Color scheme:**
 When deciding the color scheme I wanted to go with something that gave an elegant appearance. For this reason I selected a range of blue and gold's and used the following color grid created on https://contrast-grid.eightshapes.com/ to check the contrast scores. This allowed me to ensure all text remained visible and the site was accessible to all.
 ![Color contrast grid](assets/readme/screenshots/color-grid.png)
 
 ## **Current Features**
 ***
-###  ***Header element***
+###  **Header element**
 
-#### Title:
+#### ***Title:***
 ![Page title](assets/readme/screenshots/title.jpg)
 
 * The title serves to clearly state the name of the tradition.
 * It also serves as a navigation link to the home page in this case called "about" as per the well establish convention expected by the user.
 
-#### Logos:
+#### ***Logos:***
 * The logos are to illustrate the subject of the site, as well as to offer something to appease the users eye filling the blank space without distracting from the title.
 
     * One logo on mobile devices was to ensure the title stays as big as possible on a smaller screen there by improving the user experience.
@@ -95,25 +95,26 @@ When deciding the color scheme I wanted to go with something that gave an elegan
 
         ![Desktop header](assets/readme/screenshots/desktop-header.jpg)
 
-### ***Site Navigation***
-#### Navigation bar:
+### **Site Navigation**
+#### ***Navigation bar:***
 The navigation bar appears on all five pages (including the form feedback page). It contains links to the about, teachings, community and contact page to allow easy navigation around the website. 
 ![Navigation bar](assets/readme/screenshots/nav-bar.jpg)
 
-#### Return to top of the page link:
+#### ***Return to top of the page link:***
 In addition, to the navbar, each page includes a hyperlink at the bottom of the content. "Return to top of the page" takes the user back to the navigation bar if they have had to scroll a long way down to read all the content. This is especially useful on mobile devices where the column width for the content is narrower.\
 ![Navigation bar](assets/readme/screenshots/return-to-top.png)
 
-## ***Hero Images***
+## **Hero Images**
 I have included a hero image on each page to make the site uniform across all pages. Each image has a zoom animation to grab the attention of the user and are overlaid a quote designed to give the user a brief insight into the teachings of the NKT.
 
-#### About page:
-##### Hero-Image:
+### **About page**:
+#### ***Hero-Image:***
 The hero image depicts Geshe Kelsang Gyatso, who was the founder of the New Kadampa Tradition. He is smiling and waving as if welcoming the user to the page. Behind him is the primary temple of the tradition, which holds great significance to the tradition. The temple pictured hosts two the the traditions international festivals and is within the grounds of Manjushri Meditation center, considered the hub of the NKT's international operations.
 ![About page hero image](assets/readme/screenshots/about-hero-img.jpg)
-##### Quote:
+#### ***Quote:***
 The quote included on the about page is "We Need Modern Ideas, But We Also Need Ancient Wisdom." and can be seen on the above screenshot. This perfectly sums up the subject matter of the page which begins with what the NKT is about.
 
+### Teachings page:
 ### Content
 This section gives a brief historical summary of the New Kadampa tradition, a quick overview of how it came to be, and a short video of how it differs from traditional Kadampa Buddhism. At the end of the content, there is an embedded anchor tag so they can download a free copy of one of Geshe Kelsang Gyatso's books in electronic format to read on their phone or their kindle. The is another book that is available for free download. However, I chose not to include this on the site as it covers a more advanced set of topics in its later chapters.
 
