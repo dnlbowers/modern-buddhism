@@ -110,7 +110,7 @@ I have included a hero image on each page to make the site uniform across all pa
 #### About page:
 
 The hero image depicts Geshe Kelsang Gyatso, who was the founder of the New Kadampa Tradition. He is smiling and waving as if welcoming the user to the page. Behind him is the primary temple of the tradition, which holds great significance to the tradition. The temple pictured is considered the center of its international operations based within the grounds of its mother center in the lake district, England.
-![Navigation bar](assets/readme/screenshots/return-to-top.png)
+![About page hero image](assets/readme/screenshots/about-hero-img.jpg)
 
 
 ### Quote Overlay
