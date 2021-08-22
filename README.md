@@ -120,14 +120,14 @@ The quote included on the about page is "We Need Modern Ideas, But We Also Need 
 ### Teachings page:
 #### ***Hero-Image:***
 This image is Geshe Kelsang Gyatso sat on what is commonly called a throne at one of the traditions international festivals. The throne is where a teacher sits to expound the oral lineage past from teacher to disciple, and so it was appropriate for a page discussing the core beliefs of the philosophy in his own words.
-![About page hero image](assets/readme/screenshots/teachings-hero-img.jpg)
+![Teaching page hero image](assets/readme/screenshots/teachings-hero-img.jpg)
 #### ***Quote:***
 The quote included on the teachings page is "Happiness And Suffering Are States Of Mind And So Their Main Causes Are Not To Be Found Outside The Mind." which is not included in the excerpt on the page below it, however compliments the subject matter.
 
 ### Community page:
 #### ***Hero-Image:***
 This image is a view from behind Geshe Kelsang Gyatso teaching at one of the NKT's fall festivals. I was chosen to show the extent of the international community attending one of these events.
-![About page hero image](assets/readme/screenshots/community-hero-img.jpg)
+![Community page hero image](assets/readme/screenshots/community-hero-img.jpg)
 #### ***Quote:***
 The quote on the community page is "Buddha is the doctor who gives us medicine, and the Sangha are the nurses who assist us." the words Sangha is defined in the content of this page and serves to show the importance and function that community serves within the NKT.
 
@@ -135,12 +135,17 @@ The quote on the community page is "Buddha is the doctor who gives us medicine, 
 These two hero images and quotes we kept as the same to simulate still being on the same page after the form has been submitted.
 #### ***Hero-Image:***
 This image is a view from behind Geshe Kelsang Gyatso teaching at one of the NKT's fall festivals. I was chosen to show the extent of the international community attending one of these events.
-![About page hero image](assets/readme/screenshots/contact-hero-img.jpg)
+![Contact and Form-feedback pages hero image](assets/readme/screenshots/contact-hero-img.jpg)
 #### ***Quote:***
 The quote used for these two pages is "If everyone sincerely practices the path of compassion and wisdom, all their problems will be solved. I guarantee this.". It was chosen as encouragement for people to reach out to either myself or their local community to find out more about the tradition and their teachings.
 
-### Content
-This section gives a brief historical summary of the New Kadampa tradition, a quick overview of how it came to be, and a short video of how it differs from traditional Kadampa Buddhism. At the end of the content, there is an embedded anchor tag so they can download a free copy of one of Geshe Kelsang Gyatso's books in electronic format to read on their phone or their kindle. The is another book that is available for free download. However, I chose not to include this on the site as it covers a more advanced set of topics in its later chapters.
+## Page Content
+***
+### About page
+
+This page gives a brief historical summary of the New Kadampa tradition, a quick overview of how the NKT came to be The embedded youtube video is of one of the traditions senior teachers giving a summary of what modern Buddhism is to the tradition. At the end of the content, there is an anchor tag wrapped around an image so the user can download a free copy of one of Geshe Kelsang Gyatso's books called "Modern Buddhism" in electronic format.
+![Contact and Form-feedback pages hero image](assets/readme/screenshots/about-page-content.png)
+
 
 ## Teachings Page
 
