@@ -105,6 +105,7 @@ In addition, to the navbar, each page includes a hyperlink at the bottom of the 
 ![Navigation bar](assets/readme/screenshots/return-to-top.png)
 
 ## **Hero Images**
+***
 I have included a hero image on each page to make the site uniform across all pages. Each image has a zoom animation to grab the attention of the user and are overlaid a quote designed to give the user a brief insight into the teachings of the NKT.
 
 ### **About page**:
@@ -115,6 +116,12 @@ The hero image depicts Geshe Kelsang Gyatso, who was the founder of the New Kada
 The quote included on the about page is "We Need Modern Ideas, But We Also Need Ancient Wisdom." and can be seen on the above screenshot. This perfectly sums up the subject matter of the page which begins with what the NKT is about.
 
 ### Teachings page:
+#### ***Hero-Image:***
+The hero image depicts Geshe Kelsang Gyatso again however this time the image is of him sitting on the teaching throne during a festival teaching. This matches the tone of the page which serves as an introduction to his written works via a excerpt from one of his books.
+![About page hero image](assets/readme/screenshots/teachings-hero-img.jpg)
+#### ***Quote:***
+The quote included on the teachings page is "Happiness And Suffering Are States Of Mind And So Their Main Causes Are Not To Be Found Outside The Mind." which is not included in the excerpt in the content however compliments the subject matter.
+
 ### Content
 This section gives a brief historical summary of the New Kadampa tradition, a quick overview of how it came to be, and a short video of how it differs from traditional Kadampa Buddhism. At the end of the content, there is an embedded anchor tag so they can download a free copy of one of Geshe Kelsang Gyatso's books in electronic format to read on their phone or their kindle. The is another book that is available for free download. However, I chose not to include this on the site as it covers a more advanced set of topics in its later chapters.
 
