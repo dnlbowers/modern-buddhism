@@ -1,12 +1,13 @@
-# Modern Buddhism
+# **Modern Buddhism**
 
-## Site Overview
+## **Site Overview**
+***
 The New Kadampa Tradition (NKT) is a modern form of Buddhism without any cultural influence from the east. It stems from Tibetan Buddhism, which is publicly known in the west but is more accessible to people with a busy lifestyle. It removes a lot of the cultural aspects of the Tibetan nations and provides everything in English.  Typically when someone wishes to learn the teachings from the Tibetan schools, they would be required to learn Tibetan and perform lengthy rituals to gain the full benefit of the practice.  The founder of the NKT, Geshe Kelsang Gyatso saw that cultural influences from Tibet were an obstacle to western practitioners and worked diligently to create a structure that was more suited to modern life.
 
 ![Am I responsive screenshot](assets/readme/screenshots/am-i-responsive.jpg)
 
-## Planning stage
-
+## **Planning stage**
+***
 ### Who is the site intended for? (target audiences):
 * Users craving to be happy yet have failed to find the answers outside in the world outside of themselves. 
 * Users with a general interest in Buddhism and want to learn more.
@@ -65,10 +66,13 @@ During the project there was some deviation from the original wireframes in orde
 
 * The inclusion of a hero image and quote on each page to improve uniformity across all pages.
 * Images were used on the teaching page to break up the text.
-
-
-## Current Features
-###  Header
+* Headings and content placement to allow for the flow of information to be relevant.
+* A second logo was added to the header on larger screens to add symmetry and make the design more appeasing to the eye.
+* The two boxes in the footer were originally intended to be the images for the e-book downloads used in the final design. This idea was abandoned as not to increase the footer height to much on mobile devices and to improve the flow of information as the user progressed through the pages.
+\s\s
+## **Current Features**
+***
+###  ***Header***
 
 #### Title
 ![Page title](assets/readme/screenshots/title.jpg)
