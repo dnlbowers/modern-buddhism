@@ -132,12 +132,12 @@ This image is a view from behind Geshe Kelsang Gyatso teaching at one of the NKT
 The quote on the community page is "Buddha is the doctor who gives us medicine, and the Sangha are the nurses who assist us." the words Sangha is defined in the content of this page and serves to show the importance and function that community serves within the NKT.
 
 ### Contact and Form-feedback pages:
-
+These two hero images and quotes we kept as the same to simulate still being on the same page after the form has been submitted.
 #### ***Hero-Image:***
 This image is a view from behind Geshe Kelsang Gyatso teaching at one of the NKT's fall festivals. I was chosen to show the extent of the international community attending one of these events.
-![About page hero image](assets/readme/screenshots/community-hero-img.jpg)
+![About page hero image](assets/readme/screenshots/contact-hero-img.jpg)
 #### ***Quote:***
-
+The quote used for these two pages is "If everyone sincerely practices the path of compassion and wisdom, all their problems will be solved. I guarantee this.". It was chosen as encouragement for people to reach out to either myself or their local community to find out more about the tradition and their teachings.
 
 ### Content
 This section gives a brief historical summary of the New Kadampa tradition, a quick overview of how it came to be, and a short video of how it differs from traditional Kadampa Buddhism. At the end of the content, there is an embedded anchor tag so they can download a free copy of one of Geshe Kelsang Gyatso's books in electronic format to read on their phone or their kindle. The is another book that is available for free download. However, I chose not to include this on the site as it covers a more advanced set of topics in its later chapters.
