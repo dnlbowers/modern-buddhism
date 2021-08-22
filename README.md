@@ -55,6 +55,18 @@ To organize my thoughts and prevent scope creep I decided to create wireframes e
     * [Community page](assets/readme/wireframes/community-mobile.png)
     * [Contact page](assets/readme/wireframes/contact-mobile.png)
 
+* Desktop wireframes:
+    * [Homepage (About)](assets/readme/wireframes/homepage-desktop.png)
+    * [Teachings page](assets/readme/wireframes/teaching-desktop.png)
+    * [Community page](assets/readme/wireframes/community-desktop.png)
+    * [Contact page](assets/readme/wireframes/contact-desktop.png)
+
+During the project there was some deviation from the original wireframes in order to improve the User Experience (UX) as a whole. Such deviations include: -
+
+* The inclusion of a hero image and quote on each page to improve uniformity across all pages.
+* Images were used on the teaching page to break up the text.
+
+
 ## Current Features
 ###  Header
 
