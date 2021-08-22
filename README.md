@@ -149,7 +149,9 @@ This page gives a brief historical summary of the New Kadampa tradition, a quick
 ### **Teachings Page Content:**
 This page content includes an exert from the downloadable e-book "Transform Your Life" by Geshe kelsang Gyatso. It covers the core beliefs behind what Buddhism teaches. This extract from the book summarizes a core value in Buddhism which is that all problems arise from within us. 
 
-I have included some images to break up the monotony of the long passage and illustrate its meaning. So I could include a label these images are wrapped in a figure element and given a figcaption. The images are symbolic of the traditions linage and are the kind of decorations used in Geshe Kelsang Gyatso's books between pages.
+I have included some images to break up the monotony of the long passage.  The images are symbolic of the traditions linage and are the kind of decorations used in Geshe Kelsang Gyatso's books between pages. 
+
+I wrapped in a figure element and gave them a figcaption so the user know who the image portrays. It was outside the scope of the projects MVP to go into detail of the full linage of the NKT but I have included this to be added in the [Future-Enhancements](#future-enhancements) section of this readme.
 
 At the end of the excerpt from the book, I have included an image wrapped in an anchor tag. The image invites the user to download a full copy of the book if the user wishes to read it further. 
 
@@ -157,20 +159,15 @@ At the bottom of the content, there is a link to Kadampa.org for more free excer
 
 ![Zoomed out image of the teachings page content section](assets/readme/screenshots/teachings-page-content.png)
 
-### **Community Page Content**
+### **Community Page Content:**
 
 The page begins by explaining the terminology used in the hero image quote. This explanation then introduces the NKT's international community and their goal to achieve the accessibility of Buddha's teachings to people worldwide.
 
 The user then gets offered two methods to connect directly with the international community to further their experience of Modern Buddhism.
 
-![Contact and Form-feedback pages hero image](assets/readme/screenshots/teachings-page-content.png)
-
+![Contact and Form-feedback pages hero image](assets/readme/screenshots/community-page-content.jpg)
+*Note: Due to the size of this page I was unable to get a full screenshot to include the text in the two split articles. The only thing missing is the text of the article and features covered elsewhere in this readme.*
 ## Contact Page
-### Hero Image
-
-
-### Quote Overlay.
-This quote was taken from the book "Understanding the Mind" by Geshe Kelsang Gyatso and conveys that ultimately our actions create the world.  I used this here to indicate that people can make a difference to the world around them by working on their minds.
 
 ### Content
 This page reiterates ways to reach out to the New Kadampa Tradition in the user's local area.
@@ -178,7 +175,7 @@ This page reiterates ways to reach out to the New Kadampa Tradition in the user'
 I have included a subsection with a contact form for anyone located in Malta like myself who would be interested in learning more and growing the community here on the island with me.
 
 
-## Future-enhancements
+## Future-Enhancements
 
 The future intention of the site would be to serve as a website specifically for Malta, where there is no community until now. However, Due to the summer break, which the tradition undergoes every year, I could not reach the traditions director with my request for permission. I decided to build a tribute site to showcase to the head office and adapt the content to be more Malta specific later on. 
 
