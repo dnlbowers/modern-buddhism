@@ -108,10 +108,11 @@ In addition, to the navbar, each page includes a hyperlink at the bottom of the 
 I have included a hero image on each page to make the site uniform across all pages. Each image has a zoom animation to grab the attention of the user and are overlaid a quote designed to give the user a brief insight into the teachings of the NKT.
 
 #### About page:
-
-The hero image depicts Geshe Kelsang Gyatso, who was the founder of the New Kadampa Tradition. He is smiling and waving as if welcoming the user to the page. Behind him is the primary temple of the tradition, which holds great significance to the tradition. The temple pictured is considered the center of its international operations based within the grounds of its mother center in the lake district, England.
+##### Hero-Image:
+The hero image depicts Geshe Kelsang Gyatso, who was the founder of the New Kadampa Tradition. He is smiling and waving as if welcoming the user to the page. Behind him is the primary temple of the tradition, which holds great significance to the tradition. The temple pictured hosts two the the traditions international festivals and is within the grounds of Manjushri Meditation center, considered the hub of the NKT's international operations.
 ![About page hero image](assets/readme/screenshots/about-hero-img.jpg)
-
+##### Quote:
+The quote included on the about page is "We Need Modern Ideas, But We Also Need Ancient Wisdom." and can be seen on the above screenshot. This perfectly sums up the subject matter of the page which begins with what the NKT is about.
 
 ### Quote Overlay
 Taken from the book "Modern Buddhism", this quote gives an example of what Buddhism can do for the user and how to achieve this goal.
