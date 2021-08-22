@@ -46,7 +46,7 @@ The New Kadampa Tradition (NKT) is a modern form of Buddhism without any cultura
 
 * Providing a newsletter to which the user can subscribe whilst sending the site author a message our else by omitting the message and selecting the relevant option before clicking the submit button.
 
-### Wrieframes:
+### Wireframes:
 To organize my thoughts and prevent scope creep I decided to create wireframes even though they were not specifically required to this project. Below are links to each of the mobile and desktop versions of the 4 intended pages. 
 
 * Mobile Wireframes:
