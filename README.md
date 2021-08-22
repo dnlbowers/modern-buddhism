@@ -7,13 +7,20 @@ The New Kadampa Tradition (NKT) is a modern form of Buddhism without any cultura
 
 ## Planning stage
 
-### Who is the site intended for? (target audiences)
+### Who is the site intended for? (target audiences):
 * Users craving to be happy yet have failed to find the answers outside in the world outside of themselves. 
 * Users with a general interest in Buddhism and want to learn more.
 * Users who have never heard of the NKT.
 * Users who have heard of the NKT but would like to find more information on the tradition.
 
-### Site aims
+### User story's:
+* As a user I want to be able to see clearly what the page is about.
+* As a user I want to be able to easily navigate the page to find what I require.
+* As a user I want to be able to leave feeling like I knew more that I did when I arrived at the site.
+* As a user I was to be able to easily navigate my way to free resources
+* As a user I want to be able to reach out and connect to discuss/experience the subject matter on a deeper level. 
+
+### Site aims:
 * To educate the user on the NKT.
 * To educate the user on the core value of Buddhism.
 * To offer the user a chance to connect to the international community in person.
@@ -21,7 +28,7 @@ The New Kadampa Tradition (NKT) is a modern form of Buddhism without any cultura
 * To offer the user a to contact the site author for further info or discussion.
 * Provide a method by which the user can subscribe to a newsletter.
 
-### How is this will be achieved
+### How is this will be achieved:
 * The home page provides the user with a summary of the tradition, how it is suitable for modern people and how the NKT came to be.
 
 * The site will provide multiple free resources such as 
@@ -37,7 +44,16 @@ The New Kadampa Tradition (NKT) is a modern form of Buddhism without any cultura
 
 * If the user is in a country or region without a nearby centre, or wishes to speak to someone informally about the subject I have included a contact form to connect the site author directly. The reason for this also relates to the [Future-enhancements](#future-enhancements) section listed later in this readme. 
 
-* Providing a newsletter to which the user can subscribe whilst sending the site author a message our else by omitting the message and selecting the relevant option before clicking the submit button
+* Providing a newsletter to which the user can subscribe whilst sending the site author a message our else by omitting the message and selecting the relevant option before clicking the submit button.
+
+### Wrieframes:
+To organize my thoughts and prevent scope creep I decided to create wireframes even though they were not specifically required to this project. Below are links to each of the mobile and desktop versions of the 4 intended pages. 
+
+* Mobile Wireframes:
+    * [Homepage (About)](assets/readme/wireframes/homepage-mobile.png)
+    * [Teachings page](assets/readme/wireframes/teaching-mobile.png)
+    * [Community page](assets/readme/wireframes/community-mobile.png)
+    * [Contact page](assets/readme/wireframes/contact-mobile.png)
 
 ## Current Features
 ###  Header
