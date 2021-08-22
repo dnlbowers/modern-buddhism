@@ -71,6 +71,8 @@ During the project there was some deviation from the original wireframes in orde
 * The two boxes in the footer were originally intended to be the images for the e-book downloads used in the final design. This idea was abandoned as not to increase the footer height to much on mobile devices and to improve the flow of information as the user progressed through the pages.
 
 ### ***Color scheme:***
+When deciding the color scheme I wanted to go with something that gave an elegant appearance. For this reason I selected a range of blue and gold's and used the following color grid created on https://contrast-grid.eightshapes.com/ to check the contrast scores. This allowed me to ensure all text remained visible and the site was accessible to all.
+![Color contrast grid](assets/readme/screenshots/color-grid.png)
 
 ## **Current Features**
 ***
