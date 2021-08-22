@@ -76,15 +76,15 @@ When deciding the color scheme I wanted to go with something that gave an elegan
 
 ## **Current Features**
 ***
-###  ***Header***
+###  ***Header element***
 
-#### Title
+#### Title:
 ![Page title](assets/readme/screenshots/title.jpg)
 
 * The title serves to clearly state the name of the tradition.
 * It also serves as a navigation link to the home page in this case called "about" as per the well establish convention expected by the user.
 
-#### Logos
+#### Logos:
 * The logos are to illustrate the subject of the site, as well as to offer something to appease the users eye filling the blank space without distracting from the title.
 
     * One logo on mobile devices was to ensure the title stays as big as possible on a smaller screen there by improving the user experience.
@@ -95,12 +95,12 @@ When deciding the color scheme I wanted to go with something that gave an elegan
 
         ![Desktop header](assets/readme/screenshots/desktop-header.jpg)
 
-### Site Navigation
-
+### Site Navigation:
 The navigation bar appears on all five pages (including the form feedback page). It contains links to the about, teachings, community and contact page to allow easy navigation around the website. 
+![Navigation bar](assets/readme/screenshots/nav-bar.jpg)
 
-In addition, to the navbar, each page includes a hyperlink at the bottom of the content. "Return to top of the page" takes the user back to the navigation bar if they have had to scroll a long way down to read all the content.
-
+In addition, to the navbar, each page includes a hyperlink at the bottom of the content. "Return to top of the page" takes the user back to the navigation bar if they have had to scroll a long way down to read all the content. This is especially useful on mobile devices where the column width for the content is narrower.\
+![Navigation bar](assets/readme/screenshots/return-to-top.png)
 ## About Page
 ### Hero Image
 The hero image depicts Geshe Kelsang Gyatso, who was the founder of the New Kadampa Tradition. He is smiling and waving as if welcoming the user to the page. Behind him is the primary temple of the tradition, which holds great significance to the tradition. The temple pictured is considered the center of its international operations based within the grounds of its mother center in the lake district, England.
