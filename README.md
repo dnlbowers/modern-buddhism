@@ -241,7 +241,7 @@ During the development process I was manually testing in the following ways:-
 
 1. Manually testing each element for appearance and responsiveness via a simulated live server using an extension in VScode.
     
-1. Published the page via github pages and shared with fellow students to test get feedback.
+1. Published the page via github pages and shared with fellow students to test and received feedback.
 
 #### ***Manual Testing:***
 Below is a list of bugs I found during the development process by testing myself. All tests were conducted Using the web browser to render the code via the simulated live server and each element was tested for how the elements would be displayed to a potential user and a range of different screen sizes:-
@@ -256,7 +256,7 @@ Below is a list of bugs I found during the development process by testing myself
     * ***Solution Used:***    
         * This was resolved by using padding on the anchor tag text whilst keeping the elements centred using flex. 
 1. **Intended Outcome** - A fully responsive Nav bar suited to all screen sizes.
-    * ***Issue Found*** 
+    * ***Issue Found:*** 
         * On smaller screen sizes there was a horizontal scroll bar in the browsers devtool.
     * ***Solution Used***:
         * Resolved by slightly reducing the font size. 
