@@ -235,3 +235,4 @@ The quote used for these two pages is "If everyone sincerely practices the path 
 * I would also make the contact form fully functions with a post request and have a database in place to collate data for the mailing list.
 
 ## **Testing Phase**
+***
