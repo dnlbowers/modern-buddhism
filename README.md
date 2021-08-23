@@ -236,4 +236,22 @@ The quote used for these two pages is "If everyone sincerely practices the path 
 
 ## **Testing Phase**
 ***
+### **During Development Process**
+During the development process I was manually testing in the following ways: -
+
+1. Self testing each element for appearance and responsiveness via a simulated live server using an extension in VScode.
+    
+1. Published the page via github pages and shared with fellow students to test get feedback.
+
+#### *Self-Testing*
+Below is a list of bugs I found during the development process by testing myself. All tests were conducted Using the web browser to render the code via the simulated live server to view how the elements were displayed to a potential user: -
+1. Implementation: I wanted a header with three elements evenly spaced from left to right.
+    * Bug - Using float left and float right I found the title was sticking to the logo on the left in spite of using the clear command in the CSS title selector.
+    * Fix - With the help of a fellow student mentioned in the below credits the Flexbox this point in the right direction in addition to several general resource articles on the topic the issue was resolved.
+1. Implementation: I wanted the navigation menu buttons to touch when active or hovered over.
+    * Bug - Initially using flex I had the elements spaced evenly. When placing the elements contained in the nav bar to centre they the text appeared to close together. 
+    * Fix - This was eventually resolved by using padding whilst keeping the elements centred using flex.
+
+
+### **Post Development Process**
 error found on community page - fixed by turning section into a div
