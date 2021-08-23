@@ -99,24 +99,29 @@ The header element contains the following features:
 ### **Site Navigation**
 ***
 #### *Navigation Bar:*
-The navigation bar appears on all five pages (including the form feedback page). It contains links to the about, teachings, community and contact page to allow easy navigation around the website. 
+* The navigation bar appears on all five pages (including the form feedback page). 
+* It contains links to the about, teachings, community and contact page to allow easy navigation around the website. 
+* The below image shows the current page being visited by the user highlighted in blue with a white border. 
+* This blue highlight with white border is also mimicked on the hover over feature for the other nav bar buttons.
 ![Navigation bar](assets/readme/screenshots/nav-bar.jpg)
-The above image shows the current page highlighter in blue with a white border in the nav bar and this is also mimicked on the hover over feature for the other nav bar buttons.
 
 #### *Return To Top Of The Page Link:*
-In addition, to the navbar, each page includes a hyperlink at the bottom of the content. "Return to top of the page" takes the user back to the navigation bar if they have had to scroll a long way down to read all the content. This is especially useful on mobile devices where the column width for the content is narrower.\
+* In addition, to the navbar, each page includes a hyperlink at the bottom of the content. "Return to top of the page" takes the user back to the navigation bar if they have had to scroll a long way down to read all the content. 
+* This is especially useful on mobile devices where the column width for the content is narrower.\
 ![Navigation bar](assets/readme/screenshots/return-to-top.png)
 
 ### **Hero Images**
 ***
-I have included a hero image on each page to make the site uniform across all pages. Each image has a zoom animation to grab the attention of the user and are overlaid a quote designed to give the user a brief insight into the teachings of the NKT.
+* I have included a hero image on each page to make the site uniform across all pages. 
+* Each image has a zoom animation to grab the attention of the user. 
+* Each image has an overlaid a quote designed to give the user a brief insight into the teachings of the NKT.
 
 ### **About Page**:
 #### *Hero-Image:*
 The hero image depicts Geshe Kelsang Gyatso, who was the founder of the New Kadampa Tradition. He is smiling and waving as if welcoming the user to the page. Behind him is the primary temple of the tradition, which holds great significance to the tradition. The temple pictured hosts two the the traditions international festivals and is within the grounds of Manjushri Meditation center, considered the hub of the NKT's international operations.
 ![About page hero image](assets/readme/screenshots/about-hero-img.jpg)
 #### *Quote:*
-The quote included on the about page is "We Need Modern Ideas, But We Also Need Ancient Wisdom." and can be seen on the above screenshot. This perfectly sums up the subject matter of the page which begins with what the NKT is about.
+The quote included on the about page is "We Need Modern Ideas, But We Also Need Ancient Wisdom.". This perfectly sums up the subject matter of the page which begins with what the NKT is about.
 
 ### **Teachings page**:
 #### *Hero-Image:*
@@ -149,9 +154,9 @@ The quote used for these two pages is "If everyone sincerely practices the path 
 
 ## **Footer**
 ***
-The footer include directs links to all the NKT's social media accounts with an invitation for the user to connect to the NKT directly via these channels.
+* The footer include directs links to all the NKT's social media accounts with an invitation for the user to connect to the NKT directly via these channels.
 
-I have also included a disclaimer that the site has been produced for educational purposes only and that all images and videos remain the property of NKT-IKBU.
+* I have also included a disclaimer that the site has been produced for educational purposes only and that all images and videos remain the property of NKT-IKBU.
 
 ![Page footer](assets/readme/screenshots/footer.jpg)
 
@@ -159,52 +164,49 @@ I have also included a disclaimer that the site has been produced for educationa
 ***
 ### **About Page Content:**
 
-This page gives a brief historical summary of the New Kadampa tradition, a quick overview of how the NKT came to be The embedded youtube video is of one of the traditions senior teachers giving a summary of what modern Buddhism is to the tradition. At the end of the content, there is an anchor tag wrapped around an image so the user can download a free copy of one of Geshe Kelsang Gyatso's books called "Modern Buddhism" in electronic format.
+* This page gives a brief historical summary of the New Kadampa tradition, a quick overview of how the NKT came to be.
+* The embedded youtube video is of one of the traditions senior teachers giving a summary of what modern Buddhism is to the tradition. 
+* At the end of the content, there is an anchor tag wrapped around an image so the user can download a free copy of one of Geshe Kelsang Gyatso's books called "Modern Buddhism" in electronic format.
+
 ![Contact and Form-feedback pages hero image](assets/readme/screenshots/about-page-content.png)
 
 ### **Teachings Page Content:**
-This page content includes an exert from the downloadable e-book "Transform Your Life" by Geshe kelsang Gyatso. It covers the core beliefs behind what Buddhism teaches. This extract from the book summarizes a core value in Buddhism which is that all problems arise from within us. 
-
-I have included some images to break up the monotony of the long passage.  The images are symbolic of the traditions linage and are the kind of decorations used in Geshe Kelsang Gyatso's books between pages. 
-
-I wrapped in a figure element and gave them a figcaption so the user know who the image portrays. It was outside the scope of the projects MVP to go into detail of the full linage of the NKT but I have included this to be added in the [Future-Enhancements](#future-enhancements) section of this readme.
-
-At the end of the excerpt from the book, I have included an image wrapped in an anchor tag. The image invites the user to download a full copy of the book if the user wishes to read it further. 
-
-At the bottom of the content, there is a link to Kadampa.org for more free excerpts from Geshe Kelsang Gyatso's books, covering a broader range of subjects. In addition to this, I have provided a link to the publication company run by the NKT where the users can purchase the full range of Geshe Kelsang Gyatso books and materials, including Buddhist prays and artwork approved by the tradition. 
+* Includes an exert from the downloadable e-book "Transform Your Life" by Geshe kelsang Gyatso. 
+* Covers the core beliefs behind what Buddhism teaches. 
+* Images were included to break up the monotony of the long passage.  
+* The images are symbolic of the traditions linage and are the kind of decorations used in Geshe Kelsang Gyatso's books between pages. 
+* Images are wrapped in a figure element and gaven a figcaption so the user know who the image portrays. *Note: (It was outside the scope of the projects MVP to go into detail of the full linage of the NKT but I have included this to be added in the [Future-Enhancements](#future-enhancements) section of this readme.)*
+* The last image towards the bottom of the page is wrapped in an anchor tag. The image contains text inviting the user to download a full copy of the book if the user wishes to read further. 
+* Link provided for further free excerpts from Geshe Kelsang Gyatso's books via an external site.  
+* Link provided to Tharpa publications run by the NKT where the users can purchase the full range of Geshe Kelsang Gyatso books and materials, including Buddhist prays and artwork approved by the tradition. 
 
 ![Zoomed out image of the teachings page content section](assets/readme/screenshots/teachings-page-content.png)
 
 ### **Community Page Content:**
 
-The page begins by explaining the terminology used in the hero image quote. This explanation then introduces the NKT's international community and their goal to achieve the accessibility of Buddha's teachings to people worldwide.
-
-The user then gets offered two methods to connect directly with the international community to further their experience of Modern Buddhism.
+* Begins by explaining the terminology used in the hero image quote. This explanation then introduces the NKT's international community and their goal to achieve the accessibility of Buddha's teachings to people worldwide.
+* The user is presented two methods to connect directly with the international community and further their experience of Modern Buddhism.
 
 ![Zoomed out image of community page](assets/readme/screenshots/community-page-content.jpg)
 *Note: Due to the size of this page I was unable to get a full screenshot to include the text in the two split articles. The only thing missing is the text of the article and features covered elsewhere in this readme. For a full view of these articles you can view this page on the deployed site https://dnlbowers.github.io/modern-buddhism/community.html*
+
 ### **Contact Page Content**
-This page reiterates ways to reach out to the New Kadampa Tradition in the user's local area and refers them back to the ways to connect on the community page.
-
-I have then offered a way for the user to contact me as the site author should they wish to discuss the subject matter further. This section include a short biography about me and my experience in the NKT.
-
-The form used has three required fields. The first two are name and email so that I know who is sending the request and to where I should return the appropriate response. 
-
-The third required field are the two radio buttons which are both linked via the attribute value name="mailing_list". The user must select one of these options to click submit and cannot select both.
-
-In between these required fields is an optional textarea so the user can choose to send me a message.  
+* Reiterates ways to reach out to the New Kadampa Tradition in the user's local area and refers them back to the ways to connect section on the community page.
+* User is offered a way for the user to contact me as the site author should they wish to discuss the subject matter further. This section includes a short biography about me and my experience in the NKT.
+* Form used has three required fields. 
+    * The first two are name and email so that I know who is sending the request and to where I should return the appropriate response. 
+    * The third required field are the two radio buttons which are both linked via the attribute value name="mailing_list". The user must select one of these options to click submit and cannot select both.
+* In between these required fields is an optional textarea so the user can choose to send me a message.  
+* In addition to the afore mentioned pointer: cursor; feature when hovering over any anchor element on the site the submit button also have a shimmer effect as feedback when the user hovers their cursor over it. 
 
 *Note: This from doesn't function to gather any data, it was created with a GET request to call a feedback page. The submit button then triggers the GET request to load the form feedback page outlined later in the readme. This feature is to simulate a real functional form only.*
 
-In addition to the afore mentioned pointer: cursor; feature when hovering over any anchor element on the site the submit button also have a shimmer effect as feedback when the user hovers their cursor over it. 
-
 ![Contact page content](assets/readme/screenshots/contact-page-content.jpg)
 ### **Form Feedback Page Content**
-This page was created to mimic the effect of actually submitting a form. The text alignment on this page is set to center as with so little text it looked odd using the same as the other pages which are set to justify on smaller screens and left on larger ones. 
-
-Since filling in the form suggests the user is interest in learning more I have included a longer feature video about the tradition here. Originally I had wanted to use this on the home page but due to the length of the video I deemed it to long for an introduction. There is no autoplay on the videos so the user can choose whether they want to engage with the video or not.
-
-I also included a link within the content to take the user back to the real contact page. This is in case they wanted to look at the ways to contact a local meditation center, send an additional message, or sign up to the mailing list.
+* This page was created to mimic the effect of actually submitting a form. 
+* Text alignment on this page is set to center as with so little text it looked odd using the same as the other pages which are set to justify on smaller screens and left on larger ones. 
+* Since filling in the form suggests the user is interest in learning more I have included a longer feature video about the tradition here. *Note: Originally I had wanted to use this on the home page but due to the length of the video I deemed it to long for an introduction. There is no auto play on the videos so the user can choose whether they want to engage with the video or not.*
+* Link included within the content to take the user back to the real contact page. This is in case they wanted to look at the ways to contact a local meditation center, send an additional message, or sign up to the mailing list.
 
 ![Form feedback content](assets/readme/screenshots/form-feedback-content.jpg)
 
