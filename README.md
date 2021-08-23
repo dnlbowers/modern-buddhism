@@ -165,7 +165,7 @@ The quote used for these two pages is "If everyone sincerely practices the path 
 ### **About Page Content:**
 
 * This page gives a brief historical summary of the New Kadampa tradition, a quick overview of how the NKT came to be.
-* The embedded youtube video is of one of the traditions senior teachers giving a summary of what modern Buddhism is to the tradition. 
+* The embedded youtube video is of one of the traditions senior teachers giving a summary of what modern Buddhism is to the tradition and why it is so applicable to people of the modern world. 
 * At the end of the content, there is an anchor tag wrapped around an image so the user can download a free copy of one of Geshe Kelsang Gyatso's books called "Modern Buddhism" in electronic format.
 
 ![Contact and Form-feedback pages hero image](assets/readme/screenshots/about-page-content.png)
@@ -175,7 +175,7 @@ The quote used for these two pages is "If everyone sincerely practices the path 
 * Covers the core beliefs behind what Buddhism teaches. 
 * Images were included to break up the monotony of the long passage.  
 * The images are symbolic of the traditions linage and are the kind of decorations used in Geshe Kelsang Gyatso's books between pages. 
-* Images are wrapped in a figure element and gaven a figcaption so the user know who the image portrays. *Note: (It was outside the scope of the projects MVP to go into detail of the full linage of the NKT but I have included this to be added in the [Future-Enhancements](#future-enhancements) section of this readme.)*
+* Images are wrapped in a figure element and given a figcaption so the user know who the image portrays. *Note: (It was outside the scope of the projects MVP to go into detail of the full linage of the NKT but I have included this to be added in the [Future-Enhancements](#future-enhancements) section of this readme.)*
 * The last image towards the bottom of the page is wrapped in an anchor tag. The image contains text inviting the user to download a full copy of the book if the user wishes to read further. 
 * Link provided for further free excerpts from Geshe Kelsang Gyatso's books via an external site.  
 * Link provided to Tharpa publications run by the NKT where the users can purchase the full range of Geshe Kelsang Gyatso books and materials, including Buddhist prays and artwork approved by the tradition. 
