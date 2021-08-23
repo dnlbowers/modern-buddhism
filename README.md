@@ -236,3 +236,4 @@ The quote used for these two pages is "If everyone sincerely practices the path 
 
 ## **Testing Phase**
 ***
+error found on community page - fixed by turning section into a div
