@@ -74,7 +74,7 @@ During the project there was some deviation from the original wireframes in orde
 When deciding the color scheme I wanted to go with something that gave an elegant appearance. For this reason I selected a range of blue and gold's and used the following color grid created on https://contrast-grid.eightshapes.com/ to check the contrast scores. This allowed me to ensure all text remained visible and the site was accessible to all.
 ![Color contrast grid](assets/readme/screenshots/color-grid.png)
 
-## **Current Features**
+## **Current Features Common to all pages**
 ***
 ###  **Header Element**
 ***
@@ -101,12 +101,13 @@ The header element contains the following features:
 #### *Navigation Bar:*
 The navigation bar appears on all five pages (including the form feedback page). It contains links to the about, teachings, community and contact page to allow easy navigation around the website. 
 ![Navigation bar](assets/readme/screenshots/nav-bar.jpg)
+The above image shows the current page highlighter in blue with a white border in the nav bar and this is also mimicked on the hover over feature for the other nav bar buttons.
 
 #### *Return To Top Of The Page Link:*
 In addition, to the navbar, each page includes a hyperlink at the bottom of the content. "Return to top of the page" takes the user back to the navigation bar if they have had to scroll a long way down to read all the content. This is especially useful on mobile devices where the column width for the content is narrower.\
 ![Navigation bar](assets/readme/screenshots/return-to-top.png)
 
-## **Hero Images**
+### **Hero Images**
 ***
 I have included a hero image on each page to make the site uniform across all pages. Each image has a zoom animation to grab the attention of the user and are overlaid a quote designed to give the user a brief insight into the teachings of the NKT.
 
@@ -126,12 +127,12 @@ The quote included on the teachings page is "Happiness And Suffering Are States 
 
 ### **Community page:**
 #### *Hero-Image:*
-This image is a view from behind Geshe Kelsang Gyatso teaching at one of the NKT's fall festivals. I was chosen to show the extent of the international community attending one of these events.
+This image is a view from behind Geshe Kelsang Gyatso teaching at one of the NKT's fall festivals. It was chosen to show the extent of the international community attending one of these events.
 ![Community page hero image](assets/readme/screenshots/community-hero-img.jpg)
 #### *Quote:*
-The quote on the community page is "Buddha is the doctor who gives us medicine, and the Sangha are the nurses who assist us." the words Sangha is defined in the content of this page and serves to show the importance and function that community serves within the NKT.
+The quote on the community page is "Buddha is the doctor who gives us medicine, and the Sangha are the nurses who assist us." The word Sangha is defined in the content of this page and serves to show the importance and function that community serves within the NKT.
 
-## **Contact and Form-Feedback pages:**
+### **Contact and Form-Feedback pages:**
 These two hero images and quotes we kept as the same to simulate still being on the same page after the form has been submitted.
 #### *Hero-Image:*
 The artwork pictures 3 of the common deities used within the New Kadampa Tradition. I used this to be eye-catching even when viewed from smaller devices.
@@ -139,7 +140,22 @@ The artwork pictures 3 of the common deities used within the New Kadampa Traditi
 #### *Quote:*
 The quote used for these two pages is "If everyone sincerely practices the path of compassion and wisdom, all their problems will be solved. I guarantee this.". It was chosen as encouragement for people to reach out to either myself or their local community to find out more about the tradition and their teachings.
 
-## **Page Content**
+## **Anchor Tags Within A Pages Main Content**
+***
+* All anchor tags in the main content of the page were left with the underline decoration to make it clear that their was a hyperlink embedded.  
+* The color was change to black changed to match the surrounding text. This meant the anchor tag did not look out of place or ruin the contrast score on the text across the blue background.
+* Have a hover over effect which turn them one of the darker colors from the gold gradient used throughout the page.
+* Have the cursor set to pointer. This is actually a browser default setting however I noted it was not default for buttons. I added cursor: pointer rule to the styles.css for the form submit button however I decide to create a separate rule for a:hover just in case the browser default was ever changed.
+
+## **Footer**
+***
+The footer include directs links to all the NKT's social media accounts with an invitation for the user to connect to the NKT directly via these channels.
+
+I have also included a disclaimer that the site has been produced for educational purposes only and that all images and videos remain the property of NKT-IKBU.
+
+![Page footer](assets/readme/screenshots/footer.jpg)
+
+## **Individual Page Content features**
 ***
 ### **About Page Content:**
 
@@ -165,17 +181,35 @@ The page begins by explaining the terminology used in the hero image quote. This
 
 The user then gets offered two methods to connect directly with the international community to further their experience of Modern Buddhism.
 
-![Contact and Form-feedback pages hero image](assets/readme/screenshots/community-page-content.jpg)
-*Note: Due to the size of this page I was unable to get a full screenshot to include the text in the two split articles. The only thing missing is the text of the article and features covered elsewhere in this readme.*
-## Contact Page
+![Zoomed out image of community page](assets/readme/screenshots/community-page-content.jpg)
+*Note: Due to the size of this page I was unable to get a full screenshot to include the text in the two split articles. The only thing missing is the text of the article and features covered elsewhere in this readme. For a full view of these articles you can view this page on the deployed site https://dnlbowers.github.io/modern-buddhism/community.html*
+### **Contact Page Content**
+This page reiterates ways to reach out to the New Kadampa Tradition in the user's local area and refers them back to the ways to connect on the community page.
 
-### Content
-This page reiterates ways to reach out to the New Kadampa Tradition in the user's local area.
+I have then offered a way for the user to contact me as the site author should they wish to discuss the subject matter further. This section include a short biography about me and my experience in the NKT.
 
-I have included a subsection with a contact form for anyone located in Malta like myself who would be interested in learning more and growing the community here on the island with me.
+The form used has three required fields. The first two are name and email so that I know who is sending the request and to where I should return the appropriate response. 
 
+The third required field are the two radio buttons which are both linked via the attribute value name="mailing_list". The user must select one of these options to click submit and cannot select both.
 
-## Future-Enhancements
+In between these required fields is an optional textarea so the user can choose to send me a message.  
+
+*Note: This from doesn't function to gather any data, it was created with a GET request to call a feedback page. The submit button then triggers the GET request to load the form feedback page outlined later in the readme. This feature is to simulate a real functional form only.*
+
+In addition to the afore mentioned pointer: cursor; feature when hovering over any anchor element on the site the submit button also have a shimmer effect as feedback when the user hovers their cursor over it. 
+
+![Contact page content](assets/readme/screenshots/contact-page-content.jpg)
+### **Form Feedback Page Content**
+This page was created to mimic the effect of actually submitting a form. The text alignment on this page is set to center as with so little text it looked odd using the same as the other pages which are set to justify on smaller screens and left on larger ones. 
+
+Since filling in the form suggests the user is interest in learning more I have included a longer feature video about the tradition here. Originally I had wanted to use this on the home page but due to the length of the video I deemed it to long for an introduction. There is no autoplay on the videos so the user can choose whether they want to engage with the video or not.
+
+I also included a link within the content to take the user back to the real contact page. This is in case they wanted to look at the ways to contact a local meditation center, send an additional message, or sign up to the mailing list.
+
+![Form feedback content](assets/readme/screenshots/form-feedback-content.jpg)
+
+## **Future-Enhancements**
+***
 
 The future intention of the site would be to serve as a website specifically for Malta, where there is no community until now. However, Due to the summer break, which the tradition undergoes every year, I could not reach the traditions director with my request for permission. I decided to build a tribute site to showcase to the head office and adapt the content to be more Malta specific later on. 
 
@@ -192,3 +226,5 @@ Eventually, when Malta was designated, a teacher by the head office these would 
 * Include a bio for Malta's officially designated teacher at the end of the traditions lineage page or add to a new page that summarizes their experience.
 
 Once I better understand Javascript, I would like to add a burger menu for mobile-sized device screens. I found articles on how to achieve this with CSS and HTML alone; however, I did not deem this necessary to create the minimum viable product.
+
+I would also make the contact form fully functions with a post request and have a database in place to collate data for the mailing list.
