@@ -216,20 +216,22 @@ The quote used for these two pages is "If everyone sincerely practices the path 
 ## **Future-Enhancements**
 ***
 
-The future intention of the site would be to serve as a website specifically for Malta, where there is no community until now. However, Due to the summer break, which the tradition undergoes every year, I could not reach the traditions director with my request for permission. I decided to build a tribute site to showcase to the head office and adapt the content to be more Malta specific later on. 
+* The future intention of the site would be to serve as a website specifically for Malta, where there is no community until now. However, Due to the summer break, which the tradition undergoes every year, I could not reach the traditions director with my request for permission. I decided to build a tribute site to showcase to the head office and adapt the content to be more Malta specific later on. 
 
-At first, the purpose would remain to educate and raise awareness meaning the current content would still be applicable; however, There would be additional content I could add as interest grew. Such things would be: -
+* At first, the purpose would remain to educate and raise awareness meaning the current content would still be applicable; however, There would be additional content I could add as interest grew. Such things would be: -
 
-* Times/dates/venues for Meetups in Malta to build a community
-* Times/dates/venues for Book clubs to study and discuss the materials and methods to apply them to daily life.
-* More information on the lineage of the tradition to include short biographies.
+    * Times/dates/venues for Meetups in Malta to build a community
+    * Times/dates/venues for Book clubs to study and discuss the materials and methods to apply them to daily life.
+    * More information on the lineage of the tradition to include short biographies.
 
-Eventually, when Malta was designated, a teacher by the head office these would then convert into: -
+* Eventually, when Malta was designated, a teacher by the head office these would then convert into: -
 
-* Times/dates/venues/fees for Formal classes
-* Times/dates/venues/fees for Public talks/events
-* Include a bio for Malta's officially designated teacher at the end of the traditions lineage page or add to a new page that summarizes their experience.
+    * Times/dates/venues/fees for Formal classes
+    * Times/dates/venues/fees for Public talks/events
+    * Include a bio for Malta's officially designated teacher at the end of the traditions lineage page or add to a new page that summarizes their experience.
 
-Once I better understand Javascript, I would like to add a burger menu for mobile-sized device screens. I found articles on how to achieve this with CSS and HTML alone; however, I did not deem this necessary to create the minimum viable product.
+* Once I better understand Javascript, I would like to add a burger menu for mobile-sized device screens. I found articles on how to achieve this with CSS and HTML alone; however, I did not deem this necessary to create the minimum viable product.
 
-I would also make the contact form fully functions with a post request and have a database in place to collate data for the mailing list.
+* I would also make the contact form fully functions with a post request and have a database in place to collate data for the mailing list.
+
+## **Testing Phase**
