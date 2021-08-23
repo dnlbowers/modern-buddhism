@@ -243,25 +243,35 @@ During the development process I was manually testing in the following ways:-
     
 1. Published the page via github pages and shared with fellow students to test get feedback.
 
-#### *Manual Testing:*
-Below is a list of bugs I found during the development process by testing myself. All tests were conducted Using the web browser to render the code via the simulated live server and each element was test for how the elements were displayed to a potential user and a range of different screen sizes:-
-1. Intended: A header with three elements evenly spaced out across the header element.
-    * Bug - Using float left and float right I found the title was sticking to the logo on the left in spite of using the clear command in the CSS title selector.
-    * Fix - With the help of a fellow student mentioned in the below credits the Flexbox this point in the right direction in addition to several general resource articles on the topic the issue was resolved.
-1. Intended: Buttons of the navigation menu buttons to touch when active or hovered over whilst still having adequate spacing between the text.
-    * Bug - Initially using flex I had the elements spaced evenly. When placing the elements contained in the nav bar to centre they the text appeared to close together.
-    * Fix -   This was resolved by using padding on the anchor tag text whilst keeping the elements centred using flex. 
-
-1. Intended: A fully responsive Nav bar suited to all screen sizes.
-    * Bug - On smaller screen sizes there was a horizontal scroll bar in the browsers devtool.
-    * Fix this was resolved by slightly reducing the font size. In order to maintain the active page and hover over features covering the back ground from top to bottom I had to increase the top and bottom padding by one 1px for the Nav-button class.
-
-1. Implementation: I wanted the hero image to span the page and be fully responsive across all screen sizes.
-    * Bug - Some images were appearing pixelated when stretch to the required size.
-    * Fix: 
+#### ***Manual Testing:***
+Below is a list of bugs I found during the development process by testing myself. All tests were conducted Using the web browser to render the code via the simulated live server and each element was tested for how the elements would be displayed to a potential user and a range of different screen sizes:-
+1. **Intended Outcome** - A header with three elements evenly spaced out across the header element.
+    * ***Issue Found:*** 
+        * Using float left and float right I found the title was sticking to the logo on the left in spite of using the clear command in the CSS title selector.
+    * ***Solution Used:*** 
+        * Used CSS flex instead of float.
+1. **Intended Outcome** - Buttons of the navigation menu buttons to touch when active or hovered over whilst still having adequate spacing between the text.
+    * ***Issue Found:*** 
+        * Initially using flex I had the elements spaced evenly. When placing the elements contained in the nav bar to centre they the text appeared to close together.
+    * ***Solution Used:***    
+        * This was resolved by using padding on the anchor tag text whilst keeping the elements centred using flex. 
+1. **Intended Outcome** - A fully responsive Nav bar suited to all screen sizes.
+    * ***Issue Found*** 
+        * On smaller screen sizes there was a horizontal scroll bar in the browsers devtool.
+    * ***Solution Used***:
+        * Resolved by slightly reducing the font size. 
+        * Top and bottom padding by one 1px for the Nav-button class in order to maintain the background of the .active and nav-button:hover spanning from top to bottom of the nav bar. 
+1. **Intended Outcome** - A hero image to span the full width of the page and be fully responsive across all screen sizes.
+    * ***Issue Found:*** 
+        * Some images appeared pixelated when stretch to the required size.
+    * ***Solution Used:*** 
         * In some cases I was able to find higher resolution versions the image which resolved the issue. 
         * In other cases no higher resolution version of the selected image was available. In these cases I had to choose a new image for the pages hero image.
-1. Implemtation
+1. **Intended Outcome** - Aligned contact form with all elements looking uniform and neat.
+    * ***Issue Found:*** 
+        * When using CSS grid to align the form the radio buttons and their labels were not aligned properly.
+    * ***Solution Used:***
+        * Wrapped inputs and labels from the mailing list section of the contact in a div element.
 
 
 ### **Post Development Process**
