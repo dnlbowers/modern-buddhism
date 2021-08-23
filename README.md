@@ -251,6 +251,9 @@ Below is a list of bugs I found during the development process by testing myself
 1. Implementation: I wanted the navigation menu buttons to touch when active or hovered over.
     * Bug - Initially using flex I had the elements spaced evenly. When placing the elements contained in the nav bar to centre they the text appeared to close together. 
     * Fix - This was eventually resolved by using padding whilst keeping the elements centred using flex.
+1. Implementation: I wanted the hero image to span the page and be fully responsive across all screen sizes.
+    *Bug - Some images were appearing pixelated when stretch to the required size.
+    *Fix - In some cases I was able to find higher resolution versions the image which resolved the issue. In other cases I had to choose a new image for the pages hero image.
 
 
 ### **Post Development Process**
