@@ -150,7 +150,7 @@ The quote used for these two pages is "If everyone sincerely practices the path 
 * All anchor tags in the main content of the page were left with the underline decoration to make it clear that their was a hyperlink embedded.  
 * The color was change to black changed to match the surrounding text. This meant the anchor tag did not look out of place or ruin the contrast score on the text across the blue background.
 * Have a hover over effect which turn them one of the darker colors from the gold gradient used throughout the page.
-* Have the cursor set to pointer. This is actually a browser default setting however I noted it was not default for buttons. I added cursor: pointer rule to the styles.css for the form submit button however I decide to create a separate rule for a:hover just in case the browser default was ever changed.
+* Have the cursor set to pointer. This is actually a browser default setting however I noted it was not default for buttons. I added cursor: pointer rule to the styles.css for the form submit button and I decide to create a separate rule for a:hover just in case the browser default was ever changed by the browser provider.
 
 ## **Footer**
 ***
@@ -185,10 +185,13 @@ The quote used for these two pages is "If everyone sincerely practices the path 
 ### **Community Page Content:**
 
 * Begins by explaining the terminology used in the hero image quote. This explanation then introduces the NKT's international community and their goal to achieve the accessibility of Buddha's teachings to people worldwide.
+* This sections includes and image of the NKT's first ever temple.
+![Community page top section](assets/readme/screenshots/community-initial-content.jpg)
 * The user is presented two methods to connect directly with the international community and further their experience of Modern Buddhism.
+![Community page articles split on larger screen sizes](assets/readme/screenshots/community-split-articles.jpg)
+* Smaller screen sizes show the section "Ways To Connect In Person" as a single column with the articles stacked one above the other and no background to ensure a better user experience.
+![Community page articles split on smaller screen sizes](assets/readme/screenshots/community-smaller-screens.jpg)
 
-![Zoomed out image of community page](assets/readme/screenshots/community-page-content.jpg)
-*Note: Due to the size of this page I was unable to get a full screenshot to include the text in the two split articles. The only thing missing is the text of the article and features covered elsewhere in this readme. For a full view of these articles you can view this page on the deployed site https://dnlbowers.github.io/modern-buddhism/community.html*
 
 ### **Contact Page Content**
 * Reiterates ways to reach out to the New Kadampa Tradition in the user's local area and refers them back to the ways to connect section on the community page.
