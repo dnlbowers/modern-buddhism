@@ -733,7 +733,6 @@ footer h4 {
         width: 70%;
     }
 
-
     #fig-caption-fest, #fig-caption-work {
         font-size: 78%;
     }
@@ -744,7 +743,6 @@ footer h4 {
 @media (min-width: 1200px) {
     
     /*Style change to hero-container size*/
-
     .hero-image-container {
         height: 600px;
     }
@@ -757,7 +755,6 @@ footer h4 {
     }
 
     /*style change to the nav bar*/
-
     .nav-menu {
         font-size: 150%;
     }
@@ -770,9 +767,10 @@ footer h4 {
 @media (min-width: 1400px) {
 
     /*style change to the nac bar*/
-
     .nav-menu {
         font-size: 150%;
     }
 }
+
+
 
