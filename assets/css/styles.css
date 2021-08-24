@@ -347,6 +347,11 @@ header {
     padding: 10px;
 }
 
+#modbudd-ebook {
+    width: 300px;
+    height: 192px;
+}
+
 #tyl-download {
     width:300px;
     height: 250px;
@@ -453,7 +458,7 @@ footer h4 {
     }
 
     .nav-button {
-        padding: 7px 11px;
+        padding: 8px 11px 7px;
     }
 
     /*Style changes to the contact form*/
