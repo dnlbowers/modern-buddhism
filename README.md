@@ -326,16 +326,22 @@ All lighthouse tests were done in incognito mode to avoid interference from brow
         * The size of the image to download the book Modern Buddhism on index.html was the right size. However, best practice suggest ti should have a height and width specified. I used an extension called pesticide to ge the images dimension and added these to the css file under an ID created for this element (#modbudd-ebook).
     1. The performance was 93 on the form feedback page but fluctuating around 93 each time I ran the test. I used https://tinypng.com/ to compress the hero image on this page, which took the score to 95 or higher each time I ran the lighthouse test.
 *  **Mobile Version:**
-    1. **index.html Score:**
+    1. ***index.html:***
 
         ![Mobile Lighthouse Score for index.html](assets/readme/screenshots/lighthouse-mobile-indx.jpg) 
-    1. teachings.html score
+
+    1. ***teaching:***
 
         ![Mobile Lighthouse Score for teachings.html](assets/readme/screenshots/lighthouse-mobile-teach.jpg)
-    1. community.html score
+
+    1. ***community.html:***
+
         ![Mobile Lighthouse Score for community.html](assets/readme/screenshots/lighthouse-mobile-comm.jpg) 
-    1. Contact.html score
+
+    1. ***Contact.html:***
+
         ![Mobile Lighthouse Score for teachings.html](assets/readme/screenshots/lighthouse-mobile-contact.jpg)
-    1. The mobile performance score was lower all pages and the worst is shown above which was the result from the index.html page. 
+
+    1. The mobile performance score was lower all pages and the worst is shown above which was the result from the contact.html page. 
     1. The other pages were all green and in the 90's albeit lower than the desktop version.
 
