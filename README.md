@@ -272,7 +272,31 @@ Below is a list of bugs I found during the development process by testing myself
         * When using CSS grid to align the form the radio buttons and their labels were not aligned properly.
     * ***Solution Used:***
         * Wrapped inputs and labels from the mailing list section of the contact in a div element.
-
-
+1. **Intended Outcome** - When screen sizes exceed 768px in width the two articles on the community page would display side by side.
+    * ***Issue Found:***
+        * When getting to around 2600px the heading would move to the side of the articles.
+    * ***Solution Used:***
+    * The content of the page was split into separate sections so the two articles were separate from the introduction paragraph with the heading "ways to connect in person" . This later caused an issue on post development testing which will be discussed further down in this document.
+1. **Intended Outcome** - Social media link displayed in a line side by side in the footer.
+    * ***Issue Found:***
+        * It was noted by one of my fellow students there was an underscore between elements. This was due to the way I have the parents and child elements onto separate line in an attempt to improve readability of my HTML documents.
+    * ***Solution Used:***
+    * By placing the anchor tag than the font awesome "i" tag on the same line the underscore disappeared.
+1. **Intended Outcome** - A seemless transition between pages with the active tab and the hover feature looking smooth.
+    * ***Issue Found:***
+        * A fellow student pointed out that when switching pages the nav buttons appeared to just around as the active tab switched from one button to the next.
+    * ***Solution Used:***
+        * By placing a transparent border around all nav-button elements the issue was resolved.
+1. **Intended Outcome** - All Figure elements are fully responsive.
+    * ***Issue Found:***
+        * When increasing the screen size on the community page I found that the figure element and its contained image where increasing but not proportionately.
+    * ***Solution Used:***
+        * Wrapping all figure elements on the community page in a div element.
+1. **Intended Outcome** - Clear and consistent commit messages.
+    * ***Issue Found:***
+        * Looking back over my past commits I found that there was a Ghost author listed earlier on in the commit history. A google search showed that this represented a author who's account had been deleted.
+    * ***Solution Used:***
+        * There was not fix required. I found this issue was caused by using the VScode app on my work laptop instead of gitpod IDE. The reason I set up vscode is I needed a way to work whilst offline during a flight to Scotland. It wasn't until I returned home and set vscode up on my personal laptop that I realized that all commits from VScode made were being made using my work email and username. Once I updated my user details within VScode this ghost author appeared in the commits.  
+    
 ### **Post Development Process**
 error found on community page - fixed by turning section into a div
