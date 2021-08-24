@@ -299,36 +299,43 @@ Below is a list of bugs I found during the development process by testing myself
         * There was not fix required. I found this issue was caused by using the VScode app on my work laptop instead of gitpod IDE. The reason I set up vscode is I needed a way to work whilst offline during a flight to Scotland. It wasn't until I returned home and set vscode up on my personal laptop that I realized that all commits from VScode made were being made using my work email and username. Once I updated my user details within VScode this ghost author appeared in the commits.  
     
 ### **Post Development Testing**
+***
+#### **Validators**
+* ***HTML*** - https://validator.w3.org/nu/
 
-1. **Validators**
-    * ***HTML*** - https://validator.w3.org/nu/
-        * ***Issue Found:***
-            * My solution to point 6 of the "During Development Testing" section cause an error because there was a semantic tag (section) used on the community page with no heading. I had originally split the page into 3 sections leaving the two articles in their own section. 
-        * ***Solution Used:***
-            * I extended the section with the ID "ways-to-connect" to include the articles on the page and turned the section containing the two articles into a div element. After this no errors were found by the validator.
-    * ***CSS*** - https://jigsaw.w3.org/css-validator/
-        * All pages tested, no issues found via URL or file upload.\
-        ![CSS validator badge](https://jigsaw.w3.org/css-validator/images/vcss)
-1. **Lighthouse**\
+    * ***Issue Found:***
+        * My solution to point 6 of the "During Development Testing" section cause an error because there was a semantic tag (section) used on the community page with no heading. I had originally split the page into 3 sections leaving the two articles in their own section. 
+    * ***Solution Used:***
+        * I extended the section with the ID "ways-to-connect" to include the articles on the page and turned the section containing the two articles into a div element. After this no errors were found by the validator.
+
+* ***CSS*** - https://jigsaw.w3.org/css-validator/
+
+    * All pages tested, no issues found via URL or file upload.\
+    ![CSS validator badge](https://jigsaw.w3.org/css-validator/images/vcss)
+
+#### **Lighthouse**
+
 All lighthouse tests were done in incognito mode to avoid interference from browser add ons. I ran the tests on for both mobile.
-    * **Desktop:**
-        ![Desktop Lighthouse Score](assets/readme/screenshots/lighthouse-desktop.jpg) 
-        There were several actions required to get to this score.
-        1. The initial SEO score was 90 due to having no Meta description tag in the page head. Once this was added the score became 100.
-        1. The best practice score was first 93 and impacted by three factors:
-            * Aspect ratio of the images on the teachings page. This was fixed by resizing the images with the calculator found on https://andrew.hedges.name/experiments/aspect_ratio/.
-            * There where some anchor tags on the community page and the form feedback page where the text read only "here". These were changed to a more descriptive text indicating where the links would lead the user.
-            * The size of the image to download the book Modern Buddhism on index.html was the right size. However, best practice suggest ti should have a height and width specified. I used an extension called pesticide to ge the images dimension and added these to the css file under an ID created for this element (#modbudd-ebook).
-        1. The performance was 93 on the form feedback page but fluctuating around 93 each time I ran the test. I used https://tinypng.com/ to compress the hero image on this page, which took the score to 95 or higher each time I ran the lighthouse test.
-    *  **Mobile:**
-        * index.html score
-            ![Mobile Lighthouse Score for index.html](assets/readme/screenshots/lighthouse-mobile-indx.jpg) 
-        * teachings.html score
-            ![Mobile Lighthouse Score for teachings.html](assets/readme/screenshots/lighthouse-mobile-teach.jpg)
-        * community.html score
-            ![Mobile Lighthouse Score for community.html](assets/readme/screenshots/lighthouse-mobile-comm.jpg) 
-        * Contact.html score
-            ![Mobile Lighthouse Score for teachings.html](assets/readme/screenshots/lighthouse-mobile-contact.jpg)
-        * The mobile performance score was lower all pages and the worst is shown above which was the result from the index.html page. 
-        * The other pages were all green and in the 90's albeit lower than the desktop version.
+* ***Desktop Version:***
+    ![Desktop Lighthouse Score](assets/readme/screenshots/lighthouse-desktop.jpg) 
+    There were several actions required to get to this score.
+    1. The initial SEO score was 90 due to having no Meta description tag in the page head. Once this was added the score became 100.
+    1. The best practice score was first 93 and impacted by three factors:
+        * Aspect ratio of the images on the teachings page. This was fixed by resizing the images with the calculator found on https://andrew.hedges.name/experiments/aspect_ratio/.
+        * There where some anchor tags on the community page and the form feedback page where the text read only "here". These were changed to a more descriptive text indicating where the links would lead the user.
+        * The size of the image to download the book Modern Buddhism on index.html was the right size. However, best practice suggest ti should have a height and width specified. I used an extension called pesticide to ge the images dimension and added these to the css file under an ID created for this element (#modbudd-ebook).
+    1. The performance was 93 on the form feedback page but fluctuating around 93 each time I ran the test. I used https://tinypng.com/ to compress the hero image on this page, which took the score to 95 or higher each time I ran the lighthouse test.
+*  **Mobile Version:**
+    1. **index.html Score:**
+
+        ![Mobile Lighthouse Score for index.html](assets/readme/screenshots/lighthouse-mobile-indx.jpg) 
+    1. teachings.html score
+
+        ![Mobile Lighthouse Score for teachings.html](assets/readme/screenshots/lighthouse-mobile-teach.jpg)
+    1. community.html score
+        ![Mobile Lighthouse Score for community.html](assets/readme/screenshots/lighthouse-mobile-comm.jpg) 
+    1. Contact.html score
+        ![Mobile Lighthouse Score for teachings.html](assets/readme/screenshots/lighthouse-mobile-contact.jpg)
+    1. The mobile performance score was lower all pages and the worst is shown above which was the result from the index.html page. 
+    1. The other pages were all green and in the 90's albeit lower than the desktop version.
 
