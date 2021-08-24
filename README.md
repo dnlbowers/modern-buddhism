@@ -236,7 +236,7 @@ The quote used for these two pages is "If everyone sincerely practices the path 
 
 ## **Testing Phase**
 ***
-### **During Development Process**
+### **During Development Testing**
 During the development process I was manually testing in the following ways:-
 
 1. Manually testing each element for appearance and responsiveness via a simulated live server using an extension in VScode.
@@ -299,4 +299,10 @@ Below is a list of bugs I found during the development process by testing myself
         * There was not fix required. I found this issue was caused by using the VScode app on my work laptop instead of gitpod IDE. The reason I set up vscode is I needed a way to work whilst offline during a flight to Scotland. It wasn't until I returned home and set vscode up on my personal laptop that I realized that all commits from VScode made were being made using my work email and username. Once I updated my user details within VScode this ghost author appeared in the commits.  
     
 ### **Post Development Process**
-error found on community page - fixed by turning section into a div
+
+1. **Validators**
+    * ***HTML*** - https://validator.w3.org/nu/
+        * ***Issue Found:***
+            * My solution to point 6 of the "During Development Testing" section cause an error because there was a semantic tag (section) used on the community page with no heading. I had originally split the page into 3 sections leaving the two articles in their own section. 
+        * ***Solution Used:***
+            * I extended the section with the ID "ways-to-connect" to include the articles on the page and turned the section containing the two articles into a div element.
