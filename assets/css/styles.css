@@ -317,6 +317,8 @@ header {
     width: 86%;
     margin: auto;
     border-radius: 30px;
+    max-width: 1393px;
+    max-height: 878px;
 }
 
 #int-fest-img, #work-hol-img {
@@ -324,6 +326,8 @@ header {
     width: 90%;
     margin-top: 23px;
     border-radius: 15px;
+    max-width: 1253px;
+    max-height: 833px;
 }
 
 #fig-caption-temple, #fig-caption-fest, #fig-caption-work {
@@ -646,6 +650,7 @@ footer h4 {
         border-radius: 30px;
         background-color: #fff;
         padding-top: 20px;
+        max-width: 1620px;
     }
 
     #temple-fig {
