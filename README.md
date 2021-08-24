@@ -309,7 +309,15 @@ Below is a list of bugs I found during the development process by testing myself
     * ***CSS*** - https://jigsaw.w3.org/css-validator/
         * All pages tested, no issues found via URL or file upload.\
         ![CSS validator badge](https://jigsaw.w3.org/css-validator/images/vcss)
-1. **Lighthouse**
-added meta description
-descriptive links
-images size of book dl
+1. **Lighthouse**\
+All lighthouse tests were done in incognito mode to avoid interference from browser add ons. I ran the tests on for both mobile.
+    * Desktop
+        ![Desktop Lighthouse Score](assets/readme/screenshots/lighthouse-desktop.jpg) 
+        There were several actions required to get to this score.
+        1. The initial SEO score was 90 due to having no Meta description tag in the page head. Once this was added the score became 100.
+        1. The best practice score was first 93 and impacted by three factors:
+            * Aspect ratio of the images on the teachings page. This was fixed by resizing the images with the calculator found on https://andrew.hedges.name/experiments/aspect_ratio/.
+            * There where some anchor tags on the community page and the form feedback page where the text read only "here". These were changed to a more descriptive text indicating where the links would lead the user.
+            * The size of the image to download the book Modern Buddhism on index.html was the right size. However, best practice suggest ti should have a height and width specified. I used an extension called pesticide to ge the images dimension and added these to the css file under an ID created for this element (#modbudd-ebook).
+        1. The performance was 93 on the form feedback page was fluctuating around 93 each time I ran the test. I used https://tinypng.com/ to compress the hero image on this page, which took the score to 95.
+
