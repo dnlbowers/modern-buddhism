@@ -310,3 +310,6 @@ Below is a list of bugs I found during the development process by testing myself
         * All pages tested, no issues found via URL or file upload.\
         ![CSS validator badge](https://jigsaw.w3.org/css-validator/images/vcss)
 1. **Lighthouse**
+added meta description
+descriptive links
+images size of book dl
