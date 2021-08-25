@@ -244,7 +244,17 @@ During the development process I was manually testing in the following ways:-
 1. Published the page via github pages and shared with fellow students to test and received feedback.
 
 #### ***Manual Testing:***
-Below is a list of bugs I found during the development process by testing myself. All tests were conducted Using the web browser to render the code via the simulated live server and each element was tested for how the elements would be displayed to a potential user and a range of different screen sizes:-
+During testing I used 3 different browsers to ensure cross compatibility. There desktop browsers were:
+
+1. Chrome
+2. Firefox  
+3. Opera
+4. Edge
+
+I then used the devtools to simulate different screen sizes/devices from 320 px upt 4000px in width. 
+
+Below is a list of bugs I found during the development process by testing myself via the simulated live server extension on VScode. Each element was tested for how the elements would be displayed to a potential user and a range of different screen sizes.:-
+
 1. **Intended Outcome** - A header with three elements evenly spaced out across the header element.
     * ***Issue Found:*** 
         * Using float left and float right I found the title was sticking to the logo on the left in spite of using the clear command in the CSS title selector.
@@ -259,7 +269,7 @@ Below is a list of bugs I found during the development process by testing myself
     * ***Issue Found:*** 
         * On smaller screen sizes there was a horizontal scroll bar in the browsers devtool.
     * ***Solution Used***:
-        * Resolved by slightly reducing the font size. 
+        * Resolved by slightly reducing the font size in the nav-menu class. 
         * Top and bottom padding by one 1px for the Nav-button class in order to maintain the background of the .active and nav-button:hover spanning from top to bottom of the nav bar. 
 1. **Intended Outcome** - A hero image to span the full width of the page and be fully responsive across all screen sizes.
     * ***Issue Found:*** 
@@ -276,12 +286,12 @@ Below is a list of bugs I found during the development process by testing myself
     * ***Issue Found:***
         * When getting to around 2600px the heading would move to the side of the articles.
     * ***Solution Used:***
-    * The content of the page was split into separate sections so the two articles were separate from the introduction paragraph with the heading "ways to connect in person" . This later caused an issue on post development testing which will be discussed further down in this document.
+        * The content of the page was split into separate sections so the two articles were separate from the introduction paragraph with the heading "ways to connect in person" . This later caused an issue on post development testing which will be discussed further down in this document.
 1. **Intended Outcome** - Social media link displayed in a line side by side in the footer.
     * ***Issue Found:***
         * It was noted by one of my fellow students there was an underscore between elements. This was due to the way I have the parents and child elements onto separate line in an attempt to improve readability of my HTML documents.
     * ***Solution Used:***
-    * By placing the anchor tag than the font awesome "i" tag on the same line the underscore disappeared.
+        * By placing the anchor tag than the font awesome "i" tag on the same line the underscore disappeared.
 1. **Intended Outcome** - A seemless transition between pages with the active tab and the hover feature looking smooth.
     * ***Issue Found:***
         * A fellow student pointed out that when switching pages the nav buttons appeared to just around as the active tab switched from one button to the next.
