@@ -132,31 +132,32 @@ The quote included on the teachings page is "Happiness And Suffering Are States 
 
 ### **Community page:**
 #### *Hero-Image:*
-This image is a view from behind Geshe Kelsang Gyatso teaching at one of the NKT's fall festivals. It was chosen to show the extent of the international community attending one of these events.
+This image is taken from behind Geshe Kelsang Gyatso, teaching at a festival. The intention is to show the extent of the international community attending one of these events.
 ![Community page hero image](assets/readme/screenshots/community-hero-img.jpg)
 #### *Quote:*
-The quote on the community page is "Buddha is the doctor who gives us medicine, and the Sangha are the nurses who assist us." The word Sangha is defined in the content of this page and serves to show the importance and function that community serves within the NKT.
+The quote on the community page is, "Buddha is the doctor who gives us medicine, and the Sangha are the nurses who assist us." Sangha is defined in the page's content and shows the importance and function of the community within the NKT.
 
 ### **Contact and Form-Feedback pages:**
-These two hero images and quotes we kept as the same to simulate still being on the same page after the form has been submitted.
+These two hero images and quotes we kept as the same to simulate still being on the same page after the form is submitted.
+
 #### *Hero-Image:*
-The artwork pictures 3 of the common deities used within the New Kadampa Tradition. I used this to be eye-catching even when viewed from smaller devices.
+The artwork pictures three of the common deities used within the New Kadampa Tradition. I used this to be eye-catching even when viewed from smaller devices.
 ![Contact and Form-feedback pages hero image](assets/readme/screenshots/contact-hero-img.jpg)
 #### *Quote:*
-The quote used for these two pages is "If everyone sincerely practices the path of compassion and wisdom, all their problems will be solved. I guarantee this.". It was chosen as encouragement for people to reach out to either myself or their local community to find out more about the tradition and their teachings.
+The quote used for these two pages is, "If everyone sincerely practices the path of compassion and wisdom, all their problems will be solved. I guarantee this.". I chose this quote to encourage people to reach out to their local community or learn more about the tradition and their teachings.
 
-## **Anchor Tags Within A Pages Main Content**
+## **Anchor Tags Within all Pages Main Content**
 ***
-* All anchor tags in the main content of the page were left with the underline decoration to make it clear that their was a hyperlink embedded.  
-* The color was change to black changed to match the surrounding text. This meant the anchor tag did not look out of place or ruin the contrast score on the text across the blue background.
-* Have a hover over effect which turn them one of the darker colors from the gold gradient used throughout the page.
-* Have the cursor set to pointer. This is actually a browser default setting however I noted it was not default for buttons. I added cursor: pointer rule to the styles.css for the form submit button and I decide to create a separate rule for a:hover just in case the browser default was ever changed by the browser provider.
+* All anchor tags in the page's main content were left with the underline decoration to make it clear to the user that I had embedded a hyperlink.  
+* I  changed the color to black to match the surrounding text, meaning the anchor tag did not look out of place or lower the contrast score.
+* Have a hover-over effect that turns the Hyperlink a darker color from the gold gradient used throughout the page.
+* Have the cursor set to a pointer.  A Pointer is a browser default setting; however, I noted it did not default for buttons. I added the cursor: pointer rule to the styles.css for the form submit button, and I decide to create a separate rule for a:hover just in case the browser provider ever changed the browser default.
 
 ## **Footer**
 ***
-* The footer include directs links to all the NKT's social media accounts with an invitation for the user to connect to the NKT directly via these channels.
+* The footer includes direct links to all the NKT's social media accounts with an invitation to connect to the NKT directly via these channels.
 
-* I have also included a disclaimer that the site has been produced for educational purposes only and that all images and videos remain the property of NKT-IKBU.
+* I included a disclaimer that the site is intended solely for educational purposes and that all images and videos remain the property of NKT-IKBU. I added this after seeking advice from the Code Institute on slack. To make an accurate tribute to the tradition, I needed to use the appropriate images. Most of the pictures found on the usual sources were of entirely different practice and were irrelevant to my theme.
 
 ![Page footer](assets/readme/screenshots/footer.jpg)
 
@@ -165,17 +166,17 @@ The quote used for these two pages is "If everyone sincerely practices the path 
 ### **About Page Content:**
 
 * This page gives a brief historical summary of the New Kadampa tradition, a quick overview of how the NKT came to be.
-* The embedded youtube video is of one of the traditions senior teachers giving a summary of what modern Buddhism is to the tradition and why it is so applicable to people of the modern world. 
+* The embedded youtube video is of one of the traditions senior teachers giving a summary of what modern Buddhism is to the tradition and why it is so applicable to people of the contemporary world. 
 * At the end of the content, there is an anchor tag wrapped around an image so the user can download a free copy of one of Geshe Kelsang Gyatso's books called "Modern Buddhism" in electronic format.
 
 ![Contact and Form-feedback pages hero image](assets/readme/screenshots/about-page-content.png)
 
 ### **Teachings Page Content:**
-* Includes an exert from the downloadable e-book "Transform Your Life" by Geshe kelsang Gyatso. 
+* Includes an exert from the downloadable ebook "Transform Your Life" by Geshe Kelsang Gyatso. 
 * Covers the core beliefs behind what Buddhism teaches. 
-* Images were included to break up the monotony of the long passage.  
-* The images are symbolic of the traditions linage and are the kind of decorations used in Geshe Kelsang Gyatso's books between pages. 
-* Images are wrapped in a figure element and given a figcaption so the user know who the image portrays. *Note: (It was outside the scope of the projects MVP to go into detail of the full linage of the NKT but I have included this to be added in the [Future-Enhancements](#future-enhancements) section of this readme.)*
+* I  included images to break up the monotony of the long passage.  
+* The images symbolize the traditions linage and are the decorations used in Geshe Kelsang Gyatso's books between pages. 
+* Images are wrapped in a figure element and given a figcaption to detail who the image portrays. *Note: It was outside the scope of the project's MVP to detail the full linage of the NKT. See [Future-Enhancements](#future-enhancements) for details of how the lineage will later include it if required*
 * The last image towards the bottom of the page is wrapped in an anchor tag. The image contains text inviting the user to download a full copy of the book if the user wishes to read further. 
 * Link provided for further free excerpts from Geshe Kelsang Gyatso's books via an external site.  
 * Link provided to Tharpa publications run by the NKT where the users can purchase the full range of Geshe Kelsang Gyatso books and materials, including Buddhist prays and artwork approved by the tradition. 
@@ -185,31 +186,37 @@ The quote used for these two pages is "If everyone sincerely practices the path 
 ### **Community Page Content:**
 
 * Begins by explaining the terminology used in the hero image quote. This explanation then introduces the NKT's international community and their goal to achieve the accessibility of Buddha's teachings to people worldwide.
-* This sections includes and image of the NKT's first ever temple.
+* This section includes an image of the NKT's first-ever temple.
+
 ![Community page top section](assets/readme/screenshots/community-initial-content.jpg)
-* The user is presented two methods to connect directly with the international community and further their experience of Modern Buddhism.
+
+* The user is presented with two methods to connect directly with the international community and further their experience of Modern Buddhism.
+
 ![Community page articles split on larger screen sizes](assets/readme/screenshots/community-split-articles.jpg)
-* Smaller screen sizes show the section "Ways To Connect In Person" as a single column with the articles stacked one above the other and no background to ensure a better user experience.
+
+* Smaller screen sizes show the section "Ways To Connect In-Person" as a single column with the articles stacked one above the other and no background to ensure a better user experience.
+
 ![Community page articles split on smaller screen sizes](assets/readme/screenshots/community-smaller-screens.jpg)
 
-
 ### **Contact Page Content**
-* Reiterates ways to reach out to the New Kadampa Tradition in the user's local area and refers them back to the ways to connect section on the community page.
-* User is offered a way for the user to contact me as the site author should they wish to discuss the subject matter further. This section includes a short biography about me and my experience in the NKT.
-* Form used has three required fields. 
-    * The first two are name and email so that I know who is sending the request and to where I should return the appropriate response. 
-    * The third required field are the two radio buttons which are both linked via the attribute value name="mailing_list". The user must select one of these options to click submit and cannot select both.
-* In between these required fields is an optional textarea so the user can choose to send me a message.  
-* In addition to the afore mentioned pointer: cursor; feature when hovering over any anchor element on the site the submit button also have a shimmer effect as feedback when the user hovers their cursor over it. 
 
-*Note: This from doesn't function to gather any data, it was created with a GET request to call a feedback page. The submit button then triggers the GET request to load the form feedback page outlined later in the readme. This feature is to simulate a real functional form only.*
+* Reiterates ways to reach out to the New Kadampa Tradition in the user's local area and refers them to the ways to connect section on the community page.
+* User is offered a way to contact me as the site author should they wish to discuss the subject matter further. This section includes a short biography about me and my experience in the NKT.
+* Form used has three required fields. 
+    * The first two are name and email, so I know who has sent the communication and where to respond appropriately. 
+    * The third required field is the two radio buttons linked via the attribute value name="mailing_list". The user must select one of these options to click submit and cannot choose both.
+* In between these required fields is an optional text area so the user can choose to send me a message.  
+* The submit button has a shimmer effect as feedback when the user hovers the pointer over it. 
+
+*Note: This form doesn't function to gather any data; it was created with a GET request to call a feedback page. The submit button then triggers the GET request to load the form feedback page outlined later in the readme. This feature is to simulate a real functional form only.*
 
 ![Contact page content](assets/readme/screenshots/contact-page-content.jpg)
+
 ### **Form Feedback Page Content**
-* This page was created to mimic the effect of actually submitting a form. 
-* Text alignment on this page is set to center as with so little text it looked odd using the same as the other pages which are set to justify on smaller screens and left on larger ones. 
-* Since filling in the form suggests the user is interest in learning more I have included a longer feature video about the tradition here. *Note: Originally I had wanted to use this on the home page but due to the length of the video I deemed it to long for an introduction. There is no auto play on the videos so the user can choose whether they want to engage with the video or not.*
-* Link included within the content to take the user back to the real contact page. This is in case they wanted to look at the ways to contact a local meditation center, send an additional message, or sign up to the mailing list.
+* I created this page to mimic the effect of actually submitting a form. 
+* I centered the text alignment on this page. I set the alignment to justify on all other pages on smaller screens and left on larger screens. I made this decision because of the lack of text on the form feedback page. Matching the alignment to the other pages looked out of place.
+* Since filling in the form suggests the user is interested in learning more, I have included a longer feature video about the tradition here. *Note: Originally, I had wanted to use this on the home page, but due to the length of the video, I deemed it too long for an introduction. There is no autoplay on the videos, so the user can choose whether they want to engage with the video or not.*
+* Link included within the content to take the user back to the initial contact page, in case they wanted to look at the ways to contact a local meditation center, send an additional message, or sign up to the mailing list.
 
 ![Form feedback content](assets/readme/screenshots/form-feedback-content.jpg)
 
@@ -228,11 +235,11 @@ The quote used for these two pages is "If everyone sincerely practices the path 
 
     * Times/dates/venues/fees for Formal classes
     * Times/dates/venues/fees for Public talks/events
-    * Include a bio for Malta's officially designated teacher at the end of the traditions lineage page or add to a new page that summarizes their experience.
+    * Include a bio for Malta's officially designated teacher at the end of the traditions lineage page or add a new page that summarizes their experience.
 
-* Once I better understand Javascript, I would like to add a burger menu for mobile-sized device screens. I found articles on how to achieve this with CSS and HTML alone; however, I did not deem this necessary to create the minimum viable product.
+* Once I better understand Javascript, I would like to add a burger menu for mobile-sized device screens. I found articles on achieving this with CSS and HTML alone; however, I did not deem this necessary to create the minimum viable product.
 
-* I would also make the contact form fully functions with a post request and have a database in place to collate data for the mailing list.
+* I would also make the contact form fully function with a post request and have a database to collate data for the mailing list.
 
 ## **Testing Phase**
 ***
@@ -240,12 +247,12 @@ I have included details of testing both during development and post development 
 
 ## **Deployment**
 ***
-The page was deployed via GitHub pages via the following procedure: -
+I deployed the page on GitHub pages via the following procedure: -
 
-1. From the projects [repository](https://github.com/dnlbowers/modern-buddhism)go to the settings tab.
-1. From the left hand menu select the pages tab.
-1. Under source section from the drop down menu select the Main branch and click save.
-1. A message will be displayed to indicate a successful deployment to github pages and provide the live link.
+1. From the projects [repository](https://github.com/dnlbowers/modern-buddhism), go to the settings tab.
+1. From the left-hand menu, select the pages tab.
+1. Under the source section, select the Main branch from the drop-down menu and click Save.
+1. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
 
 The live site can be found here - [Modern Buddhism live webpage](https://dnlbowers.github.io/modern-buddhism/index.html)
 
@@ -253,9 +260,8 @@ The live site can be found here - [Modern Buddhism live webpage](https://dnlbowe
 ***
 ### **Media:**
 
-* The Traditions logos used in the header found via google images and can be found via the below URL: 
+* I found the Traditions logos used in the header via google images on the below URL: 
     * https://meditateinvictoria.org/wp-content/uploads/2019/02/NKT-Logo-white-transparent-300x300.png
 * Videos on index.html and form-feedback.html taken from the [NKT's official YouTube channel](https://www.youtube.com/nktikbu)
-* The image used to download the ebook Modern Buddhism was found via google images and can be found via the below URL: 
+* I found the image used to download the ebook Modern Buddhism via google images on the below URL: 
     * https://meditateinbrisbane.org/classes/kenmore_class/
-
