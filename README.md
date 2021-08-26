@@ -238,7 +238,7 @@ The quote used for these two pages is "If everyone sincerely practices the path 
 ***
 I have included details of testing both during development and post development in a separate document called [testing.md](testing.md).
 
-## Deployment
+## **Deployment**
 ***
 The page was deployed via GitHub pages via the following procedure: -
 
@@ -249,7 +249,13 @@ The page was deployed via GitHub pages via the following procedure: -
 
 The live site can be found here - [Modern Buddhism live webpage](https://dnlbowers.github.io/modern-buddhism/index.html)
 
-## Credits
+## **Credits**
 ***
+### **Media:**
 
+* The Traditions logos used in the header found via google images and can be found via the below URL: 
+    * https://meditateinvictoria.org/wp-content/uploads/2019/02/NKT-Logo-white-transparent-300x300.png
+* Videos on index.html and form-feedback.html taken from the [NKT's official YouTube channel](https://www.youtube.com/nktikbu)
+* The image used to download the ebook Modern Buddhism was found via google images and can be found via the below URL: 
+    * https://meditateinbrisbane.org/classes/kenmore_class/
 
