@@ -259,13 +259,23 @@ The live site can be found here - [Modern Buddhism live webpage](https://dnlbowe
 ## **Credits**
 ***
 ### **Media:**
-#### **index.html:**
+
 * I found the Traditions logos used in the header via google images on the below URL: 
     * https://meditateinvictoria.org/wp-content/uploads/2019/02/NKT-Logo-white-transparent-300x300.png
+
 * Videos on index.html and form-feedback.html taken from the [NKT's official YouTube channel](https://www.youtube.com/nktikbu)
+
 * I found the image used to download the ebook Modern Buddhism via google images on the below URL: 
     * https://meditateinbrisbane.org/classes/kenmore_class/
-* **Teachings.html:**
-* The excerpt from Transform your life was copied from https://kadampa.org/reference/buddhist-beliefs
-* The buddha images used to break up the excerpt were found from https://www.pngwing.com/en/search?q=New+KAdampa
-* the image used to link the user to download page for the ebook "How to Transform your life" was taken from https://kadampa.org/buddhism/kadampa-buddhist-scriptures
+
+* The excerpt from Transform your life on teachings.html content was copied from https://kadampa.org/reference/buddhist-beliefs
+
+* The buddha images used to break up the excerpt from Transform your life on teachings.html were found from https://www.pngwing.com/en/search?q=New+KAdampa
+
+* the image used to link the user from teachings.html to the download page for the ebook "How to Transform your life" was taken from https://kadampa.org/buddhism/kadampa-buddhist-scriptures
+
+* Temple image was taken from https://swdharmacelebration.org/wp-content/uploads/2020/08/Manjushri.jpg
+
+* Image within in figure with the ID "int-fest-fig" on community.html was taken from https://meditationincheshire.org/kadampa-buddhism/
+
+* Image within in figure with the ID "work-hol-fig" on community.html was taken from https://meditateinleicester.org/volunteer/

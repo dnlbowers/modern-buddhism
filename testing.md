@@ -64,9 +64,9 @@ Below is a list of bugs I found during the development process by testing myself
         * By placing a transparent border around all nav-button elements, I resolved the issue.
 1. **Intended Outcome** - All Figure elements are fully responsive.
     * ***Issue Found:***
-        * When increasing the screen size on the community page, I found that the figure elements and their contained images were increasing but not proportionately to each other.
+        * When increasing the screen size on the community page, I found that the figure elements in the last two articles and their contained images were increasing but not proportionately to each other.
     * ***Solution Used:***
-        * Wrapping all figure elements on the community page in a div element.
+        * Wrapping the last two figure elements on the community page in a div.
 1. **Intended Outcome** - Clear and consistent commit messages.
     * ***Issue Found:***
         * Looking back over my past commits, I found a Ghost author listed earlier in the commit history. A google search showed that this represented a deleted account.
