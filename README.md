@@ -259,9 +259,13 @@ The live site can be found here - [Modern Buddhism live webpage](https://dnlbowe
 ## **Credits**
 ***
 ### **Media:**
-
+#### **index.html:**
 * I found the Traditions logos used in the header via google images on the below URL: 
     * https://meditateinvictoria.org/wp-content/uploads/2019/02/NKT-Logo-white-transparent-300x300.png
 * Videos on index.html and form-feedback.html taken from the [NKT's official YouTube channel](https://www.youtube.com/nktikbu)
 * I found the image used to download the ebook Modern Buddhism via google images on the below URL: 
     * https://meditateinbrisbane.org/classes/kenmore_class/
+* **Teachings.html:**
+* The excerpt from Transform your life was copied from https://kadampa.org/reference/buddhist-beliefs
+* The buddha images used to break up the excerpt were found from https://www.pngwing.com/en/search?q=New+KAdampa
+* the image used to link the user to download page for the ebook "How to Transform your life" was taken from https://kadampa.org/buddhism/kadampa-buddhist-scriptures
