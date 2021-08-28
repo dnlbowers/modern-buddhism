@@ -12,33 +12,35 @@
 </head>
 <body>
     <!-- Header section. ID given to header make 'return to top of this page' link at the bottom of the content section function -->
-    <header id="top-of-contact">
-        <!-- left logo hidden on smaller screens under 540px wide -->
-        <img class="header-image-left" src="assets/images/nkt-logo.png" alt="Logo of the New Kadampa Tradition - International Kadampa Buddhist Union">
-        <!-- The title of the header is wrapped in an anchor tag to return the user to the homepage when clicked -->
-        <a href="index.html" class="title-anchor" aria-label="Takes your back to the home page">
-            <h1 class="title">New Kadampa Tradition</h1> 
-        </a>
-        <!-- Right logo always visible even on mobile devices -->
-        <img class="header-image-right" src="assets/images/nkt-logo.png" alt="Logo of the New Kadampa Tradition - International Kadampa Buddhist Union">
+    <header>
+        <div class="title-container">
+            <!-- left logo hidden on smaller screens under 540px wide-->
+            <img class="header-image-left" src="assets/images/nkt-logo.png" alt="Logo of the New Kadampa Tradition - International Kadampa Buddhist Union">
+            <!-- The title of the header is wrapped in an anchor tag to return the user to the homepage when clicked -->
+            <a href="index.html" class="title-anchor" aria-label="Takes your back to the home page">
+                <h1 class="title">New Kadampa Tradition</h1>
+            </a>
+            <!-- Right logo always visible even on mobile devices -->
+            <img class="header-image-right" src="assets/images/nkt-logo.png" alt="Logo of the New Kadampa Tradition - International Kadampa Buddhist Union">
+        </div>
+        <!-- Navbar -->
+        <nav class="nav-wrap">
+            <ul class="nav-menu">
+                <li>
+                    <a href="index.html" class="nav-button" aria-label="Takes you back to the home page about the New Kadampa Tradition">About</a>
+                </li>
+                <li>
+                    <a href="teachings.html" class="nav-button"  aria-label="Takes you to a page of the core Buddhist teachings">Teachings</a>
+                </li>
+                <li>
+                    <a href="community.html" class="nav-button" aria-label="Takes you to a page that shows you the different way to connect to global community of Kadampa buddhism">Community</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="active nav-button" aria-label="You are on this page by which can contact the author of this page">Contact</a>
+                </li>
+            </ul>
+        </nav> 
     </header>
-    <!-- Navbar -->
-    <nav class="nav-wrap">
-        <ul class="nav-menu">
-            <li>
-                <a href="index.html" class="nav-button" aria-label="Takes you back to the home page about the New Kadampa Tradition">About</a>
-            </li>
-            <li>
-                <a href="teachings.html" class="nav-button"  aria-label="Takes you to a page of the core Buddhist teachings">Teachings</a>
-            </li>
-            <li>
-                <a href="community.html" class="nav-button" aria-label="Takes you to a page that shows you the different way to connect to global community of Kadampa buddhism">Community</a>
-            </li>
-            <li>
-                <a href="contact.html" class="active nav-button" aria-label="You are on this page by which can contact the author of this page">Contact</a>
-            </li>
-        </ul>
-    </nav> 
     <!-- Container for hero image and quote overlay -->   
     <section class="hero-image-container">
         <div class="hero-animation contact-hero-image"></div>
