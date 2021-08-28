@@ -99,7 +99,7 @@ I ran the tests for both mobile and desktop.
 
 I have only included one screenshot for desktop as all pages were the same score, only changing by one or two points in performance if I ran it multiple times. 
 
-![Desktop Lighthouse Score](assets/readme/screenshots/lighthouse-desktop.jpg) 
+![Desktop Lighthouse Score](docs/screenshots/lighthouse-desktop.jpg) 
 
 **There were several actions required to get to this score:**
 
@@ -120,26 +120,26 @@ Due to the more significant variance in the performance score, I have included a
 
 1. ***index.html:***
 
-    ![Mobile Lighthouse Score for index.html](assets/readme/screenshots/lighthouse-mobile-indx.jpg) 
+    ![Mobile Lighthouse Score for index.html](docs/screenshots/lighthouse-mobile-indx.jpg) 
 
     * Originally, the performance score on the page was around 83. But by using a slightly smaller version of the same hero image, I resolved the issue and maintained the responsiveness up to 4000 px in width.
 
 1. ***teaching:***
 
-    ![Mobile Lighthouse Score for teachings.html](assets/readme/screenshots/lighthouse-mobile-teach.jpg)
+    ![Mobile Lighthouse Score for teachings.html](docs/screenshots/lighthouse-mobile-teach.jpg)
 
 1. ***community.html:***
 
-    ![Mobile Lighthouse Score for community.html](assets/readme/screenshots/lighthouse-mobile-comm.jpg) 
+    ![Mobile Lighthouse Score for community.html](docs/screenshots/lighthouse-mobile-comm.jpg) 
 
 1. ***Contact.html:***
 
-    ![Mobile Lighthouse Score for teachings.html](assets/readme/screenshots/lighthouse-mobile-contact.jpg)
+    ![Mobile Lighthouse Score for teachings.html](docs/screenshots/lighthouse-mobile-contact.jpg)
 
     * Best practice score has initially been 98 due to the spacing of the mailing list radio buttons. I added a padding bottom to the top div encasing the first input and label, which solved the issue.
     * The performance score is lower on this mobile page due to the hero image. I already compressed the image twice, which had little impact on the score, and unfortunately, there was no more petite version of the image available. To resolve this in the future, I intend to use GIMP to resize an image. However, it was not a viable solution for this project due to the time already spent on the project, given I would need to learn GIMP from scratch. 
 
 1.  ***form-feedback.html***
 
-    ![Mobile Lighthouse Score for form-feedback.html](assets/readme/screenshots/lighthouse-mobile-feedback.jpg) 
+    ![Mobile Lighthouse Score for form-feedback.html](docs/screenshots/lighthouse-mobile-feedback.jpg) 
     * I found the performance score on this page lower due to the embedded video. I discovered this by looking at the original trace in the browser dev tools and saw the pages hero image and content loaded quickly. To test this theory, I removed the link from the iframe, and sure enough, the score increased a few points.
