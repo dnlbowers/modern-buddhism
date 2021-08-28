@@ -293,9 +293,9 @@ I have included details of testing both during development and post development 
 ***
 I deployed the page on GitHub pages via the following procedure: -
 
-1. From the projects [repository](https://github.com/dnlbowers/modern-buddhism), go to the settings tab.
-1. From the left-hand menu, select the pages tab.
-1. Under the source section, select the Main branch from the drop-down menu and click Save.
+1. From the projects [repository](https://github.com/dnlbowers/modern-buddhism), go to the **Settings** tab.
+1. From the left-hand menu, select the **Pages** tab.
+1. Under the **Source** section, select the **Main** branch from the drop-down menu and click **Save**.
 1. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
 
 The live site can be found here - [Modern Buddhism live webpage](https://dnlbowers.github.io/modern-buddhism/index.html)
