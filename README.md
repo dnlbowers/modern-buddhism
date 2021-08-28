@@ -1,13 +1,11 @@
 # **Modern Buddhism**
 ## **Site Overview**
-***
 The New Kadampa Tradition (NKT) is a modern form of Buddhism without any cultural influence from the east. It stems from Tibetan Buddhism, which is known publicly in the west; however, the NKT aims to be more accessible to people with a busy lifestyle. It removes a lot of the cultural aspects of the Tibetan nations and provides everything in English.  Typically when someone wishes to learn the teachings from the Tibetan schools, they would be required to learn Tibetan and perform lengthy rituals to gain the full benefit of the practice.  The founder of the NKT, Geshe Kelsang Gyatso saw that cultural influences from Tibet were an obstacle to western practitioners. He worked diligently to create a structure that was best suited to modern life.
 
-![Am I responsive screenshot](assets/readme/screenshots/am-i-responsive.jpg)
+![Am I responsive screenshot](docs/screenshots/am-i-responsive.jpg)
 ## Table of contents:
 ***
 1. [**Site Overview**](#site-overview)
-1. [**Table of contents**](#table-of-contents)
 1. [**Planning stage**](#planning-stage)
     * [***Target Audiences***](#target-audiences)
     * [***User Story's***](#user-storys)
@@ -16,13 +14,13 @@ The New Kadampa Tradition (NKT) is a modern form of Buddhism without any cultura
     * [***Wireframes***](#wireframes)
     * [***Color Scheme***](#color-scheme)
 1. [**Current Features Common to all pages**](#current-features-common-to-all-pages)
-    * [***Header Element***](#header-element)
+    * [***Header Element:***](#header-element)
         * [*Title*](#title)
         * [*Logos*](#logos)
-    * [***Site Navigation***](#site-navigation)
+    * [***Site Navigation:***](#site-navigation)
         * [*Navigation Bar*](#navigation-bar)
-        * [*Return To Top Of The Page Link:*](#return-to-top-of-the-page-link)
-    * [**Hero Images**](#hero-images)
+        * [*Return To Top Of The Page Link*](#return-to-top-of-the-page-link)
+    * [**Hero Images:**](#hero-images)
       * [***About Page***:](#about-page)
           * [*Hero-Image*](#hero-image)
           * [*Quote*](#quote)
@@ -38,9 +36,9 @@ The New Kadampa Tradition (NKT) is a modern form of Buddhism without any cultura
     * [**Anchor Tags Within all Pages Main Content**](#anchor-tags-within-all-pages-main-content)
     * [**Footer**](#footer)
 1. [**Individual Page Content features**](#individual-page-content-features)
-    * [**About Page Content:**](#about-page-content)
-    * [**Teachings Page Content:**](#teachings-page-content)
-    * [**Community Page Content:**](#community-page-content)
+    * [**About Page Content**](#about-page-content)
+    * [**Teachings Page Content**](#teachings-page-content)
+    * [**Community Page Content**](#community-page-content)
     * [**Contact Page Content**](#contact-page-content)
     * [**Form Feedback Page Content**](#form-feedback-page-content)
 1. [**Future-Enhancements**](#future-enhancements)
@@ -48,9 +46,9 @@ The New Kadampa Tradition (NKT) is a modern form of Buddhism without any cultura
 1. [**Deployment**](#deployment)
 1. [**Credits**](#credits)
     * [**Honorable mentions**](#honorable-mentions)
-    * [**General reference:**](#general-reference)
-    * [**Content:**](#content)
-    * [**Media:**](#media)
+    * [**General reference**](#general-reference)
+    * [**Content**](#content)
+    * [**Media**](#media)
 
 ## **Planning stage**
 ***
@@ -97,16 +95,16 @@ The New Kadampa Tradition (NKT) is a modern form of Buddhism without any cultura
 To organize my thoughts and prevent scope creep, I created wireframes for this project. Below are links to each of the mobile and desktop versions of the four intended pages. 
 
 * Mobile Wireframes:
-    * [Homepage (About)](assets/readme/wireframes/homepage-mobile.png)
-    * [Teachings page](assets/readme/wireframes/teaching-mobile.png)
-    * [Community page](assets/readme/wireframes/community-mobile.png)
-    * [Contact page](assets/readme/wireframes/contact-mobile.png)
+    * [Homepage (About)](docs/wireframes/homepage-mobile.png)
+    * [Teachings page](docs/wireframes/teaching-mobile.png)
+    * [Community page](docs/wireframes/community-mobile.png)
+    * [Contact page](docs/wireframes/contact-mobile.png)
 
 * Desktop wireframes:
-    * [Homepage (About)](assets/readme/wireframes/homepage-desktop.png)
-    * [Teachings page](assets/readme/wireframes/teaching-desktop.png)
-    * [Community page](assets/readme/wireframes/community-desktop.png)
-    * [Contact page](assets/readme/wireframes/contact-desktop.png)
+    * [Homepage (About)](docs/wireframes/homepage-desktop.png)
+    * [Teachings page](docs/wireframes/teaching-desktop.png)
+    * [Community page](docs/wireframes/community-desktop.png)
+    * [Contact page](docs/wireframes/contact-desktop.png)
 
 There was some deviation from the original wireframes to improve the User Experience (UX). Such variations include: -
 
@@ -118,7 +116,7 @@ There was some deviation from the original wireframes to improve the User Experi
 
 ### **Color Scheme:**
 When deciding the color scheme, I wanted to go with something that gave an elegant appearance. For this reason, I selected a range of blue and gold's and used the following color grid created on https://contrast-grid.eightshapes.com/ to check the contrast scores. Using this grid allowed me to ensure all text remained visible and the site was accessible to all.
-![Color contrast grid](assets/readme/screenshots/color-grid.png)
+![Color contrast grid](docs/screenshots/color-grid.png)
 
 ## **Current Features Common to all pages**
 ***
@@ -126,7 +124,7 @@ When deciding the color scheme, I wanted to go with something that gave an elega
 ***
 The header element contains the following features: 
 #### *Title:*
-![Page title](assets/readme/screenshots/title.jpg)
+![Page title](docs/screenshots/title.jpg)
 
 * The title serves to state the name of the tradition.
 * It also serves as a navigation link to the home page called "about" as per the well-established convention expected by the user.
@@ -136,11 +134,11 @@ The header element contains the following features:
 
     * One logo on mobile devices was to ensure the title stays as big as possible on a smaller screen, improving the user experience.
 
-        ![Mobile header](assets/readme/screenshots/mobile-header.jpg)
+        ![Mobile header](docs/screenshots/mobile-header.jpg)
 
     * Two logos on larger screens gave better symmetry to the header whilst filling the excess white space provided by broader screen sizes.
 
-        ![Desktop header](assets/readme/screenshots/desktop-header.jpg)
+        ![Desktop header](docs/screenshots/desktop-header.jpg)
 
 ### **Site Navigation**
 ***
@@ -149,12 +147,12 @@ The header element contains the following features:
 * It contains links to the about, teachings, community and contact page to allow easy navigation around the website. 
 * The below image shows the user's current page highlighted in blue with a white border. 
 * This blue highlight with a white border is also mimicked on the hover over feature for the other navbar buttons.
-![Navigation bar](assets/readme/screenshots/nav-bar.jpg)
+![Navigation bar](docs/screenshots/nav-bar.jpg)
 
 #### *Return To Top Of The Page Link:*
 * In addition to the navbar, each page includes a hyperlink at the bottom of the content. "Return to top of the page" takes the user back to the navigation bar if they have had to scroll a long way down to read all the content. 
 * This is especially useful on mobile devices where the column width for the content is narrower.\
-![Navigation bar](assets/readme/screenshots/return-to-top.png)
+![Navigation bar](docs/screenshots/return-to-top.png)
 
 ### **Hero Images**
 ***
@@ -165,21 +163,21 @@ The header element contains the following features:
 ### **About Page**:
 #### *Hero-Image:*
 The hero image depicts Geshe Kelsang Gyatso, who was the founder of the New Kadampa Tradition. He is smiling and waving as if welcoming the user to the page. Behind him is the NKT's primary temple, which holds great significance. The temple pictured hosts two of the NKT's international festivals and is within the grounds of Manjushri Meditation center, considered the hub of the NKT's global operations.
-![About page hero image](assets/readme/screenshots/about-hero-img.jpg)
+![About page hero image](docs/screenshots/about-hero-img.jpg)
 #### *Quote:*
 The quote included on the about page is "We Need Modern Ideas, But We Also Need Ancient Wisdom." which perfectly sums up the page's subject matter that begins with what the NKT is.
 
 ### **Teachings page**:
 #### *Hero-Image:*
 This image is Geshe Kelsang Gyatso sat on what is commonly called a throne at one of the traditions international festivals. The throne is where a teacher sits to expound the oral lineage past from teacher to disciple, and so it was appropriate for a page discussing the core beliefs of the philosophy in his own words.
-![Teaching page hero image](assets/readme/screenshots/teachings-hero-img.jpg)
+![Teaching page hero image](docs/screenshots/teachings-hero-img.jpg)
 #### *Quote:*
 The quote included on the teachings page is "Happiness And Suffering Are States Of Mind And So Their Main Causes Are Not To Be Found Outside The Mind." which compliments the subject matter of the page's content.
 
 ### **Community page:**
 #### *Hero-Image:*
 This image is taken from behind Geshe Kelsang Gyatso, teaching at a festival. The intention is to show the extent of the international community attending one of these events.
-![Community page hero image](assets/readme/screenshots/community-hero-img.jpg)
+![Community page hero image](docs/screenshots/community-hero-img.jpg)
 #### *Quote:*
 The quote on the community page is, "Buddha is the doctor who gives us medicine, and the Sangha are the nurses who assist us." Sangha is defined in the page's content and shows the importance and function of the community within the NKT.
 
@@ -188,7 +186,7 @@ These two hero images and quotes we kept as the same to simulate still being on 
 
 #### *Hero-Image:*
 The artwork pictures three of the common deities used within the New Kadampa Tradition. I used this to be eye-catching even when viewed from smaller devices.
-![Contact and Form-feedback pages hero image](assets/readme/screenshots/contact-hero-img.jpg)
+![Contact and Form-feedback pages hero image](docs/screenshots/contact-hero-img.jpg)
 #### *Quote:*
 The quote used for these two pages is, "If everyone sincerely practices the path of compassion and wisdom, all their problems will be solved. I guarantee this.". I chose this quote to encourage people to reach out to their local community or learn more about the tradition and their teachings.
 
@@ -205,7 +203,7 @@ The quote used for these two pages is, "If everyone sincerely practices the path
 
 * I included a disclaimer that the site is intended solely for educational purposes and that all images and videos remain the property of NKT-IKBU. I added this after seeking advice from the Code Institute on slack. To make an accurate tribute to the tradition, I needed to use the appropriate images. Most of the pictures found on the usual sources were of entirely different practice and were irrelevant to my theme.
 
-![Page footer](assets/readme/screenshots/footer.jpg)
+![Page footer](docs/screenshots/footer.jpg)
 
 ## **Individual Page Content features**
 ***
@@ -215,7 +213,7 @@ The quote used for these two pages is, "If everyone sincerely practices the path
 * The embedded youtube video is of one of the traditions senior teachers giving a summary of what modern Buddhism is to the tradition and why it is so applicable to people of the contemporary world. 
 * At the end of the content, there is an anchor tag wrapped around an image so the user can download a free copy of one of Geshe Kelsang Gyatso's books called "Modern Buddhism" in electronic format.
 
-![Contact and Form-feedback pages hero image](assets/readme/screenshots/about-page-content.png)
+![Contact and Form-feedback pages hero image](docs/screenshots/about-page-content.png)
 
 ### **Teachings Page Content:**
 * Includes an exert from the downloadable ebook "Transform Your Life" by Geshe Kelsang Gyatso. 
@@ -227,22 +225,22 @@ The quote used for these two pages is, "If everyone sincerely practices the path
 * Link provided for further free excerpts from Geshe Kelsang Gyatso's books via an external site.  
 * Link provided to Tharpa publications run by the NKT where the users can purchase the full range of Geshe Kelsang Gyatso books and materials, including Buddhist prays and artwork approved by the tradition. 
 
-![Zoomed out image of the teachings page content section](assets/readme/screenshots/teachings-page-content.png)
+![Zoomed out image of the teachings page content section](docs/screenshots/teachings-page-content.png)
 
 ### **Community Page Content:**
 
 * Begins by explaining the terminology used in the hero image quote. This explanation then introduces the NKT's international community and their goal to achieve the accessibility of Buddha's teachings to people worldwide.
 * This section includes an image of the NKT's first-ever temple.
 
-![Community page top section](assets/readme/screenshots/community-initial-content.jpg)
+![Community page top section](docs/screenshots/community-initial-content.jpg)
 
 * The user is presented with two methods to connect directly with the international community and further their experience of Modern Buddhism.
 
-![Community page articles split on larger screen sizes](assets/readme/screenshots/community-split-articles.jpg)
+![Community page articles split on larger screen sizes](docs/screenshots/community-split-articles.jpg)
 
 * Smaller screen sizes show the section "Ways To Connect In-Person" as a single column with the articles stacked one above the other and no background to ensure a better user experience.
 
-![Community page articles split on smaller screen sizes](assets/readme/screenshots/community-smaller-screens.jpg)
+![Community page articles split on smaller screen sizes](docs/screenshots/community-smaller-screens.jpg)
 
 ### **Contact Page Content**
 
@@ -256,7 +254,7 @@ The quote used for these two pages is, "If everyone sincerely practices the path
 
 *Note: This form doesn't function to gather any data; it was created with a GET request to call a feedback page. The submit button then triggers the GET request to load the form feedback page outlined later in the readme. This feature is to simulate a real functional form only.*
 
-![Contact page content](assets/readme/screenshots/contact-page-content.jpg)
+![Contact page content](docs/screenshots/contact-page-content.jpg)
 
 ### **Form Feedback Page Content**
 * I created this page to mimic the effect of actually submitting a form. 
@@ -264,7 +262,7 @@ The quote used for these two pages is, "If everyone sincerely practices the path
 * Since filling in the form suggests the user is interested in learning more, I have included a longer feature video about the tradition here. *Note: Originally, I had wanted to use this on the home page, but due to the length of the video, I deemed it too long for an introduction. There is no autoplay on the videos, so the user can choose whether they want to engage with the video or not.*
 * Link included within the content to take the user back to the initial contact page, in case they wanted to look at the ways to contact a local meditation center, send an additional message, or sign up to the mailing list.
 
-![Form feedback content](assets/readme/screenshots/form-feedback-content.jpg)
+![Form feedback content](docs/screenshots/form-feedback-content.jpg)
 
 ## **Future-Enhancements**
 ***
