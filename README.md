@@ -1,4 +1,7 @@
 # redo light house scores - font awesome scrip switch for the link in head 
+#change readme - delete return to top link feature mention sticky header
+# mention tinypng in credits
+# add contents to test.md
 
 # **Modern Buddhism**
 ## **Site Overview**
