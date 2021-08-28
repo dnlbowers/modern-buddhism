@@ -307,11 +307,11 @@ The live site can be found here - [Modern Buddhism live webpage](https://dnlbowe
 ### **Honorable mentions**
 This project could not have happened without the support of the following people listed in no particular order:
 
-* [Mark Cutajar](https://github.com/markcutajar) - He who possesses screens so clear your mouth waters at the mere site of them. Also a code guru who let me share his office during the initial development stage whilst I was visiting him in Scotland and part of the reason I entered the world of programming.
+* [Mark Cutajar](https://github.com/markcutajar) - He who possesses screens so clear your mouth waters at the mere sight of them. Also a code guru who let me share his office during the initial development stage whilst I was visiting him in Scotland and this man is part of the reason I entered the world of programming.
 * [Richard Wells](https://github.com/D0nni387) - Code Institute Mentor.
 * [Matt Bodden](https://github.com/MattBCoding) - 24/7 tester and support. 
 * [Monica Hrda](https://github.com/monika-hrda) - Style adviser and tester.
-* [Anthony O'Brien](https://github.com/D0nni387) - Tester, advisor, and cheerleader (I think he has pom poms) and my introduction to CSS flex.
+* [Anthony O'Brien](https://github.com/D0nni387) - Tester, advisor, cheerleader (I think he has pom poms) and my introduction to CSS flex.
 
 ### **General reference:**
 * The project was influenced by the Code Institutes code along project called Love running. Whilst I have tried to deviate as much as possible there may be some similarities in the code.
