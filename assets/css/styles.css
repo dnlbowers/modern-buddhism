@@ -366,6 +366,7 @@ header {
     font-size: 100%;
     font-family: 'Open Sans', sans-serif;
     border-radius: 0.625rem;
+    text-align: center;
 }
 
 #p-in-form {
