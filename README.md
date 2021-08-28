@@ -259,23 +259,33 @@ The live site can be found here - [Modern Buddhism live webpage](https://dnlbowe
 ## **Credits**
 ***
 ### **Media:**
+* The project was influenced by the Code Institutes code along project called Love running. Whilst I have tried to deviate as much as possible there may be some similarities in the code.
 
-* I found the Traditions logos used in the header via google images on the below URL: 
-    * https://meditateinvictoria.org/wp-content/uploads/2019/02/NKT-Logo-white-transparent-300x300.png
+* New Kadampa Traditions logos - https://meditateinvictoria.org/wp-content/uploads/2019/02/NKT-Logo-white-transparent-300x300.png
 
-* Videos on index.html and form-feedback.html taken from the [NKT's official YouTube channel](https://www.youtube.com/nktikbu)
+* Videos on index.html and form-feedback.html- [NKT's official YouTube channel](https://www.youtube.com/nktikbu)
 
-* I found the image used to download the ebook Modern Buddhism via google images on the below URL: 
-    * https://meditateinbrisbane.org/classes/kenmore_class/
+* ebook Modern Buddhism download image - https://meditateinbrisbane.org/classes/kenmore_class/
 
-* The excerpt from Transform your life on teachings.html content was copied from https://kadampa.org/reference/buddhist-beliefs
+* The excerpt from Transform your life on teachings.html - https://kadampa.org/reference/buddhist-beliefs
 
-* The buddha images used to break up the excerpt from Transform your life on teachings.html were found from https://www.pngwing.com/en/search?q=New+KAdampa
+* The buddha images used to break up the excerpt from Transform your life on teachings.html - https://www.pngwing.com/en/search?q=New+KAdampa
 
-* the image used to link the user from teachings.html to the download page for the ebook "How to Transform your life" was taken from https://kadampa.org/buddhism/kadampa-buddhist-scriptures
+* ebook "How to Transform your life" download image - https://kadampa.org/buddhism/kadampa-buddhist-scriptures
 
-* Temple image was taken from https://swdharmacelebration.org/wp-content/uploads/2020/08/Manjushri.jpg
+* Image within in figure with the ID "temple-img" on community.html - https://swdharmacelebration.org/wp-content/uploads/2020/08/Manjushri.jpg
 
-* Image within in figure with the ID "int-fest-fig" on community.html was taken from https://meditationincheshire.org/kadampa-buddhism/
+* Image within in figure with the ID "int-fest-fig" on community.html- https://meditationincheshire.org/kadampa-buddhism/
 
-* Image within in figure with the ID "work-hol-fig" on community.html was taken from https://meditateinleicester.org/volunteer/
+* Image within in figure with the ID "work-hol-fig" on community.html - https://meditateinleicester.org/volunteer/
+
+* The golden gradient colour scheme - http://www.brandgradients.com/gold-gradient and later converted into RGBa via a google search of the equivalent color value.
+
+* Hero image on index.html - https://www.kadampafestivalus.org/geshe-kelsang-gyatso/geshe-la-at-kmc-new-york/
+
+* Hero image teachings.html - https://www.meditateinperth.org/about-buddhism
+
+* HEro image community.html - https://www.wiseattention.org/blog/2012/02/21/nkt-succession-and-the-rules
+
+* Hero image contact.html/form-feedback.html - https://meditateinleicester.org/buddhism-3/
+

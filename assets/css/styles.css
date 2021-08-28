@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Open+Sans:wght@600&family=Oswald:wght@700&display=swap');
 
 /* Removing browser defaults. Code taken form Love Running project*/
-
 * {
     border: none;
     margin: 0;
@@ -10,7 +9,6 @@
 }
 
 /*Generic style rules to avoid repetition and remove <br> tags from HTML code*/
-
 a:hover {
     cursor: pointer;
 }
@@ -40,7 +38,6 @@ a:hover {
 }
 
 /*set defaults for the page body and header working from a default of 320px width to scale up from*/
-
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -49,7 +46,6 @@ body {
 }
 
 /*header style rules*/
-
 header {
     display: flex;
     justify-content: space-between;
@@ -82,9 +78,7 @@ header {
 }
 
 /*Navigation bar style rules*/
-
 .nav-wrap {
-    /*colour gradient taken from http://www.brandgradients.com/gold-gradient/*/
     background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728,#fbf5b7 );
 }
 
@@ -107,7 +101,6 @@ header {
 }
 
 /*shows active page and style's menu button when interacted with*/
-
 .active, .nav-button:hover {
     background-color: #06304b;
     color: #fff;
@@ -115,7 +108,6 @@ header {
 }
 
 /*Container for all hero images*/
-
 .hero-image-container {
     height: 400px;
     width: 100%;
@@ -126,42 +118,34 @@ header {
 }
 
 /*Adds hero images to each page*/
-
-/*image taken from https://www.kadampafestivalus.org/geshe-kelsang-gyatso/geshe-la-at-kmc-new-york/*/
 .index-hero-image {
     background: url('../images/geshe-la-outside-temple.jpg') no-repeat center center;
 }
 
-/*Image taken from https://www.meditateinperth.org/about-buddhism/*/
 .teachings-hero-image {
     background: url('../images/geshe-kelsang-gyatso-hero-image.jpg') no-repeat center center;
 }
 
-/*Image taken from https://meditateinleicester.org/buddhism-3/*/
-.contact-hero-image {
-    background: url('../images/contact-banner.jpg') no-repeat center center;
-}
-
-/*image taken from https://www.wiseattention.org/blog/2012/02/21/nkt-succession-and-the-rules/*/
 .community-hero-image {
     background: url('../images/community-hero-image.jpg') no-repeat center center;
     background-position-y: 100%;
 }
 
-/*sets the rules for all hero images and links the keyframe rules to them*/
+.contact-hero-image {
+    background: url('../images/contact-banner.jpg') no-repeat center center;
+}
 
+/*sets the rules for all hero images and links the keyframe rules to them*/
 .hero-animation {
     height: 65%;
     width: 100%;
     background-size: cover;
     animation-name: hero-image-zoom;
     animation-duration: 5s;
-    animation-fill-mode: forwards;
-        
+    animation-fill-mode: forwards;    
 }
 
 /* creates the level of zoom for hero image */
-
 @keyframes hero-image-zoom {
     from{
         transform: scale(1);
@@ -171,8 +155,7 @@ header {
     }
 }
 
-/*Add a text overly to the hero images, adapted code from love running project*/
-
+/*Add a text overly to the hero images*/
 .quote-background {
     display: grid;
     font-size: 55%;
@@ -180,7 +163,6 @@ header {
     height: 35%;
     font-family: 'DM Sans', sans-serif;
     color: #000;
-     /*colour gradient taken from http://www.brandgradients.com/gold-gradient/*/
     background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728,#fbf5b7);
     justify-content: center;
     align-content: space-evenly;
@@ -198,8 +180,7 @@ header {
     letter-spacing: 0.25rem;
 }
 
-/*styles for any text on the main content sections of the page for text*/
-
+/*styles for any text on the main text content*/
 .main-heading {
     font-family: 'DM Sans', sans-serif;
     text-transform: capitalize;
@@ -227,17 +208,16 @@ header {
 }
 
 /*used ID to center last p tag on teachings page to override the .content p class*/
-
 #center-p-on-teach-page {
     text-align: center;
 }
 
+/*second ID created for the same reason as above but on the about page*/
 #center-p-on-about-page {
     text-align: center;
 }
 
 /*rules for anchor tag which are children ".content"*/
-
 .content a {
     color:#000;
 }
@@ -247,7 +227,6 @@ header {
 }
 
 /*content rules on form feedback-page*/
-
 #form-feedback-content {
     background-color: #cfebfd;
     color: #000;
@@ -263,9 +242,7 @@ header {
     color: #000;
 }
 
-/*figure, and their children on teachings page*/
-/* images from https://www.pngwing.com*/
-
+/*figure elements, and their children on teachings page*/
 #buddha-shakyamuni-fig, #guru-sumanti-fig, #buddha-maitreya-fig {
     height: 18.75rem;
     width: 18.75rem;
@@ -305,7 +282,6 @@ header {
 }
 
 /*figure elements and their children on community page*/
-
 #temple-fig {
     height: 10%;
     width: 86%;
@@ -350,7 +326,6 @@ header {
 }
 
 /*images relating to external media/downloads*/
-
 #modern-buddhism-vid {
     width: 85%;
     max-width: 35rem;
@@ -371,7 +346,6 @@ header {
 }
 
 /*Styling for the form on contact.html"*/
-
 #contact-form {
     display: grid;
     justify-content: center;
@@ -405,7 +379,6 @@ header {
 }
 
 /*Form submit button and hover styling*/
-
 #submit-btn {
     background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728,#fbf5b7);
     border-radius: 1.75rem;
@@ -422,7 +395,6 @@ header {
 }
 
 /*Styling for the page footers*/
-
 footer {
     color: #fff;
 }
@@ -438,7 +410,6 @@ footer h4 {
 }
 
 /*style for the social media links*/
-
 .social-media li {
     display: inline;
     list-style-type: none;
@@ -452,19 +423,15 @@ footer h4 {
 }
 
 /* Media queries */
-
 /*for screen sizes over 360px and under 540px wide*/
-
 @media (min-width: 360px) {
     
-    /*style changes to the header*/
-    
+    /*style changes to the header*/ 
     header{
         justify-content: space-around;
     }
 
     /*Style changes to nav bar*/
-
     .nav-menu {
         font-size: 75%;
     }
@@ -474,7 +441,6 @@ footer h4 {
     }
 
     /*Style changes to the contact form*/
-
     #contact-form {
         color: #fff;
         width: 85%;
@@ -492,11 +458,9 @@ footer h4 {
 }
 
 /*for screen sizes over 540px and under 767px wide*/
-
 @media (min-width: 540px) {
 
     /*Style changes to the header*/ 
-   
     header {
         justify-content: space-evenly;
     }
@@ -505,13 +469,12 @@ footer h4 {
         display: inline;
     }
 
-    .title{
+    .title {
         letter-spacing: 0.25rem;
         font-size: 165%;
     }
 
-    /*Style changes to Nav bar*/
-
+    /*Style changes to Navbar*/
     .nav-menu {
         font-size: 100%;
     }
@@ -521,7 +484,6 @@ footer h4 {
     }
 
     /*Style changes to the hero-image container on each page*/
-
     .hero-image-container {
         height: 28.125rem; 
     }
@@ -543,7 +505,6 @@ footer h4 {
     }
 
     /*style changes to the quote overlay on the hero image*/
-    
     .quote-background {
         height: 25%;
         font-size: 70%;
@@ -565,7 +526,6 @@ footer h4 {
     }
 
     /*Style change to figures and the contained images on the community page*/
-
     #temple-fig {
         width: 90%;
     }
@@ -577,7 +537,6 @@ footer h4 {
     }
 
     /*Style changes to the contact form*/
-
     #contact-form {
         border: 0.375rem solid #bf953f;
         padding: 1.875rem 0;
@@ -591,11 +550,9 @@ footer h4 {
 }
 
 /*for screen sizes over 768px and under 979px wide*/
-
 @media (min-width: 768px) {
     
     /*Style changes to the hear*/
-
     .header-image-left {
         height: 5.625rem;
         width: 5.625rem;
@@ -611,7 +568,6 @@ footer h4 {
     }
 
     /*style changes to the nav bar*/
-
     .nav-menu {
         font-size: 105%;
     }
@@ -621,7 +577,6 @@ footer h4 {
     }
 
     /*style changes to the hero image container*/
-
     .hero-image-container {
         height: 500px;  
     }
@@ -643,7 +598,6 @@ footer h4 {
     }
 
     /*Style changes to the main content of the pages*/
-
     .content > p {
         padding: 1rem 13% 1.5625rem;
     }
@@ -659,8 +613,6 @@ footer h4 {
         align-items: stretch
     }
 
-    /*Style changes to figure elements and their children on community page*/
-
     #working-hol, #int-festival {
         width: 45%;
         margin: 0 auto;
@@ -670,6 +622,7 @@ footer h4 {
         max-width: 101.25rem;
     }
 
+    /*Style changes to figure elements and their children on community page*/
     #temple-fig {
         width: 74%;
     }
@@ -694,11 +647,9 @@ footer h4 {
 }
 
 /*for screen sizes over 979px and under 1200px wide*/
-
 @media (min-width: 980px) {
     
     /*style change to the header*/
-
     .header-image-left {
         height: 6.25rem;
         width: 6.25rem;
@@ -714,7 +665,6 @@ footer h4 {
     }
 
     /*Style changes to the nav bar*/
-
     .nav-menu {
         font-size: 135%;
     }
@@ -724,7 +674,6 @@ footer h4 {
     }
 
     /*style changes to the main content on the pages*/
-
     .content > p {
         padding: 1rem 15% 1.5625rem;
     }
@@ -739,7 +688,6 @@ footer h4 {
 }
 
 /*for screen sizes over 1200px wide*/
-
 @media (min-width: 1200px) {
     
     /*Style change to hero-container size*/
@@ -748,13 +696,12 @@ footer h4 {
     }
 
     /*style change to quote overlay*/
-
     .quote-background {
         position: absolute;
         right: 0;
     }
 
-    /*style change to the nav bar*/
+    /*style change to the navbar*/
     .nav-menu {
         font-size: 150%;
     }
@@ -766,7 +713,7 @@ footer h4 {
 
 @media (min-width: 1400px) {
 
-    /*style change to the nac bar*/
+    /*style change to the navbar*/
     .nav-menu {
         font-size: 150%;
     }
