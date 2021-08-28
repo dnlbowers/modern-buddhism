@@ -1,47 +1,49 @@
 # **Modern Buddhism**
 
 ## Table of contents:
-  - [**Site Overview**](#site-overview)
-  - [**Planning stage**](#planning-stage)
-    - [**Target Audiences:**](#target-audiences)
-    - [**User Story's:**](#user-storys)
-    - [**Site Aims:**](#site-aims)
-    - [**How Is This Will Be Achieved:**](#how-is-this-will-be-achieved)
-    - [**Wireframes:**](#wireframes)
-    - [**Color Scheme:**](#color-scheme)
-  - [**Current Features Common to all pages**](#current-features-common-to-all-pages)
-    - [**Header Element**](#header-element)
-      - [*Title:*](#title)
-      - [*Logos:*](#logos)
-    - [**Site Navigation**](#site-navigation)
-      - [*Navigation Bar:*](#navigation-bar)
-      - [*Return To Top Of The Page Link:*](#return-to-top-of-the-page-link)
-    - [**Hero Images**](#hero-images)
-    - [**About Page**:](#about-page)
-      - [*Hero-Image:*](#hero-image)
-      - [*Quote:*](#quote)
-    - [**Teachings page**:](#teachings-page)
-      - [*Hero-Image:*](#hero-image-1)
-      - [*Quote:*](#quote-1)
-    - [**Community page:**](#community-page)
-      - [*Hero-Image:*](#hero-image-2)
-      - [*Quote:*](#quote-2)
-    - [**Contact and Form-Feedback pages:**](#contact-and-form-feedback-pages)
-      - [*Hero-Image:*](#hero-image-3)
-      - [*Quote:*](#quote-3)
-  - [**Anchor Tags Within all Pages Main Content**](#anchor-tags-within-all-pages-main-content)
-  - [**Footer**](#footer)
-  - [**Individual Page Content features**](#individual-page-content-features)
-    - [**About Page Content:**](#about-page-content)
-    - [**Teachings Page Content:**](#teachings-page-content)
-    - [**Community Page Content:**](#community-page-content)
-    - [**Contact Page Content**](#contact-page-content)
-    - [**Form Feedback Page Content**](#form-feedback-page-content)
-  - [**Future-Enhancements**](#future-enhancements)
-  - [**Testing Phase**](#testing-phase)
-  - [**Deployment**](#deployment)
-  - [**Credits**](#credits)
-    - [**Media:**](#media)
+  1. [**Site Overview**](#site-overview)
+  1. [**Planning stage:**](#planning-stage)
+    - [*Target Audiences*](#target-audiences)
+    - [*User Story's*](#user-storys)
+    - [*Site Aims*](#site-aims)
+    - [*How Is This Will Be Achieved*](#how-is-this-will-be-achieved)
+    - [*Wireframes*](#wireframes)
+    - [*Color Scheme*](#color-scheme)
+ 1. [**Current Features Common to all pages**](#current-features-common-to-all-pages)
+    - [***Header Element:***](#header-element)
+      - [*Title*](#title)
+      - [*Logos*](#logos)
+    - [***Site Navigation:***](#site-navigation)
+      - [*Navigation Bar*](#navigation-bar)
+      - [*Return To Top Of The Page Link*](#return-to-top-of-the-page-link)
+    - [***Hero Images:***](#hero-images)
+      - [***About Page***](#about-page)
+        - [*Hero-Image*](#hero-image)
+        - [*Quote*](#quote)
+      - [***Teachings page:***](#teachings-page)
+        - [*Hero-Image*](#hero-image-1)
+        - [*Quote*](#quote-1)
+      - [***Community page:***](#community-page)
+        - [*Hero-Image*](#hero-image-2)
+        - [*Quote*](#quote-2)
+      - [***Contact and Form-Feedback pages:***](#contact-and-form-feedback-pages)
+        - [*Hero-Image*](#hero-image-3)
+        - [*Quote*](#quote-3)
+    - [**Anchor Tags Within all Pages Main Content**](#anchor-tags-within-all-pages-main-content)
+    - [**Footer**](#footer)
+  1. [**Individual Page Content features**](#individual-page-content-features)
+       - [*About Page Content*](#about-page-content)
+       - [*Teachings Page Content*](#teachings-page-content)
+       - [*Community Page Content*](#community-page-content)
+       - [*Contact Page Content*](#contact-page-content)
+       - [*Form Feedback Page Content*](#form-feedback-page-content)
+  1.  [**Future-Enhancements**](#future-enhancements)
+  1.  [**Testing Phase**](#testing-phase)
+        - [testing.md file](testing.md)
+  1. [**Deployment**](#deployment)
+  1. [**Credits**](#credits)
+       - [*General reference*](#general-reference)
+       - [*Media:*](#media)
   
 ## **Site Overview**
 ***
@@ -301,16 +303,21 @@ The live site can be found here - [Modern Buddhism live webpage](https://dnlbowe
 
 ## **Credits**
 ***
-### **Media:**
+### **General reference:**
 * The project was influenced by the Code Institutes code along project called Love running. Whilst I have tried to deviate as much as possible there may be some similarities in the code.
+* I relied upon W3schools, MDN web docs and stack overflow for general references throughout the project.
 
+### **Content:**
+* All Content was written by myself with the exception of the below excerpt on teachings.html
+* The excerpt from Transform your life on teachings.html - https://kadampa.org/reference/buddhist-beliefs
+* Icons in the footer were taken from [Font Awesome](https://fontawesome.com)
+  
+### **Media:**
 * New Kadampa Traditions logos - https://meditateinvictoria.org/wp-content/uploads/2019/02/NKT-Logo-white-transparent-300x300.png
 
 * Videos on index.html and form-feedback.html- [NKT's official YouTube channel](https://www.youtube.com/nktikbu)
 
 * ebook Modern Buddhism download image - https://meditateinbrisbane.org/classes/kenmore_class/
-
-* The excerpt from Transform your life on teachings.html - https://kadampa.org/reference/buddhist-beliefs
 
 * The buddha images used to break up the excerpt from Transform your life on teachings.html - https://www.pngwing.com/en/search?q=New+KAdampa
 
@@ -328,7 +335,7 @@ The live site can be found here - [Modern Buddhism live webpage](https://dnlbowe
 
 * Hero image teachings.html - https://www.meditateinperth.org/about-buddhism
 
-* HEro image community.html - https://www.wiseattention.org/blog/2012/02/21/nkt-succession-and-the-rules
+* Hero image community.html - https://www.wiseattention.org/blog/2012/02/21/nkt-succession-and-the-rules
 
 * Hero image contact.html/form-feedback.html - https://meditateinleicester.org/buddhism-3/
 
