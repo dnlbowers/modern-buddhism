@@ -312,6 +312,7 @@ This project could not have happened without the support of the following people
 * [Matt Bodden](https://github.com/MattBCoding) - 24/7 tester and support. 
 * [Monica Hrda](https://github.com/monika-hrda) - Style adviser and tester.
 * [Anthony O'Brien](https://github.com/D0nni387) - Tester, advisor, motivator and my introduction to CSS flex and VSCode.
+* The code institute Slack community as a whole who tested and supported throughout.
 
 ### **General reference:**
 * The project was influenced by the Code Institutes code along project called Love running. Whilst I have tried to deviate as much as possible there may be some similarities in the code.
