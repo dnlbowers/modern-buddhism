@@ -1,56 +1,56 @@
 # **Modern Buddhism**
-
-## Table of contents:
-  1. [**Site Overview**](#site-overview)
-  1. [**Planning stage:**](#planning-stage)
-    - [*Target Audiences*](#target-audiences)
-    - [*User Story's*](#user-storys)
-    - [*Site Aims*](#site-aims)
-    - [*How Is This Will Be Achieved*](#how-is-this-will-be-achieved)
-    - [*Wireframes*](#wireframes)
-    - [*Color Scheme*](#color-scheme)
- 1. [**Current Features Common to all pages**](#current-features-common-to-all-pages)
-    - [***Header Element:***](#header-element)
-      - [*Title*](#title)
-      - [*Logos*](#logos)
-    - [***Site Navigation:***](#site-navigation)
-      - [*Navigation Bar*](#navigation-bar)
-      - [*Return To Top Of The Page Link*](#return-to-top-of-the-page-link)
-    - [***Hero Images:***](#hero-images)
-      - [***About Page***](#about-page)
-        - [*Hero-Image*](#hero-image)
-        - [*Quote*](#quote)
-      - [***Teachings page:***](#teachings-page)
-        - [*Hero-Image*](#hero-image-1)
-        - [*Quote*](#quote-1)
-      - [***Community page:***](#community-page)
-        - [*Hero-Image*](#hero-image-2)
-        - [*Quote*](#quote-2)
-      - [***Contact and Form-Feedback pages:***](#contact-and-form-feedback-pages)
-        - [*Hero-Image*](#hero-image-3)
-        - [*Quote*](#quote-3)
-    - [**Anchor Tags Within all Pages Main Content**](#anchor-tags-within-all-pages-main-content)
-    - [**Footer**](#footer)
-  1. [**Individual Page Content features**](#individual-page-content-features)
-       - [*About Page Content*](#about-page-content)
-       - [*Teachings Page Content*](#teachings-page-content)
-       - [*Community Page Content*](#community-page-content)
-       - [*Contact Page Content*](#contact-page-content)
-       - [*Form Feedback Page Content*](#form-feedback-page-content)
-  1.  [**Future-Enhancements**](#future-enhancements)
-  1.  [**Testing Phase**](#testing-phase)
-        - [testing.md file](testing.md)
-  1. [**Deployment**](#deployment)
-  1. [**Credits**](#credits)
-       - [*Honorable mentions*](#honorable-mentions)
-       - [*General reference*](#general-reference)
-       - [*Media:*](#media)
-  
 ## **Site Overview**
 ***
 The New Kadampa Tradition (NKT) is a modern form of Buddhism without any cultural influence from the east. It stems from Tibetan Buddhism, which is known publicly in the west; however, the NKT aims to be more accessible to people with a busy lifestyle. It removes a lot of the cultural aspects of the Tibetan nations and provides everything in English.  Typically when someone wishes to learn the teachings from the Tibetan schools, they would be required to learn Tibetan and perform lengthy rituals to gain the full benefit of the practice.  The founder of the NKT, Geshe Kelsang Gyatso saw that cultural influences from Tibet were an obstacle to western practitioners. He worked diligently to create a structure that was best suited to modern life.
 
 ![Am I responsive screenshot](assets/readme/screenshots/am-i-responsive.jpg)
+## Table of contents:
+***
+1. [**Site Overview**](#site-overview)
+1. [**Table of contents**](#table-of-contents)
+1. [**Planning stage**](#planning-stage)
+    * [***Target Audiences***](#target-audiences)
+    * [***User Story's***](#user-storys)
+    * [***Site Aims***](#site-aims)
+    * [***How Is This Will Be Achieved:***](#how-is-this-will-be-achieved)
+    * [***Wireframes***](#wireframes)
+    * [***Color Scheme***](#color-scheme)
+1. [**Current Features Common to all pages**](#current-features-common-to-all-pages)
+    * [***Header Element***](#header-element)
+        * [*Title*](#title)
+        * [*Logos*](#logos)
+    * [***Site Navigation***](#site-navigation)
+        * [*Navigation Bar*](#navigation-bar)
+        * [*Return To Top Of The Page Link:*](#return-to-top-of-the-page-link)
+    * [**Hero Images**](#hero-images)
+      * [***About Page***:](#about-page)
+          * [*Hero-Image*](#hero-image)
+          * [*Quote*](#quote)
+      * [***Teachings page***:](#teachings-page)
+          * [*Hero-Image*](#hero-image-1)
+          * [*Quote*](#quote-1)
+      * [***Community page:***](#community-page)
+          * [*Hero-Image*](#hero-image-2)
+          * [*Quote*](#quote-2)
+      * [***Contact and Form-Feedback pages:***](#contact-and-form-feedback-pages)
+          * [*Hero-Image*](#hero-image-3)
+          * [*Quote*](#quote-3)
+    * [**Anchor Tags Within all Pages Main Content**](#anchor-tags-within-all-pages-main-content)
+    * [**Footer**](#footer)
+1. [**Individual Page Content features**](#individual-page-content-features)
+    * [**About Page Content:**](#about-page-content)
+    * [**Teachings Page Content:**](#teachings-page-content)
+    * [**Community Page Content:**](#community-page-content)
+    * [**Contact Page Content**](#contact-page-content)
+    * [**Form Feedback Page Content**](#form-feedback-page-content)
+1. [**Future-Enhancements**](#future-enhancements)
+1. [**Testing Phase**](#testing-phase)
+1. [**Deployment**](#deployment)
+1. [**Credits**](#credits)
+    * [**Honorable mentions**](#honorable-mentions)
+    * [**General reference:**](#general-reference)
+    * [**Content:**](#content)
+    * [**Media:**](#media)
 
 ## **Planning stage**
 ***
@@ -289,7 +289,7 @@ The quote used for these two pages is, "If everyone sincerely practices the path
 
 ## **Testing Phase**
 ***
-I have included details of testing both during development and post development in a separate document called [testing.md](testing.md).
+I have included details of testing both during development and post development in a separate document called [TESTING.md](TESTING.md).
 
 ## **Deployment**
 ***
