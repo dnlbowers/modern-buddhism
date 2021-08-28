@@ -47,10 +47,21 @@ body {
 
 /*header style rules*/
 header {
+    padding: 10px 0 0;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: #06304b;
+    border-bottom: 0.5rem solid #06304b;
+}
+
+.title-container {
     display: flex;
-    justify-content: space-between;
+    padding-bottom: 10px;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-content: stretch;
     align-items: center;
-    padding: 0.625rem;
 }
 
 .title-anchor {
@@ -113,7 +124,6 @@ header {
     width: 100%;
     overflow: hidden;
     position: relative;
-    border-top: 0.5rem solid #06304b;
     border-bottom: 0.5rem solid #06304b;
 }
 
