@@ -318,33 +318,32 @@ This project could not have happened without the support of the following people
 
 ### **Content:**
 * All Content was written by myself with the exception of the below excerpt on teachings.html
-* The excerpt from Transform your life on teachings.html - https://kadampa.org/reference/buddhist-beliefs
+* The excerpt from Transform your life on teachings.html - [kadampa.org](https://kadampa.org/reference/buddhist-beliefs)
 * Icons in the footer were taken from [Font Awesome](https://fontawesome.com)
+* The golden gradient colour scheme - [brandgradients.com](http://www.brandgradients.com/gold-gradient).
   
 ### **Media:**
-* New Kadampa Traditions logos - https://meditateinvictoria.org/wp-content/uploads/2019/02/NKT-Logo-white-transparent-300x300.png
+* New Kadampa Traditions logos - [meditateinvictoria.org](https://meditateinvictoria.org/wp-content/uploads/2019/02/NKT-Logo-white-transparent-300x300.png)
 
 * Videos on index.html and form-feedback.html- [NKT's official YouTube channel](https://www.youtube.com/nktikbu)
 
-* ebook Modern Buddhism download image - https://meditateinbrisbane.org/classes/kenmore_class/
+* ebook Modern Buddhism download image - [meditateinbrisbane.org](https://meditateinbrisbane.org/classes/kenmore_class/)
 
-* The buddha images used to break up the excerpt from Transform your life on teachings.html - https://www.pngwing.com/en/search?q=New+KAdampa
+* The buddha images used to break up the excerpt from Transform your life on teachings.html - [pngwing.com](https://www.pngwing.com/en/search?q=New+KAdampa)
 
-* ebook "How to Transform your life" download image - https://kadampa.org/buddhism/kadampa-buddhist-scriptures
+* ebook "How to Transform your life" download image - [kadampa.org](https://kadampa.org/buddhism/kadampa-buddhist-scriptures)
 
-* Image within in figure with the ID "temple-img" on community.html - https://swdharmacelebration.org/wp-content/uploads/2020/08/Manjushri.jpg
+* Image within in figure with the ID "temple-img" on community.html - [swdharmacelebration.org](https://swdharmacelebration.org/wp-content/uploads/2020/08/Manjushri.jpg)
 
-* Image within in figure with the ID "int-fest-fig" on community.html- https://meditationincheshire.org/kadampa-buddhism/
+* Image within in figure with the ID "int-fest-fig" on community.html- [meditationincheshire.org](https://meditationincheshire.org/kadampa-buddhism/)
 
-* Image within in figure with the ID "work-hol-fig" on community.html - https://meditateinleicester.org/volunteer/
+* Image within in figure with the ID "work-hol-fig" on community.html - [meditateinleicester.org](https://meditateinleicester.org/volunteer/)
 
-* The golden gradient colour scheme - http://www.brandgradients.com/gold-gradient and later converted into RGBa via a google search of the equivalent color value.
+* Hero image on index.html - [kadampafestivalus.org](https://www.kadampafestivalus.org/geshe-kelsang-gyatso/geshe-la-at-kmc-new-york/)
 
-* Hero image on index.html - https://www.kadampafestivalus.org/geshe-kelsang-gyatso/geshe-la-at-kmc-new-york/
+* Hero image teachings.html - [meditateinperth.org](https://www.meditateinperth.org/about-buddhism)
 
-* Hero image teachings.html - https://www.meditateinperth.org/about-buddhism
+* Hero image community.html - [wiseattention.org](https://www.wiseattention.org/blog/2012/02/21/nkt-succession-and-the-rules)
 
-* Hero image community.html - https://www.wiseattention.org/blog/2012/02/21/nkt-succession-and-the-rules
-
-* Hero image contact.html/form-feedback.html - https://meditateinleicester.org/buddhism-3/
+* Hero image contact.html/form-feedback.html - [meditateinleicester.org](https://meditateinleicester.org/buddhism-3/)
 
