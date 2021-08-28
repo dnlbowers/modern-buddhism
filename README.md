@@ -42,6 +42,7 @@
         - [testing.md file](testing.md)
   1. [**Deployment**](#deployment)
   1. [**Credits**](#credits)
+       - [*Honorable mentions*](#honorable-mentions)
        - [*General reference*](#general-reference)
        - [*Media:*](#media)
   
@@ -303,6 +304,15 @@ The live site can be found here - [Modern Buddhism live webpage](https://dnlbowe
 
 ## **Credits**
 ***
+### **Honorable mentions**
+This project could not have happened without the support of the following people listed in no particular order:
+
+* [Richard Wells](https://github.com/D0nni387) - Code Institute Mentor.
+* [Matt Bodden](https://github.com/MattBCoding) - 24/7 tester and support. 
+* [Monica Hrda](https://github.com/monika-hrda) - Style adviser.
+* [Mark Cutajar](https://github.com/markcutajar) - He who posses screens so clear your mouth waters at the mere site of them. Also a Code guru who let me share his office during the initial development stage whilst I was visiting him in Scotland.
+* [Anthony O'Brien](https://github.com/D0nni387) - Cheerleader (I think he has pom poms) and my introduction to CSS flex.
+
 ### **General reference:**
 * The project was influenced by the Code Institutes code along project called Love running. Whilst I have tried to deviate as much as possible there may be some similarities in the code.
 * I relied upon W3schools, MDN web docs and stack overflow for general references throughout the project.
