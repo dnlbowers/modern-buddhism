@@ -124,7 +124,7 @@ header {
     width: 100%;
     overflow: hidden;
     position: relative;
-    border-bottom: 0.5rem solid #06304b;
+    margin-bottom: 0.5rem;
 }
 
 /*Adds hero images to each page*/
