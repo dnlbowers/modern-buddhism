@@ -253,7 +253,7 @@ The quote used for these two pages is, "If everyone sincerely practices the path
 ### **Form Feedback Page Content**
 * I created this page to mimic the effect of actually submitting a form. 
 * I centered the text alignment on this page. I set the alignment to justify on all other pages on smaller screens and left on larger screens. I made this decision because of the lack of text on the form feedback page. Matching the alignment to the other pages looked out of place.
-* Since filling in the form suggests the user is interested in learning more, I have included a longer feature video about the tradition here. *Note: Originally, I had wanted to use this on the home page, but due to the length of the video, I deemed it too long for an introduction. There is no autoplay on the videos, so the user can choose whether they want to engage with the video or not.*
+* Since filling in the form suggests the user is interested in learning more, I have included a longer feature video about the tradition here. *Note: Originally, I had wanted to use this on the home page, but due to the length of the video, I deemed it too long for an introduction. There is no auto play on the videos, so the user can choose whether they want to engage with the video or not.*
 * Link included within the content to take the user back to the initial contact page, in case they wanted to look at the ways to contact a local meditation center, send an additional message, or sign up to the mailing list.
 
 ![Form feedback content](docs/screenshots/form-feedback-content.jpg)

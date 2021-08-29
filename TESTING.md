@@ -1,4 +1,14 @@
-
+# Testing Page Table of Contents
+* [**During Development Testing**](#during-development-testing)
+    * [*Manual Testing*](#manual-testing)
+    * [*Bugs and Fixes*](#bugs-and-fixes)
+* [**Post Development Testing**](#post-development-testing)
+  * [**Validators**](#validators)
+      * [*HTML*](#html---httpsvalidatorw3orgnu)
+      * [*CSS*](#css---httpsjigsaww3orgcss-validator)
+  * [**Lighthouse Scores**](#lighthouse-scores)
+      * [*Desktop Version:*](#desktop-version)
+      * [*Mobile Version*](#mobile-version)
 
 ## **During Development Testing**
 ***
@@ -8,7 +18,7 @@ During the development process, I was manually testing in the following ways:-
     
 1. Published the page via GitHub pages and shared with fellow students to test and received feedback.
 
-#### ***Manual Testing:***
+### ***Manual Testing:***
 During testing, I used four different browsers to ensure cross-compatibility. The desktop browsers used by myself were:
 
 1. Chrome
@@ -17,8 +27,9 @@ During testing, I used four different browsers to ensure cross-compatibility. Th
 4. Edge
 
 I then used the devtools to simulate different screen sizes/devices from 320 px upt 4000px in width. 
+In addition to this, I also asked several people to test using iPhones and Apple Mac laptops/desktops using safari. These users reported no issues or bugs only style suggestions.
 
-In addition to this, I also asked several people to test using iPhones and Apple Mac laptops/desktops using safari. These users reported no issues or bugs.
+### ***Bugs and Fixes:***
 
 Below is a list of bugs I found during the development process by testing myself via the live server extension on VSCode. I tried each element for how the browser would display the page to potential users on a range of different screen sizes.:-
 
@@ -116,7 +127,7 @@ I have only included one screenshot for desktop as all pages were the same score
 
 1. The performance was 93 on the form feedback page but fluctuating around 93 each time I ran the test. I used https://tinypng.com/ to compress the hero image on this page, which took the score to a minimum of 95 or higher each time I ran the lighthouse test.
 
-#### **Mobile Version:**
+#### ***Mobile Version:***
 
 Due to the more significant variance in the performance score, I have included a screenshot for each mobile page.
 
