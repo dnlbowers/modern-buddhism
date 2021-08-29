@@ -1,7 +1,4 @@
 # redo light house scores - font awesome scrip switch for the link in head 
-#change readme - delete return to top link feature mention sticky header
-# mention tinypng in credits
-# add contents to test.md
 
 # **Modern Buddhism**
 ## **Site Overview**
@@ -198,6 +195,8 @@ The quote used for these two pages is, "If everyone sincerely practices the path
 ***
 * The footer includes direct links to all the NKT's social media accounts with an invitation to connect to the NKT directly via these channels.
 
+* These links were imported from font awesome using Javascript at the bottom of the page. I was advised that linking the CDN in the header would load faster however the lighthouse tools in devtools showed a different story as the performance score became negatively affected by the CDN link.
+
 * I included a disclaimer that the site is intended solely for educational purposes and that all images and videos remain the property of NKT-IKBU. I added this after seeking advice from the Code Institute on slack. To make an accurate tribute to the tradition, I needed to use the appropriate images. Most of the pictures found on the usual sources were of entirely different practice and were irrelevant to my theme.
 
 ![Page footer](docs/screenshots/footer.jpg)
@@ -307,6 +306,7 @@ This project could not have happened without the support of the following people
 * [Matt Bodden](https://github.com/MattBCoding) - 24/7 tester and support. 
 * [Monica Hrda](https://github.com/monika-hrda) - Style adviser and tester.
 * [Anthony O'Brien](https://github.com/D0nni387) - Tester, advisor, motivator and my introduction to CSS flex and VSCode.
+* [Simen Daehlin](https://github.com/Eventyret) - For the longest and most comprehensive peer review that I received via slack. His feedback was truly amazing and although it confused me, it pushed me to become a better developer.  
 * The code institute Slack community as a whole who tested and supported throughout.
 
 ### **General reference:**
@@ -344,3 +344,4 @@ This project could not have happened without the support of the following people
 
 * Hero image contact.html/form-feedback.html - [meditateinleicester.org](https://meditateinleicester.org/buddhism-3/)
 
+* Images requiring compression were done using - [tiny.png](https://tinypng.com) 
