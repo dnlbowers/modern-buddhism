@@ -22,9 +22,7 @@ The New Kadampa Tradition (NKT) is a modern form of Buddhism without any cultura
     * [***Header Element:***](#header-element)
         * [*Title*](#title)
         * [*Logos*](#logos)
-    * [***Site Navigation:***](#site-navigation)
         * [*Navigation Bar*](#navigation-bar)
-        * [*Return To Top Of The Page Link*](#return-to-top-of-the-page-link)
     * [**Hero Images:**](#hero-images)
       * [***About Page***:](#about-page)
           * [*Hero-Image*](#hero-image)
@@ -127,7 +125,8 @@ When deciding the color scheme, I wanted to go with something that gave an elega
 ***
 ###  **Header Element**
 ***
-The header element contains the following features: 
+The header element sticks to the top of the page as the user scrolls up and down. Originally I had designed the page with a "return to top" link at the bottom of the page. However, a Code Institute graduate pointed out that the sticky header would provide a more pleasant UX to adhere to popular conventions. The header itself contains the following features: 
+
 #### *Title:*
 ![Page title](docs/screenshots/title.jpg)
 
@@ -145,19 +144,12 @@ The header element contains the following features:
 
         ![Desktop header](docs/screenshots/desktop-header.jpg)
 
-### **Site Navigation**
-***
 #### *Navigation Bar:*
 * The navigation bar appears on all five pages (including the form feedback page). 
 * It contains links to the about, teachings, community and contact page to allow easy navigation around the website. 
 * The below image shows the user's current page highlighted in blue with a white border. 
 * This blue highlight with a white border is also mimicked on the hover over feature for the other navbar buttons.
 ![Navigation bar](docs/screenshots/nav-bar.jpg)
-
-#### *Return To Top Of The Page Link:*
-* In addition to the navbar, each page includes a hyperlink at the bottom of the content. "Return to top of the page" takes the user back to the navigation bar if they have had to scroll a long way down to read all the content. 
-* This is especially useful on mobile devices where the column width for the content is narrower.\
-![Navigation bar](docs/screenshots/return-to-top.png)
 
 ### **Hero Images**
 ***
