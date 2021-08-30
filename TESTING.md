@@ -8,6 +8,8 @@ During the development process, I was manually testing in the following ways:-
     
 1. Published the page via GitHub pages and shared with fellow students to test and received feedback.
 
+1. Created a post on linked in and asked my network of over 400 developers to review the site and report any issues. The post was viewed more than 1200 times and no issues were reported back in the comments.
+
 #### ***Manual Testing:***
 During testing, I used four different browsers to ensure cross-compatibility. The desktop browsers used by myself were:
 
@@ -20,7 +22,7 @@ I then used the devtools to simulate different screen sizes/devices from 320 px 
 
 In addition to this, I also asked several people to test using iPhones and Apple Mac laptops/desktops using safari. These users reported no issues or bugs.
 
-Below is a list of bugs I found during the development process by testing myself via the live server extension on VSCode. I tried each element for how the browser would display the page to potential users on a range of different screen sizes.:-
+Below is a list of bugs I found during the development process by testing myself via the live server extension on VSCode. I tried each element for how the browser would display the page to potential users on a range of different screen widths from 320px to 4000px:-
 
 1. **Intended Outcome** - A header with three evenly spaced out items across the header element.
     * ***Issue Found:*** 
@@ -74,7 +76,11 @@ Below is a list of bugs I found during the development process by testing myself
         * Looking back over my past commits, I found a Ghost author listed earlier in the commit history. A google search showed that this represented a deleted account.
     * ***Solution Used:***
         * There was no fix required. I found this issue was caused by using the VSCode app on my work laptop instead of GitPod IDE. I set up VSCode because I needed a way to work whilst offline during a flight to Scotland. It wasn't until I returned home and set VSCode up on my private laptop that I realized I made all commits during my trip using my work email and username as a default to the VSCode preinstalled by my company. Once I updated my user details within VSCode, this ghost author appeared in the commits.  My work laptop somehow later restored my work email as the VSCode user during the project's final stages. However, I managed to link my work email to my Github account this time, so there will be no future inconsistency in the author of a commit.
-
+2. **Intended Outcome** - Attractive form with space between the input fields and the border.
+    * ***Issue Found:***
+        * Using Firefox web browser, I noticed that the form fields spanned the entire background width, and the curved edges spilling slightly out of the frame.
+    * ***Solution Used:***
+        * This was resolved by adding some padding to the left and right of the input fields which then became uniform across all browsers.
     
 ## **Post Development Testing**
 ***
@@ -118,7 +124,7 @@ I have only included one screenshot for desktop as all pages were the same score
 
 #### **Mobile Version:**
 
-Due to the more significant variance in the performance score, I have included a screenshot for each mobile page.
+* Due to the more significant variance in the performance score, I have included a screenshot for each mobile page. That being said when I asked one of my testers to check the mobile light house scores from his device his performance scores were all the high nineties.
 
 1. ***index.html:***
 
@@ -126,22 +132,26 @@ Due to the more significant variance in the performance score, I have included a
 
     * Originally, the performance score on the page was around 83. But by using a slightly smaller version of the same hero image, I resolved the issue and maintained the responsiveness up to 4000 px in width.
 
-1. ***teaching:***
+2. ***teaching:***
 
     ![Mobile Lighthouse Score for teachings.html](docs/screenshots/lighthouse-mobile-teach.jpg)
 
-1. ***community.html:***
+3. ***community.html:***
 
     ![Mobile Lighthouse Score for community.html](docs/screenshots/lighthouse-mobile-comm.jpg) 
 
-1. ***Contact.html:***
+4. ***Contact.html:***
 
     ![Mobile Lighthouse Score for teachings.html](docs/screenshots/lighthouse-mobile-contact.jpg)
 
     * Best practice score has initially been 98 due to the spacing of the mailing list radio buttons. I added a padding bottom to the top div encasing the first input and label, which solved the issue.
     * The performance score is lower on this mobile page due to the hero image. I already compressed the image twice, which had little impact on the score, and unfortunately, there was no more petite version of the image available. To resolve this in the future, I intend to use GIMP to resize an image. However, it was not a viable solution for this project due to the time already spent on the project, given I would need to learn GIMP from scratch. 
 
-1.  ***form-feedback.html***
+5.  ***form-feedback.html***
 
     ![Mobile Lighthouse Score for form-feedback.html](docs/screenshots/lighthouse-mobile-feedback.jpg) 
     * I found the performance score on this page lower due to the embedded video. I discovered this by looking at the original trace in the browser dev tools and saw the pages hero image and content loaded quickly. To test this theory, I removed the link from the iframe, and sure enough, the score increased a few points.
+
+### Accessability
+***
+In addition to the accessability score on light house I also used [WAVE - Web accessability evaluation tool](https://wave.webaim.org/) to check my pages for accessability and no errors were returned.
