@@ -52,7 +52,7 @@ header {
     top: 0;
     z-index: 1;
     background: #06304b;
-    border-bottom: 0.5rem solid #06304b;
+    padding-bottom: 0.5rem;
 }
 
 .title-container {
@@ -124,7 +124,7 @@ header {
     width: 100%;
     overflow: hidden;
     position: relative;
-    border-bottom: 0.5rem solid #06304b;
+    margin-bottom: 0.5rem;
 }
 
 /*Adds hero images to each page*/

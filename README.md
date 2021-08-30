@@ -1,8 +1,3 @@
-# redo light house scores - font awesome scrip switch for the link in head 
-#change readme - delete return to top link feature mention sticky header
-# mention tinypng in credits
-# add contents to test.md
-
 # **Modern Buddhism**
 ## **Site Overview**
 The New Kadampa Tradition (NKT) is a modern form of Buddhism without any cultural influence from the east. It stems from Tibetan Buddhism, which is known publicly in the west; however, the NKT aims to be more accessible to people with a busy lifestyle. It removes a lot of the cultural aspects of the Tibetan nations and provides everything in English.  Typically when someone wishes to learn the teachings from the Tibetan schools, they would be required to learn Tibetan and perform lengthy rituals to gain the full benefit of the practice.  The founder of the NKT, Geshe Kelsang Gyatso saw that cultural influences from Tibet were an obstacle to western practitioners. He worked diligently to create a structure that was best suited to modern life.
@@ -166,7 +161,7 @@ The quote included on the about page is "We Need Modern Ideas, But We Also Need 
 
 ### **Teachings page**:
 #### *Hero-Image:*
-This image is Geshe Kelsang Gyatso sat on what is commonly called a throne at one of the traditions international festivals. The throne is where a teacher sits to expound the oral lineage past from teacher to disciple, and so it was appropriate for a page discussing the core beliefs of the philosophy in his own words.
+This image is Geshe Kelsang Gyatso sat on what is commonly called a throne at one of the traditions international festivals. The throne is where a teacher sits to expound the oral lineage passed from teacher to disciple, and so it was appropriate for a page discussing the core beliefs of the philosophy in his own words.
 ![Teaching page hero image](docs/screenshots/teachings-hero-img.jpg)
 #### *Quote:*
 The quote included on the teachings page is "Happiness And Suffering Are States Of Mind And So Their Main Causes Are Not To Be Found Outside The Mind." which compliments the subject matter of the page's content.
@@ -179,7 +174,7 @@ This image is taken from behind Geshe Kelsang Gyatso, teaching at a festival. Th
 The quote on the community page is, "Buddha is the doctor who gives us medicine, and the Sangha are the nurses who assist us." Sangha is defined in the page's content and shows the importance and function of the community within the NKT.
 
 ### **Contact and Form-Feedback pages:**
-These two hero images and quotes we kept as the same to simulate still being on the same page after the form is submitted.
+These two hero images and quotes were kept the same to simulate still being on the same page after the form is submitted.
 
 #### *Hero-Image:*
 The artwork pictures three of the common deities used within the New Kadampa Tradition. I used this to be eye-catching even when viewed from smaller devices.
@@ -198,7 +193,9 @@ The quote used for these two pages is, "If everyone sincerely practices the path
 ***
 * The footer includes direct links to all the NKT's social media accounts with an invitation to connect to the NKT directly via these channels.
 
-* I included a disclaimer that the site is intended solely for educational purposes and that all images and videos remain the property of NKT-IKBU. I added this after seeking advice from the Code Institute on slack. To make an accurate tribute to the tradition, I needed to use the appropriate images. Most of the pictures found on the usual sources were of entirely different practice and were irrelevant to my theme.
+* These icons were imported from font awesome using Javascript at the bottom of the page. I was advised that linking the CDN in the header would load faster however the lighthouse tools in devtools showed a different story as the performance score became negatively affected by the CDN link.
+
+* I included a disclaimer that the site is intended solely for educational purposes and that all images and videos remain the property of NKT-IKBU. I added this after seeking advice from the Code Institute on slack. To make an accurate tribute to the tradition, I needed to use the appropriate images. Most of the pictures found on the usual image source websites were of entirely different Buddhist practice and were irrelevant to my theme.
 
 ![Page footer](docs/screenshots/footer.jpg)
 
@@ -208,12 +205,12 @@ The quote used for these two pages is, "If everyone sincerely practices the path
 
 * This page gives a brief historical summary of the New Kadampa tradition, a quick overview of how the NKT came to be.
 * The embedded youtube video is of one of the traditions senior teachers giving a summary of what modern Buddhism is to the tradition and why it is so applicable to people of the contemporary world. 
-* At the end of the content, there is an anchor tag wrapped around an image so the user can download a free copy of one of Geshe Kelsang Gyatso's books called "Modern Buddhism" in electronic format.
+* At the end of the content, there is an anchor tag wrapped around a clickable image so the user can download a free copy of one of Geshe Kelsang Gyatso's books called "Modern Buddhism" in electronic format.
 
 ![Contact and Form-feedback pages hero image](docs/screenshots/about-page-content.png)
 
 ### **Teachings Page Content:**
-* Includes an exert from the downloadable ebook "Transform Your Life" by Geshe Kelsang Gyatso. 
+* Includes an excerpt from the downloadable ebook "Transform Your Life" by Geshe Kelsang Gyatso. 
 * Covers the core beliefs behind what Buddhism teaches. 
 * I  included images to break up the monotony of the long passage.  
 * The images symbolize the traditions linage and are the decorations used in Geshe Kelsang Gyatso's books between pages. 
@@ -256,7 +253,7 @@ The quote used for these two pages is, "If everyone sincerely practices the path
 ### **Form Feedback Page Content**
 * I created this page to mimic the effect of actually submitting a form. 
 * I centered the text alignment on this page. I set the alignment to justify on all other pages on smaller screens and left on larger screens. I made this decision because of the lack of text on the form feedback page. Matching the alignment to the other pages looked out of place.
-* Since filling in the form suggests the user is interested in learning more, I have included a longer feature video about the tradition here. *Note: Originally, I had wanted to use this on the home page, but due to the length of the video, I deemed it too long for an introduction. There is no autoplay on the videos, so the user can choose whether they want to engage with the video or not.*
+* Since filling in the form suggests the user is interested in learning more, I have included a longer feature video about the tradition here. *Note: Originally, I had wanted to use this on the home page, but due to the length of the video, I deemed it too long for an introduction. There is no auto play on the videos, so the user can choose whether they want to engage with the video or not.*
 * Link included within the content to take the user back to the initial contact page, in case they wanted to look at the ways to contact a local meditation center, send an additional message, or sign up to the mailing list.
 
 ![Form feedback content](docs/screenshots/form-feedback-content.jpg)
@@ -272,13 +269,13 @@ The quote used for these two pages is, "If everyone sincerely practices the path
     * Times/dates/venues for Book clubs to study and discuss the materials and methods to apply them to daily life.
     * More information on the lineage of the tradition to include short biographies.
 
-* Eventually, when Malta was designated, a teacher by the head office these would then convert into: -
+* Eventually, when Malta was designated a teacher by the head office these would then convert into: -
 
     * Times/dates/venues/fees for Formal classes
     * Times/dates/venues/fees for Public talks/events
     * Include a bio for Malta's officially designated teacher at the end of the traditions lineage page or add a new page that summarizes their experience.
 
-* Once I better understand Javascript, I would like to add a burger menu for mobile-sized device screens. I found articles on achieving this with CSS and HTML alone; however, I did not deem this necessary to create the minimum viable product.
+* Once I better understand Javascript, I would like to add a burger menu for mobile-sized device screens. I found articles on achieving this with CSS and HTML alone; however, I did not deem this necessary to create the minimum viable product which is this project.
 
 * I would also make the contact form fully function with a post request and have a database to collate data for the mailing list.
 
@@ -302,12 +299,16 @@ The live site can be found here - [Modern Buddhism live webpage](https://dnlbowe
 ### **Honorable mentions**
 This project could not have happened without the support of the following people listed in no particular order:
 
-* [Mark Cutajar](https://github.com/markcutajar) - He who possesses screens so clear your mouth waters at the mere sight of them. Also a code guru who let me share his office during the initial development stage whilst I was visiting him in Scotland and this man is part of the reason I entered the world of programming.
-* [Richard Wells](https://github.com/D0nni387) - Code Institute Mentor.
-* [Matt Bodden](https://github.com/MattBCoding) - 24/7 tester and support. 
-* [Monica Hrda](https://github.com/monika-hrda) - Style adviser and tester.
-* [Anthony O'Brien](https://github.com/D0nni387) - Tester, advisor, motivator and my introduction to CSS flex and VSCode.
+* [Mark Cutajar](https://github.com/markcutajar) - He who possesses screens so clear the mouth waters at the mere sight of them. Also a code guru who let me share his office during the initial development stage whilst I was visiting him in Scotland. This man is part of the reason I entered the world of programming.
+* [Richard Wells](https://github.com/D0nni387) - Code Institute Mentor who has gone above and beyond what was expected of him to help me get this far in the course.
+* [Matt Bodden](https://github.com/MattBCoding) - 24/7 tester, advisor, muse and support. I truly cannot thank him enough, Matt you're a living legend!.  
+* [Monica Hrda](https://github.com/monika-hrda) - Style adviser and tester (go study!).
+* [Anthony O'Brien](https://github.com/D0nni387) - Tester, advisor, motivator and my introduction to CSS flex and connecting VSCode to Github.
+* [Simen Daehlin](https://github.com/Eventyret) - For the longest and most comprehensive peer review that I received via slack. His feedback was truly amazing and although parts of it confused me, it pushed me to become a better developer.  
 * The code institute Slack community as a whole who tested and supported throughout.
+
+* And the biggest thanks goes to my wife and child who have had to deal with me face to face through it all. Oliver has been my reason for change and Analise my inspiration. 
+
 
 ### **General reference:**
 * The project was influenced by the Code Institutes code along project called Love running. Whilst I have tried to deviate as much as possible there may be some similarities in the code.
@@ -344,3 +345,4 @@ This project could not have happened without the support of the following people
 
 * Hero image contact.html/form-feedback.html - [meditateinleicester.org](https://meditateinleicester.org/buddhism-3/)
 
+* Images requiring compression were done using - [tiny.png](https://tinypng.com) 
