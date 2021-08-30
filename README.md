@@ -299,13 +299,16 @@ The live site can be found here - [Modern Buddhism live webpage](https://dnlbowe
 ### **Honorable mentions**
 This project could not have happened without the support of the following people listed in no particular order:
 
-* [Mark Cutajar](https://github.com/markcutajar) - He who possesses screens so clear your mouth waters at the mere sight of them. Also a code guru who let me share his office during the initial development stage whilst I was visiting him in Scotland and this man is part of the reason I entered the world of programming.
-* [Richard Wells](https://github.com/D0nni387) - Code Institute Mentor.
-* [Matt Bodden](https://github.com/MattBCoding) - 24/7 tester and support. 
-* [Monica Hrda](https://github.com/monika-hrda) - Style adviser and tester.
-* [Anthony O'Brien](https://github.com/D0nni387) - Tester, advisor, motivator and my introduction to CSS flex and VSCode.
-* [Simen Daehlin](https://github.com/Eventyret) - For the longest and most comprehensive peer review that I received via slack. His feedback was truly amazing and although it confused me, it pushed me to become a better developer.  
+* [Mark Cutajar](https://github.com/markcutajar) - He who possesses screens so clear the mouth waters at the mere sight of them. Also a code guru who let me share his office during the initial development stage whilst I was visiting him in Scotland. This man is part of the reason I entered the world of programming.
+* [Richard Wells](https://github.com/D0nni387) - Code Institute Mentor who has gone above and beyond what was expected of him to help me get this far in the course.
+* [Matt Bodden](https://github.com/MattBCoding) - 24/7 tester, advisor, muse and support. I truly cannot thank him enough, Matt you're a living legend!.  
+* [Monica Hrda](https://github.com/monika-hrda) - Style adviser and tester (go study!).
+* [Anthony O'Brien](https://github.com/D0nni387) - Tester, advisor, motivator and my introduction to CSS flex and connecting VSCode to Github.
+* [Simen Daehlin](https://github.com/Eventyret) - For the longest and most comprehensive peer review that I received via slack. His feedback was truly amazing and although parts of it confused me, it pushed me to become a better developer.  
 * The code institute Slack community as a whole who tested and supported throughout.
+
+* And the biggest thanks goes to my wife and child who have had to deal with me face to face through it all. Oliver has been my reason for change and Analise my inspiration. 
+
 
 ### **General reference:**
 * The project was influenced by the Code Institutes code along project called Love running. Whilst I have tried to deviate as much as possible there may be some similarities in the code.
