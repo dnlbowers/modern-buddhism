@@ -9,6 +9,7 @@
   * [**Lighthouse Scores**](#lighthouse-scores)
       * [*Desktop Version:*](#desktop-version)
       * [*Mobile Version*](#mobile-version)
+  * [**Accessability**](#accessability)
 
 ## **During Development Testing**
 ***
@@ -164,7 +165,7 @@ I have only included one screenshot for desktop as all pages were the same score
     ![Mobile Lighthouse Score for form-feedback.html](docs/screenshots/lighthouse-mobile-feedback.jpg) 
     * I found the performance score on this page lower due to the embedded video. I discovered this by looking at the original trace in the browser dev tools and saw the pages hero image and content loaded quickly. To test this theory, I removed the link from the iframe, and sure enough, the score increased a few points.
 
-### Accessability
+### **Accessability**
 ***
 In addition to the accessability score on light house I also used [WAVE - Web accessability evaluation tool](https://wave.webaim.org/) to check my pages for accessability and no errors were returned.
     
