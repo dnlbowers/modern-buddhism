@@ -101,7 +101,7 @@ Below is a list of bugs I found during the development process by testing myself
 * ***Issue Found:***
     * My solution to point 6 of the "During Development Testing" section cause an error because I used a semantic tag ("section") on the community page with no heading. I had originally split the page into three sections leaving the two articles in a section by themselves. 
 * ***Solution Used:***
-    * I extended the section with the ID "ways-to-connect" to include the articles on the page and nested the section containing the two articles into a div element within #ways-to-connect. All pages now return no error.
+    * I extended the section tag with the ID "ways-to-connect" to include the articles on the page and changed the section tag containing the two articles into a div element within #ways-to-connect. All pages now return no error.
 
 #### ***CSS*** - https://jigsaw.w3.org/css-validator/
 
