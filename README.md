@@ -216,8 +216,8 @@ The quote used for these two pages is, "If everyone sincerely practices the path
 * Includes an excerpt from the downloadable ebook "Transform Your Life" by Geshe Kelsang Gyatso. 
 * Covers the core beliefs behind what Buddhism teaches. 
 * I  included images to break up the monotony of the long passage.  
-* The images symbolize the traditions linage and are the decorations used in Geshe Kelsang Gyatso's books between pages. 
-* Images are wrapped in a figure element and given a figcaption to detail who the image portrays. *Note: It was outside the scope of the project's MVP to detail the full linage of the NKT. See [Future-Enhancements](#future-enhancements) for details of how the lineage will later include it if required*
+  * The images symbolize the traditions linage and are the decorations used in Geshe Kelsang Gyatso's books between pages. 
+  * Images are wrapped in a figure element and given a figcaption to detail who the image portrays. *Note: It was outside the scope of the project's MVP to detail the full linage of the NKT. See [Future-Enhancements](#future-enhancements) for details of how the lineage will later include it if required*
 * The last image towards the bottom of the page is wrapped in an anchor tag. The image contains text inviting the user to download a full copy of the book if the user wishes to read further. 
 * Link provided for further free excerpts from Geshe Kelsang Gyatso's books via an external site.  
 * Link provided to Tharpa publications run by the NKT where the users can purchase the full range of Geshe Kelsang Gyatso books and materials, including Buddhist prays and artwork approved by the tradition. 
