@@ -68,7 +68,7 @@ The New Kadampa Tradition (NKT) is a modern form of Buddhism without any cultura
 * To educate the user on the core value of Buddhism.
 * To offer the user a chance to connect to the international community in person.
 * Provide the user with the information required to check for a base of operations close to them.
-* To offer the user a to contact the site author for further info or discussion.
+* To offer the user a way to contact the site author for further info or discussion.
 * Provide a method by which the user can subscribe to a newsletter.
 
 ### **How Is This Will Be Achieved:**
@@ -118,7 +118,7 @@ When deciding the color scheme, I wanted to go with something that gave an elega
 ***
 ## **Current Features Common to all pages**
 ###  **Header Element**
-The header element sticks to the top of the page as the user scrolls up and down. Originally I had designed the page with a "return to top" link at the bottom of the page. However, a Code Institute graduate pointed out that the sticky header would provide a more pleasant UX to adhere to popular conventions. The header itself contains the following features: 
+The header element sticks to the top of the page as the user scrolls up and down. Originally I had designed the page with a "return to top" link at the bottom of the page. However, a Code Institute graduate pointed out that the sticky header would provide a more pleasant UX and better adhere to popular conventions. The header itself contains the following features: 
 
 #### *Title:*
 ![Page title](docs/screenshots/title.jpg)
@@ -127,7 +127,7 @@ The header element sticks to the top of the page as the user scrolls up and down
 * It also serves as a navigation link to the home page called "about" as per the well-established convention expected by the user.
 
 #### *Logos:*
-* The logos illustrate the site's theme and offer something to appease the user's eye and fill the blank space without distracting from the title.
+* The logos illustrate the site's theme and offer something to appease the user's eye by filling the blank space without distracting from the title.
 
     * One logo on mobile devices was to ensure the title stays as big as possible on a smaller screen, improving the user experience.
 
