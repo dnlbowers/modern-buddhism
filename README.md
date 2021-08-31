@@ -50,7 +50,6 @@ The New Kadampa Tradition (NKT) is a modern form of Buddhism without any cultura
     * [**Media**](#media)
 
 ## **Planning stage**
-***
 ### **Target Audiences:**
 * Users craving to be happy yet have failed to find the answers outside in the world outside of themselves. 
 * Users with a general interest in Buddhism and want to learn more.
@@ -116,11 +115,9 @@ There was some deviation from the original wireframes to improve the User Experi
 ### **Color Scheme:**
 When deciding the color scheme, I wanted to go with something that gave an elegant appearance. For this reason, I selected a range of blue and gold's and used the following color grid created on https://contrast-grid.eightshapes.com/ to check the contrast scores. Using this grid allowed me to ensure all text remained visible and the site was accessible to all.
 ![Color contrast grid](docs/screenshots/color-grid.png)
-
+***
 ## **Current Features Common to all pages**
-***
 ###  **Header Element**
-***
 The header element sticks to the top of the page as the user scrolls up and down. Originally I had designed the page with a "return to top" link at the bottom of the page. However, a Code Institute graduate pointed out that the sticky header would provide a more pleasant UX to adhere to popular conventions. The header itself contains the following features: 
 
 #### *Title:*
@@ -146,9 +143,8 @@ The header element sticks to the top of the page as the user scrolls up and down
 * The below image shows the user's current page highlighted in blue with a white border. 
 * This blue highlight with a white border is also mimicked on the hover over feature for the other navbar buttons.
 ![Navigation bar](docs/screenshots/nav-bar.jpg)
-
-### **Hero Images**
 ***
+### **Hero Images**
 * I have included a hero image on each page to make the site uniform across all pages. 
 * Each image has a zoom animation to grab the attention of the user. 
 * Each image has an overlaid quote designed to give the user a brief insight into the teachings of the NKT.
@@ -182,16 +178,14 @@ The artwork pictures three of the common deities used within the New Kadampa Tra
 ![Contact and Form-feedback pages hero image](docs/screenshots/contact-hero-img.jpg)
 #### *Quote:*
 The quote used for these two pages is, "If everyone sincerely practices the path of compassion and wisdom, all their problems will be solved. I guarantee this.". I chose this quote to encourage people to reach out to their local community or learn more about the tradition and their teachings.
-
-## **Anchor Tags Within all Pages Main Content**
 ***
+## **Anchor Tags Within all Pages Main Content**
 * All anchor tags in the page's main content were left with the underline decoration to make it clear to the user that I had embedded a hyperlink.  
 * I  changed the color to black to match the surrounding text, meaning the anchor tag did not look out of place or lower the contrast score.
 * Have a hover-over effect that turns the Hyperlink a darker color from the gold gradient used throughout the page.
 * Have the cursor set to a pointer.  A Pointer is a browser default setting; however, I noted it did not default for buttons. I added the cursor: pointer rule to the styles.css for the form submit button, and I decide to create a separate rule for a:hover just in case the browser provider ever changed the browser default.
-
-## **Footer**
 ***
+## **Footer**
 * The footer includes direct links to all the NKT's social media accounts with an invitation to connect to the NKT directly via these channels.
 
 * These icons were imported from font awesome using Javascript at the bottom of the page. I was advised that linking the CDN in the header would load faster however the lighthouse tools in devtools showed a different story as the performance score became negatively affected by the CDN link.
@@ -199,9 +193,8 @@ The quote used for these two pages is, "If everyone sincerely practices the path
 * I included a disclaimer that the site is intended solely for educational purposes and that all images and videos remain the property of NKT-IKBU. I added this after seeking advice from the Code Institute on slack. To make an accurate tribute to the tradition, I needed to use the appropriate images. Most of the pictures found on the usual image source websites were of entirely different Buddhist practice and were irrelevant to my theme.
 
 ![Page footer](docs/screenshots/footer.jpg)
-
-## **Typography**
 ***
+## **Typography**
 * Throughout the page there are three fonts used:
   * Oswald - For the title to give it a strong presence.
   * DM sans - For all other headings including the navbar. 
@@ -209,9 +202,8 @@ The quote used for these two pages is, "If everyone sincerely practices the path
 
 * DM and Open sans were both selected to complement each other and because they have a soft appearance which I thought best suited to a site on Buddhism.
 * All fonts were sourced from Google fonts as stated in the credits.
-
-## **Individual Page Content features**
 ***
+## **Individual Page Content features**
 ### **About Page Content:**
 
 * This page gives a brief historical summary of the New Kadampa tradition, a quick overview of how the NKT came to be.
@@ -270,7 +262,6 @@ The quote used for these two pages is, "If everyone sincerely practices the path
 ![Form feedback content](docs/screenshots/form-feedback-content.jpg)
 
 ## **Future-Enhancements**
-***
 
 * The future intention of the site would be to serve as a website specifically for Malta, where there is no community until now. However, Due to the summer break, which the tradition undergoes every year, I could not reach the traditions director with my request for permission. I decided to build a tribute site to showcase to the head office and adapt the content to be more Malta specific later on. 
 
@@ -289,24 +280,21 @@ The quote used for these two pages is, "If everyone sincerely practices the path
 * Once I better understand Javascript, I would like to add a burger menu for mobile-sized device screens. I found articles on achieving this with CSS and HTML alone; however, I did not deem this necessary to create the minimum viable product which is this project.
 
 * I would also make the contact form fully function with a post request and have a database to collate data for the mailing list.
-
+***
 ## **Testing Phase**
-***
 I have included details of testing both during development and post development in a separate document called [TESTING.md](TESTING.md).
-
-## **Deployment**
 ***
+## **Deployment**
 I deployed the page on GitHub pages via the following procedure: -
 
 1. From the projects [repository](https://github.com/dnlbowers/modern-buddhism), go to the **Settings** tab.
-1. From the left-hand menu, select the **Pages** tab.
-1. Under the **Source** section, select the **Main** branch from the drop-down menu and click **Save**.
-1. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
+2. From the left-hand menu, select the **Pages** tab.
+3. Under the **Source** section, select the **Main** branch from the drop-down menu and click **Save**.
+4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
 
 The live site can be found here - [Modern Buddhism live webpage](https://dnlbowers.github.io/modern-buddhism/index.html)
-
-## **Credits**
 ***
+## **Credits**
 ### **Honorable mentions**
 This project could not have happened without the support of the following people listed in no particular order:
 

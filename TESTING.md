@@ -12,7 +12,6 @@
   * [**Accessability**](#accessability)
 
 ## **During Development Testing**
-***
 During the development process, I was manually testing in the following ways:-
 
 1. Manually testing each element for appearance and responsiveness via a simulated live server using an extension in VSCode.
@@ -21,7 +20,6 @@ During the development process, I was manually testing in the following ways:-
 
 1. Created a post on linked in and asked my network of over 400 developers to review the site and report any issues. The post was viewed more than 1200 times and no issues were reported back in the comments.
 
-#### ***Manual Testing:***
 ### ***Manual Testing:***
 During testing, I used four different browsers to ensure cross-compatibility. The desktop browsers used by myself were:
 
@@ -96,7 +94,6 @@ Below is a list of bugs I found during the development process by testing myself
         * This was resolved by adding some padding to the left and right of the input fields which then became uniform across all browsers.
     
 ## **Post Development Testing**
-***
 ### **Validators**
 
 #### ***HTML*** - https://validator.w3.org/nu/
@@ -112,12 +109,10 @@ Below is a list of bugs I found during the development process by testing myself
 ![CSS validator badge](https://jigsaw.w3.org/css-validator/images/vcss)
 
 ### **Lighthouse Scores**
-***
 ### **Test conditions**
 I did all lighthouse tests in incognito mode to avoid interference from browser extensions. 
 I ran the tests for both mobile and desktop. 
 #### ***Desktop Version:***
-
 I have only included one screenshot for desktop as all pages were the same score, only changing by one or two points in performance if I ran it multiple times. 
 
 ![Desktop Lighthouse Score](docs/screenshots/lighthouse-desktop.jpg) 
@@ -164,9 +159,8 @@ I have only included one screenshot for desktop as all pages were the same score
 
     ![Mobile Lighthouse Score for form-feedback.html](docs/screenshots/lighthouse-mobile-feedback.jpg) 
     * I found the performance score on this page lower due to the embedded video. I discovered this by looking at the original trace in the browser dev tools and saw the pages hero image and content loaded quickly. To test this theory, I removed the link from the iframe, and sure enough, the score increased a few points.
-
-### **Accessability**
 ***
+### **Accessability**
 In addition to the accessability score on light house I also used [WAVE - Web accessability evaluation tool](https://wave.webaim.org/) to check my pages for accessability and no errors were returned.
-    
+***   
 [return to README.md](README.md)
