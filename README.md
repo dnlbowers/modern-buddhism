@@ -33,6 +33,7 @@ The New Kadampa Tradition (NKT) is a modern form of Buddhism without any cultura
           * [*Quote*](#quote-3)
     * [**Anchor Tags Within all Pages Main Content**](#anchor-tags-within-all-pages-main-content)
     * [**Footer**](#footer)
+    * [**Typography**](#typography)
 1. [**Individual Page Content features**](#individual-page-content-features)
     * [**About Page Content**](#about-page-content)
     * [**Teachings Page Content**](#teachings-page-content)
@@ -199,6 +200,16 @@ The quote used for these two pages is, "If everyone sincerely practices the path
 
 ![Page footer](docs/screenshots/footer.jpg)
 
+## **Typography**
+***
+* Throughout the page there are three fonts used:
+  * Oswald - For the title to give it a strong presence.
+  * DM sans - For all other headings including the navbar. 
+  * Open sans - for all content text.
+
+* DM and Open sans were both selected to complement each other and because they have a soft appearance which I thought best suited to a site on Buddhism.
+* All fonts were sourced from Google fonts as stated in the credits.
+
 ## **Individual Page Content features**
 ***
 ### **About Page Content:**
@@ -346,3 +357,5 @@ This project could not have happened without the support of the following people
 * Hero image contact.html/form-feedback.html - [meditateinleicester.org](https://meditateinleicester.org/buddhism-3/)
 
 * Images requiring compression were done using - [tiny.png](https://tinypng.com) 
+
+* Font imported from - [Google Fonts](https://fonts.google.com/)
