@@ -1,6 +1,3 @@
-#samesite error -mention in testing how it affect best practice - no cookie reduced errors from 17 to 2
-#condense aria labels
-
 # **Modern Buddhism**
 ## **Site Overview**
 The New Kadampa Tradition (NKT) is a modern form of Buddhism without any cultural influence from the east. It stems from Tibetan Buddhism, which is known publicly in the west; however, the NKT aims to be more accessible to people with a busy lifestyle. It removes a lot of the cultural aspects of the Tibetan nations and provides everything in English.  Typically when someone wishes to learn the teachings from the Tibetan schools, they would be required to learn Tibetan and perform lengthy rituals to gain the full benefit of the practice.  The founder of the NKT, Geshe Kelsang Gyatso saw that cultural influences from Tibet were an obstacle to western practitioners. He worked diligently to create a structure that was best suited to modern life.
@@ -10,7 +7,7 @@ The New Kadampa Tradition (NKT) is a modern form of Buddhism without any cultura
 1. [**Site Overview**](#site-overview)
 1. [**Planning stage**](#planning-stage)
     * [***Target Audiences***](#target-audiences)
-    * [***User Story's***](#user-storys)
+    * [***User Stories***](#user-stories)
     * [***Site Aims***](#site-aims)
     * [***How Is This Will Be Achieved:***](#how-is-this-will-be-achieved)
     * [***Wireframes***](#wireframes)
