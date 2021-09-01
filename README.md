@@ -55,11 +55,11 @@ The New Kadampa Tradition (NKT) is a modern form of Buddhism without any cultura
 * Users who have never heard of the NKT.
 * Users who have heard of the NKT but would like to find more information on the tradition.
 
-### **User Story's:**
+### **User Stories:**
 * As a user, I want to see the subject matter of the page.
-* As a user, I want to navigate the page to find what I require easily.
+* As a user, I want to navigate the page to find what I require quickly and easily.
 * As a user, I want to leave feeling as I know more about the subject when leaving each page than when I arrived at the site.
-* As a user, I was to be able to navigate my way to free resources easily
+* As a user, I was to be able to navigate my way to free resources easily.
 * As a user, I want to reach out and connect to discuss/experience the subject matter on a deeper level. 
 
 ### **Site Aims:**
@@ -86,7 +86,7 @@ The New Kadampa Tradition (NKT) is a modern form of Buddhism without any cultura
 
 * If the user is in a country or region without a nearby center or wishes to speak to someone informally about the subject, I have included a contact form to connect the site author directly. The reason for this also relates to the [Future-enhancements](#future-enhancements) section listed later in this readme. 
 
-* Providing a newsletter to which the user can subscribe whilst sending the site author a message or by omitting the message and selecting the appropriate option before clicking the submit button.
+* Providing a newsletter to which the user can subscribe while sending the site author a message or by omitting the message and selecting the appropriate option before clicking the submit button.
 
 ### **Wireframes:**
 To organize my thoughts and prevent scope creep, I created wireframes for this project. Below are links to each of the mobile and desktop versions of the four intended pages. 
@@ -118,7 +118,7 @@ When deciding the color scheme, I wanted to go with something that gave an elega
 
 ## **Current Features Common to all pages**
 ###  **Header Element**
-The header element sticks to the top of the page as the user scrolls up and down. Originally I had designed the page with a "return to top" link at the bottom of the page. However, a Code Institute graduate pointed out that the sticky header would provide a more pleasant UX and better adhere to popular conventions. The header itself contains the following features: 
+The header element sticks to the top of the page as the user scrolls up and down. Originally I had designed the page with a "return to top" link at the bottom of the page. However, a Code Institute graduate pointed out that the sticky header would provide a more pleasant UX and adhere to popular conventions better. The header itself contains the following features: 
 
 #### *Title:*
 ![Page title](docs/screenshots/title.jpg)
@@ -129,19 +129,19 @@ The header element sticks to the top of the page as the user scrolls up and down
 #### *Logos:*
 * The logos illustrate the site's theme and offer something to appease the user's eye by filling the blank space without distracting from the title.
 
-    * One logo on mobile devices was to ensure the title stays as big as possible on a smaller screen, improving the user experience.
+    * One logo on mobile devices ensured the title stays as big as possible on a smaller screen, improving the user experience.
 
         ![Mobile header](docs/screenshots/mobile-header.jpg)
 
-    * Two logos on larger screens gave better symmetry to the header whilst filling the excess white space provided by broader screen sizes.
+    * Two logos on larger screens gave better symmetry to the header while filling the excess white space provided by broader screen sizes.
 
         ![Desktop header](docs/screenshots/desktop-header.jpg)
 
 #### *Navigation Bar:*
 * The navigation bar appears on all five pages (including the form feedback page). 
-* It contains links to the about, teachings, community and contact page to allow easy navigation around the website. 
+* It contains links to the about, teachings, community, and contact page to allow easy navigation around the website. 
 * The below image shows the user's current page highlighted in blue with a white border. 
-* This blue highlight with a white border is also mimicked on the hover over feature for the other navbar buttons.
+* Hover over feature, which turns the menu option the same as the active page when users hover their cursor over the navbar heading.
 ![Navigation bar](docs/screenshots/nav-bar.jpg)
 ***
 ### **Hero Images**
@@ -154,21 +154,21 @@ The header element sticks to the top of the page as the user scrolls up and down
 The hero image depicts Geshe Kelsang Gyatso, who was the founder of the New Kadampa Tradition. He is smiling and waving as if welcoming the user to the page. Behind him is the NKT's primary temple, which holds great significance. The temple pictured hosts two of the NKT's international festivals and is within the grounds of Manjushri Meditation center, considered the hub of the NKT's global operations.
 ![About page hero image](docs/screenshots/about-hero-img.jpg)
 #### *Quote:*
-The quote included on the about page is "We Need Modern Ideas, But We Also Need Ancient Wisdom." which perfectly sums up the page's subject matter that begins with what the NKT is.
+The quote included on the about page is "We need modern ideas, but we also need ancient wisdom." which perfectly sums up the page's subject matter that begins with what the NKT is.
 
 ### **Teachings page**:
 #### *Hero-Image:*
 This image is Geshe Kelsang Gyatso sat on what is commonly called a throne at one of the traditions international festivals. The throne is where a teacher sits to expound the oral lineage passed from teacher to disciple, and so it was appropriate for a page discussing the core beliefs of the philosophy in his own words.
 ![Teaching page hero image](docs/screenshots/teachings-hero-img.jpg)
 #### *Quote:*
-The quote included on the teachings page is "Happiness And Suffering Are States Of Mind And So Their Main Causes Are Not To Be Found Outside The Mind." which compliments the subject matter of the page's content.
+The quote included on the teachings page is "Happiness and suffering are states of mind and so their main causes are not to be found outside the mind." which compliments the subject matter of the page's content.
 
 ### **Community page:**
 #### *Hero-Image:*
 This image is taken from behind Geshe Kelsang Gyatso, teaching at a festival. The intention is to show the extent of the international community attending one of these events.
 ![Community page hero image](docs/screenshots/community-hero-img.jpg)
 #### *Quote:*
-The quote on the community page is, "Buddha is the doctor who gives us medicine, and the Sangha are the nurses who assist us." Sangha is defined in the page's content and shows the importance and function of the community within the NKT.
+The quote on the community page is, "Buddha is the doctor who gives us this medicine, and the Sangha are the nurses who assist us." Sangha is defined in the page's content and shows the importance and function of the community within the NKT.
 
 ### **Contact and Form-Feedback pages:**
 These two hero images and quotes were kept the same to simulate still being on the same page after the form is submitted.
