@@ -22,15 +22,15 @@ During the development process, I was manually testing in the following ways:-
 1. Created a post on linked in and asked my network of over 400 developers to review the site and report any issues. The post was viewed more than 1200 times and no issues were reported back in the comments.
 
 ### ***Manual Testing:***
-During testing, I used four different browsers to ensure cross-compatibility. The desktop browsers used by myself were:
+* During testing, I used four different browsers to ensure cross-compatibility. The desktop browsers used by myself were:
 
-1. Chrome
-2. Firefox  
-3. Opera
-4. Edge
+  1. Chrome
+  2. Firefox  
+  3. Opera
+  4. Edge
 
-I then used the devtools to simulate different screen sizes/devices from 320 px upt 4000px in width. 
-In addition to this, I also asked several people to test using iPhones and Apple Mac laptops/desktops using safari. These users reported no issues or bugs only style suggestions.
+* I then used the devtools to simulate different screen sizes/devices from 320 px up to 4000px in width. 
+* In addition to this, I also asked several people to test using iPhones and Apple Mac laptops/desktops using safari. These users reported no issues or bugs only style suggestions.
 
 ### ***Bugs and Fixes:***
 
@@ -87,7 +87,7 @@ Below is a list of bugs I found during the development process by testing myself
     * ***Issue Found:***
         * Looking back over my past commits, I found a Ghost author listed earlier in the commit history. A google search showed that this represented a deleted account.
     * ***Solution Used:***
-        * There was no fix required. I found this issue was caused by using the VSCode app on my work laptop instead of GitPod IDE. I set up VSCode because I needed a way to work whilst offline during a flight to Scotland. It wasn't until I returned home and set VSCode up on my private laptop that I realized I made all commits during my trip using my work email and username as a default to the VSCode preinstalled by my company. Once I updated my user details within VSCode, this ghost author appeared in the commits.  My work laptop somehow later restored my work email as the VSCode user during the project's final stages. However, I managed to link my work email to my Github account this time, so there will be no future inconsistency in the author of a commit.
+        * There was no fix required. I found this issue was caused by using the VSCode app on my work laptop instead of GitPod IDE. I set up VSCode because I needed a way to work whilst offline during a flight to Scotland. It wasn't until I returned home and set VSCode up on my private laptop that I realized I made all commits during my trip using my work email and username set by default on VSCode which was preinstalled by my company. Once I updated my user details within VSCode, this ghost author appeared in the commits.  My work laptop somehow later restored my work email as the VSCode user during the project's final stages. However, I managed to link my work email to my Github account, thus preventing future inconsistencies in the author of a commit.
 2. **Intended Outcome** - Attractive form with space between the input fields and the border.
     * ***Issue Found:***
         * Using Firefox web browser, I noticed that the form fields spanned the entire background width, and the curved edges spilling slightly out of the frame.
@@ -102,7 +102,7 @@ Below is a list of bugs I found during the development process by testing myself
 * ***Issue Found:***
     * My solution to point 6 of the "During Development Testing" section cause an error because I used a semantic tag ("section") on the community page with no heading. I had originally split the page into three sections leaving the two articles in a section by themselves. 
 * ***Solution Used:***
-    * I extended the section tag with the ID "ways-to-connect" to include the articles on the page and changed the section tag containing the two articles into a div element within #ways-to-connect. All pages now return no error.
+    * I extended the section tag with the ID "ways-to-connect" to include the articles on the page and changed the third section tag containing the two articles into a div element within #ways-to-connect. All pages now return no error.
 
 #### ***CSS*** - https://jigsaw.w3.org/css-validator/
 
@@ -140,7 +140,7 @@ I have only included one screenshot for desktop as all pages were the same score
 
     ![Mobile Lighthouse Score for index.html](docs/screenshots/lighthouse-mobile-indx.jpg) 
 
-    * Originally, the performance score on the page was around 83. But by using a slightly smaller version of the same hero image, I resolved the issue and maintained the responsiveness up to 4000 px in width.
+    * Originally, the performance score on the page was around 83. By using a slightly smaller version of the same hero image, I resolved the issue and maintained the responsiveness up to 4000 px in width.
 
 2. ***teaching:***
 
@@ -155,7 +155,7 @@ I have only included one screenshot for desktop as all pages were the same score
     ![Mobile Lighthouse Score for teachings.html](docs/screenshots/lighthouse-mobile-contact.jpg)
 
     * Best practice score has initially been 98 due to the spacing of the mailing list radio buttons. I added a padding bottom to the top div encasing the first input and label, which solved the issue.
-    * The performance score is lower on this mobile page due to the hero image. I already compressed the image twice, which had little impact on the score, and unfortunately, there was no more petite version of the image available. To resolve this in the future, I intend to use GIMP to resize an image. However, it was not a viable solution for this project due to the time already spent on the project, given I would need to learn GIMP from scratch. 
+    * The performance score is lower on this mobile page due to the hero image. I already compressed the image twice, which had little impact on the score, and unfortunately, there was no more petite version of the image available. To resolve this in the future, I intend to use GIMP to resize an image. However, it was not a viable solution for this project due to the time already spent on the project, and given I would need to learn GIMP from scratch. 
 
 5.  ***form-feedback.html***
 
