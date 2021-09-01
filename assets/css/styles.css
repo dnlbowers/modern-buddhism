@@ -439,7 +439,7 @@ footer h4 {
 @media (min-width: 360px) {
     
     /*style changes to the header*/ 
-    header{
+    header {
         justify-content: space-around;
     }
 
@@ -671,7 +671,7 @@ footer h4 {
         font-size: 300%;
     }
 
-    .header-image-right  {
+    .header-image-right {
         height: 6.25rem;
         width: 6.25rem;
     }
