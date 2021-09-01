@@ -99,7 +99,7 @@ To organize my thoughts and prevent scope creep, I created wireframes for this p
 
 * Desktop wireframes:
     * [Homepage (About)](docs/wireframes/homepage-desktop.png)
-    * [Teachings page](docs/wireframes/teaching-desktop.png)
+    * [Teachings page](docs/wireframes/teachings-desktop.png)
     * [Community page](docs/wireframes/community-desktop.png)
     * [Contact page](docs/wireframes/contact-desktop.png)
 
