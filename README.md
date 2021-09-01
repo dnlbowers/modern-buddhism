@@ -350,7 +350,7 @@ This project could not have happened without the support of the following people
 
 * Screenshot under README.md section titled "site overview" was created view [Am I responsive](http://ami.responsivedesign.is)
 
-* Color grid contract tool - [Eightshapes](https://contrast-grid.eightshapes.com/)
+* Color grid contract tool - [Eightshapes](https://contrast-grid.eightshapes.com/) 
 
 
 
