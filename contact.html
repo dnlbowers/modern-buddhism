@@ -10,16 +10,13 @@
     <title>Contact Page</title>
 </head>
 <body>
-    <!-- Sticky header for easy navigation other pages when scrolling down the current page -->
+    <!-- Sticky header -->
     <header>
         <div class="title-container">
-            <!-- left logo hidden on smaller screens under 540px wide-->
             <img class="header-image-left" src="assets/images/nkt-logo.png" alt="Logo of the New Kadampa Tradition - International Kadampa Buddhist Union">
-            <!-- The title of the header is wrapped in an anchor tag to return the user to the homepage when clicked -->
             <a href="index.html" class="title-anchor" aria-label="Takes your back to the home page">
                 <h1 class="title">New Kadampa Tradition</h1>
             </a>
-            <!-- Right logo always visible even on mobile devices -->
             <img class="header-image-right" src="assets/images/nkt-logo.png" alt="Logo of the New Kadampa Tradition - International Kadampa Buddhist Union">
         </div>
         <!-- Navbar -->
@@ -40,7 +37,7 @@
             </ul>
         </nav> 
     </header>
-    <!-- Container for hero image and quote overlay -->   
+    <!-- Hero image and quote overlay -->   
     <section class="hero-image-container">
         <div class="hero-animation contact-hero-image"></div>
         <div class="quote-background">
@@ -57,7 +54,6 @@
             page on Kadampa.org. You could either look up a class time to attend or see if they have a "World Peace Cafe" to which you can informally 
             drop in and enjoy a coffee whilst meeting volunteers and residents of the local center.
         </p>
-        <!-- The anchor tag below is internal, I chose to open it in a new tab so the user keeps the contact page open to return to -->
         <p>
             However, if like me you have no community yet in your area, all is not lost. For inspiration and resources, you can follow the New Kadampa Tradition on social media pages linked at the <a href="#footer">bottom of this page</a>
             or use the methods described under the heading "<a href="community.html#ways-to-connect" target=_blank aria-label="opens this sites community page in a new tab">Ways To Connect In Person</a>" 
@@ -68,7 +64,6 @@
             via the form below for a more informal connection. Below is a short bio about me and my experience 
             within the New Kadampa Tradition.
         </p>
-        <!-- Short introduction to the site author -->
         <h3 class="main-heading line-break-top-bottom"> About the site author</h3>
         <p>
             My name is David, and to the best of my knowledge I am the only practitioner 
@@ -94,7 +89,7 @@
             would like notifications on any news related to the tradition via a newsletter, please fill 
             out the relevant parts of the form below, and let's stay in touch. 
         </p>
-        <!-- Contact form with GET request to take the user to form-feedback page -->
+        <!-- Contact form -->
         <form id="contact-form" class="primary-bg-color line-break-top-bottom" action="form-feedback.html" method="GET">
             <label for="name" class="line-break-below text-left">Name:</label>
             <input type="text" id="name" class="center-text" name="name" placeholder="Joe Bloggs (Required)" required>
@@ -105,7 +100,7 @@
             <p id="p-in-form">
                 Want to join our mailing list?
             </p>
-            <!-- Mailing list options div added so the radio buttons and labels aligned correctly -->
+            <!-- Mailing list -->
             <div class="line-break-below">
                 <input type="radio" id="join" name="mailing_list" value="mail" required>
                 <label for="join" class="mailing-list-options">Yes please.</label>
@@ -117,7 +112,7 @@
             <input type="submit" id="submit-btn" value="Submit">
         </form>
     </main>
-    <!-- Footer with links to social media accounts of the tradition -->
+    <!-- Footer -->
     <footer id="footer" class="center-text">
         <h3 class="sub-heading">Follow The New Kadampa Tradition On Social Media</h3>
         <ul class="social-media">
