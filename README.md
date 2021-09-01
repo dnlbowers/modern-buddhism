@@ -1,5 +1,5 @@
 #samesite error -mention in testing how it affect best practice - no cookie reduced errors from 17 to 2
-#condense comments and aria labels
+#condense aria labels
 
 # **Modern Buddhism**
 ## **Site Overview**
