@@ -112,9 +112,10 @@ There was some deviation from the original wireframes to improve the User Experi
 * The two boxes in the footer were initially intended to be the images for the ebook downloads used in the final design. I abandoned this idea not to increase the footer height on mobile devices and improve the flow of information as the user progressed through the pages.
 
 ### **Color Scheme:**
-When deciding the color scheme, I wanted to go with something that gave an elegant appearance. For this reason, I selected a range of blue and gold's and used the following color grid created on https://contrast-grid.eightshapes.com/ to check the contrast scores. Using this grid allowed me to ensure all text remained visible and the site was accessible to all.
+When deciding the color scheme, I wanted to go with something that gave an elegant appearance. For this reason, I selected a range of blue and gold's and used the following color grid created on [https://contrast-grid.eightshapes.com/](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23fcf6ba%2C%0D%0A%23b38728%2C%0D%0A%23fbf5b7%2C%0D%0A%23bf953f%0D%0A%23000%0D%0A%23FFFFFF%2C%20%0D%0A%2306304b%0D%0A%23cfebfd%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) to check the contrast scores. Using this grid allowed me to ensure all text remained visible and the site was accessible to all.
+
 ![Color contrast grid](docs/screenshots/color-grid.png)
-***
+
 ## **Current Features Common to all pages**
 ###  **Header Element**
 The header element sticks to the top of the page as the user scrolls up and down. Originally I had designed the page with a "return to top" link at the bottom of the page. However, a Code Institute graduate pointed out that the sticky header would provide a more pleasant UX and better adhere to popular conventions. The header itself contains the following features: 
@@ -177,13 +178,13 @@ The artwork pictures three of the common deities used within the New Kadampa Tra
 ![Contact and Form-feedback pages hero image](docs/screenshots/contact-hero-img.jpg)
 #### *Quote:*
 The quote used for these two pages is, "If everyone sincerely practices the path of compassion and wisdom, all their problems will be solved. I guarantee this.". I chose this quote to encourage people to reach out to their local community or learn more about the tradition and their teachings.
-***
+
 ## **Anchor Tags Within all Pages Main Content**
 * All anchor tags in the page's main content were left with the underline decoration to make it clear to the user that I had embedded a hyperlink.  
 * I  changed the color to black to match the surrounding text, meaning the anchor tag did not look out of place or lower the contrast score.
 * Have a hover-over effect that turns the Hyperlink a darker color from the gold gradient used throughout the page.
 * Have the cursor set to a pointer.  A Pointer is a browser default setting; however, I noted it did not default for buttons. I added the cursor: pointer rule to the styles.css for the form submit button, and I decide to create a separate rule for a:hover just in case the browser provider ever changed the browser default.
-***
+
 ## **Footer**
 * The footer includes direct links to all the NKT's social media accounts with an invitation to connect to the NKT directly via these channels.
 
@@ -192,7 +193,7 @@ The quote used for these two pages is, "If everyone sincerely practices the path
 * I included a disclaimer that the site is intended solely for educational purposes and that all images and videos remain the property of NKT-IKBU. I added this after seeking advice from the Code Institute on slack. To make an accurate tribute to the tradition, I needed to use the appropriate images. Most of the pictures found on the usual image source websites were of entirely different Buddhist practice and were irrelevant to my theme.
 
 ![Page footer](docs/screenshots/footer.jpg)
-***
+
 ## **Typography**
 * Throughout the page there are three fonts used:
   * Oswald - For the title to give it a strong presence.
@@ -201,7 +202,7 @@ The quote used for these two pages is, "If everyone sincerely practices the path
 
 * DM and Open sans were both selected to complement each other and because they have a soft appearance which I thought best suited to a site on Buddhism.
 * All fonts were sourced from Google fonts as stated in the credits.
-***
+
 ## **Individual Page Content features**
 ### **About Page Content:**
 
@@ -347,4 +348,6 @@ This project could not have happened without the support of the following people
 * Images requiring compression were done using - [tiny.png](https://tinypng.com) 
 
 * Screenshot under README.md section titled "site overview" was created view [Am I responsive](http://ami.responsivedesign.is)
+
+* Color grid contract tool - [Eightshapes](https://contrast-grid.eightshapes.com/)
 
