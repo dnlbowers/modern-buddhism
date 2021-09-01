@@ -171,7 +171,7 @@ This image is taken from behind Geshe Kelsang Gyatso, teaching at a festival. Th
 The quote on the community page is, "Buddha is the doctor who gives us this medicine, and the Sangha are the nurses who assist us." Sangha is defined in the page's content and shows the importance and function of the community within the NKT.
 
 ### **Contact and Form-Feedback pages:**
-These two hero images and quotes were kept the same to simulate still being on the same page after the form is submitted.
+I kept these two hero images and quotes the same to simulate still being on the same page after submitting the form.
 
 #### *Hero-Image:*
 The artwork pictures three of the common deities used within the New Kadampa Tradition. I used this to be eye-catching even when viewed from smaller devices.
@@ -188,20 +188,20 @@ The quote used for these two pages is, "If everyone sincerely practices the path
 ## **Footer**
 * The footer includes direct links to all the NKT's social media accounts with an invitation to connect to the NKT directly via these channels.
 
-* These icons were imported from font awesome using Javascript at the bottom of the page. I was advised that linking the CDN in the header would load faster however the lighthouse tools in devtools showed a different story as the performance score became negatively affected by the CDN link.
+* These icons were imported from font awesome using Javascript at the bottom of the page. I was advised that linking the CDN in the header would load faster; however, the lighthouse tools in devtools showed a different story as the performance score became negatively affected by the CDN link.
 
-* I included a disclaimer that the site is intended solely for educational purposes and that all images and videos remain the property of NKT-IKBU. I added this after seeking advice from the Code Institute on slack. To make an accurate tribute to the tradition, I needed to use the appropriate images. Most of the pictures found on the usual image source websites were of entirely different Buddhist practice and were irrelevant to my theme.
+* I included a disclaimer that the site is intended solely for educational purposes and that all images and videos remain the property of NKT-IKBU. I added this after seeking advice from the Code Institute on slack. To make an accurate tribute to the tradition, I needed to use the appropriate images. Most of the pictures found on the usual image source websites were of entirely different Buddhist schools and were irrelevant to my theme.
 
 ![Page footer](docs/screenshots/footer.jpg)
 
 ## **Typography**
-* Throughout the page there are three fonts used:
+* Throughout the page, there are three fonts used:
   * Oswald - For the title to give it a strong presence.
   * DM sans - For all other headings including the navbar. 
   * Open sans - for all content text.
 
 * DM and Open sans were both selected to complement each other and because they have a soft appearance which I thought best suited to a site on Buddhism.
-* All fonts were sourced from Google fonts as stated in the credits.
+* All fonts were sourced from Google fonts, as stated in the credits.
 
 ## **Individual Page Content features**
 ### **About Page Content:**
@@ -217,10 +217,10 @@ The quote used for these two pages is, "If everyone sincerely practices the path
 * Covers the core beliefs behind what Buddhism teaches. 
 * I  included images to break up the monotony of the long passage.  
   * The images symbolize the traditions linage and are the decorations used in Geshe Kelsang Gyatso's books between pages. 
-  * Images are wrapped in a figure element and given a figcaption to detail who the image portrays. *Note: It was outside the scope of the project's MVP to detail the full linage of the NKT. See [Future-Enhancements](#future-enhancements) for details of how the lineage will later include it if required*
+  * Images are wrapped in a figure element and given a figcaption to detail who the image portrays. *Note: It was outside the scope of the project's MVP to detail the full linage of the NKT. See [Future-Enhancements](#future-enhancements) for further information on how the lineage will be included at a later stage of development if it is required*
 * The last image towards the bottom of the page is wrapped in an anchor tag. The image contains text inviting the user to download a full copy of the book if the user wishes to read further. 
 * Link provided for further free excerpts from Geshe Kelsang Gyatso's books via an external site.  
-* Link provided to Tharpa publications run by the NKT where the users can purchase the full range of Geshe Kelsang Gyatso books and materials, including Buddhist prays and artwork approved by the tradition. 
+* Link provided to Tharpa publications run by the NKT where the users can purchase the full range of Geshe Kelsang Gyatso books and materials, including Buddhist prays, and artwork approved by the tradition. 
 
 ![Zoomed out image of the teachings page content section](docs/screenshots/teachings-page-content.png)
 
@@ -242,20 +242,20 @@ The quote used for these two pages is, "If everyone sincerely practices the path
 ### **Contact Page Content**
 
 * Reiterates ways to reach out to the New Kadampa Tradition in the user's local area and refers them to the ways to connect section on the community page.
-* User is offered a way to contact me as the site author should they wish to discuss the subject matter further. This section includes a short biography about me and my experience in the NKT.
+* The user is offered a way to contact me as the site author should they wish to discuss the subject matter further. This section includes a short biography about me and my experience in the NKT.
 * Form used has three required fields. 
     * The first two are name and email, so I know who has sent the communication and where to respond appropriately. 
     * The third required field is the two radio buttons linked via the attribute value name="mailing_list". The user must select one of these options to click submit and cannot choose both.
-* In between these required fields is an optional text area so the user can choose to send me a message.  
+* An optional text area is between these required fields so the user can choose to send me a message.  
 * The submit button has a shimmer effect as feedback when the user hovers the pointer over it. 
 
-*Note: This form doesn't function to gather any data; it was created with a GET request to call a feedback page. The submit button then triggers the GET request to load the form feedback page outlined later in the readme. This feature is to simulate a real functional form only.*
+*Note: This form doesn't gather any data; it was created with a GET request to call a feedback page. The submit button then triggers the GET request to load the form feedback page outlined later in the readme. This feature is to simulate a real functional form only.*
 
 ![Contact page content](docs/screenshots/contact-page-content.jpg)
 
 ### **Form Feedback Page Content**
 * I created this page to mimic the effect of actually submitting a form. 
-* I centered the text alignment on this page only. For all other pages I set the the text-alignment property to "justify" on smaller screen widths and to "left" on larger screens. I made this decision because of the lack of text on the form feedback page. Matching the alignment to the other pages looked out of place.
+* I centered the text alignment on this page only. I set the text-alignment property to "justify" on smaller screen widths and to "left" on larger screens for all other pages. I made this decision because of the lack of text on the form feedback page. Matching the alignment to the other pages looked out of place.
 * Since filling in the form suggests the user is interested in learning more, I have included a longer feature video about the tradition here. *Note: Originally, I had wanted to use this on the home page, but due to the length of the video, I deemed it too long for an introduction. There is no auto play on the videos, so the user can choose whether they want to engage with the video or not.*
 * Link included within the content to take the user back to the initial contact page, in case they wanted to look at the ways to contact a local meditation center, send an additional message, or sign up to the mailing list.
 
@@ -271,13 +271,13 @@ The quote used for these two pages is, "If everyone sincerely practices the path
     * Times/dates/venues for Book clubs to study and discuss the materials and methods to apply them to daily life.
     * More information on the lineage of the tradition to include short biographies.
 
-* Eventually, when Malta was designated a teacher by the head office these would then convert into: -
+* Eventually, when Malta was designated a teacher by the head office, these would then convert into: -
 
     * Times/dates/venues/fees for Formal classes
     * Times/dates/venues/fees for Public talks/events
-    * Include a bio for Malta's officially designated teacher at the end of the traditions lineage page or add a new page that summarizes their experience.
+    * Include a bio for Malta's officially designated teacher at the end of the traditions lineage page or add a new page summarizing their experience.
 
-* Once I better understand Javascript, I would like to add a burger menu for mobile-sized device screens. I found articles on achieving this with CSS and HTML alone; however, I did not deem this necessary to create the minimum viable product which is this project.
+* Once I better understand Javascript, I would like to add a burger menu for mobile-sized device screens. I found articles on achieving this with CSS and HTML alone; however, I did not deem this necessary to create the minimum viable product, which is this project.
 
 * I would also make the contact form fully function with a post request and have a database to collate data for the mailing list.
 ***
@@ -287,18 +287,18 @@ I have included details of testing both during development and post development 
 ## **Deployment**
 I deployed the page on GitHub pages via the following procedure: -
 
-1. From the projects [repository](https://github.com/dnlbowers/modern-buddhism), go to the **Settings** tab.
+1. From the project's [repository](https://github.com/dnlbowers/modern-buddhism), go to the **Settings** tab.
 2. From the left-hand menu, select the **Pages** tab.
 3. Under the **Source** section, select the **Main** branch from the drop-down menu and click **Save**.
 4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
 
-The live site can be found here - [Modern Buddhism live webpage](https://dnlbowers.github.io/modern-buddhism/index.html)
+You  can find the live site via the following URL - [Modern Buddhism live webpage](https://dnlbowers.github.io/modern-buddhism/index.html)
 ***
 ## **Credits**
 ### **Honorable mentions**
 This project could not have happened without the support of the following people listed in no particular order:
 
-* [Mark Cutajar](https://github.com/markcutajar) - He who possesses screens so clear the mouth waters at the mere sight of them. Also a code guru who let me share his office during the initial development stage whilst I was visiting him in Scotland. This man is part of the reason I entered the world of programming.
+* [Mark Cutajar](https://github.com/markcutajar) - He who possesses screens so clear the mouth waters at the mere sight of them. Also, a code guru who let me share his office during the initial development stage while I was visiting him in Scotland. This man is part of the reason I entered the world of programming.
 * [Richard Wells](https://github.com/D0nni387) - Code Institute Mentor who has gone above and beyond what was expected of him to help me get this far in the course.
 * [Matt Bodden](https://github.com/MattBCoding) - 24/7 tester, advisor, muse and support. I truly cannot thank him enough, Matt you're a living legend!.  
 * [Monica Hrda](https://github.com/monika-hrda) - Style adviser and tester (go study!).
@@ -314,13 +314,13 @@ This project could not have happened without the support of the following people
 * I relied upon W3schools, MDN web docs and stack overflow for general references throughout the project.
 
 ### **Content:**
-* All Content was written by myself with the exception of the below excerpt on teachings.html
+* All content was written by myself except for the below excerpt on teachings.html
 * The excerpt from Transform your life on teachings.html - [kadampa.org](https://kadampa.org/reference/buddhist-beliefs)
 * Icons in the footer were taken from [Font Awesome](https://fontawesome.com)
 * The golden gradient colour scheme - [brandgradients.com](http://www.brandgradients.com/gold-gradient).
 * All fonts imported from - [Google Fonts](https://fonts.google.com/)
 * Hero image quotes taken from a range of sources - [About (index) Page Quote](https://www.azquotes.com/quote/864975), [Teachings Page Quote](https://www.goodreads.com/author/quotes/13768667.Kelsang_Gyatso#:~:text=%E2%80%9CHappiness%20and%20suffering%20are%20states,be%20found%20outside%20the%20mind.%E2%80%9D&text=Therefore%2C%20if%20we%20want%20to,we%20must%20transform%20our%20mind.%E2%80%9D), [Community Page Quote](https://kadampa.org/buddhism/refuge), [Contact Page/Form-Feedback Page Quote](https://books.google.at/books?id=rLq0icrylRAC&pg=PA4&lpg=PA4&dq=%22If+Everyone+Sincerely+Practices+The+Path+Of+Compassion+And+Wisdom,+All+Their+Problems+Will+Be+Solved.+I+Guarantee+This&source=bl&ots=cnWI9WrXmy&sig=ACfU3U00afgbFxI8NXS6LrvBonG8Vlh1CQ&hl=en&sa=X&ved=2ahUKEwjF1vv939zyAhUi_7sIHTPjAQEQ6AF6BAgCEAM#v=onepage&q=%22If%20Everyone%20Sincerely%20Practices%20The%20Path%20Of%20Compassion%20And%20Wisdom%2C%20All%20Their%20Problems%20Will%20Be%20Solved.%20I%20Guarantee%20This&f=false)
-* Accessability checker - [WAVE - Web accessability evaluation tool](https://wave.webaim.org/)
+* Accessibility checker - [WAVE - Web accessibility evaluation tool](https://wave.webaim.org/)
   
 ### **Media:**
 * New Kadampa Traditions logos - [meditateinvictoria.org](https://meditateinvictoria.org/wp-content/uploads/2019/02/NKT-Logo-white-transparent-300x300.png)
@@ -329,7 +329,7 @@ This project could not have happened without the support of the following people
 
 * ebook Modern Buddhism download image - [meditateinbrisbane.org](https://meditateinbrisbane.org/classes/kenmore_class/)
 
-* The buddha images used to break up the excerpt from Transform your life on teachings.html - [pngwing.com](https://www.pngwing.com/en/search?q=New+KAdampa)
+* The Buddha images used to break up the excerpt from Transform your life on teachings.html - [pngwing.com](https://www.pngwing.com/en/search?q=New+KAdampa)
 
 * ebook "How to Transform your life" download image - [kadampa.org](https://kadampa.org/buddhism/kadampa-buddhist-scriptures)
 
