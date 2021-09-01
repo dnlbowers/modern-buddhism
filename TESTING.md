@@ -136,17 +136,17 @@ I have only included one screenshot for desktop as all pages were the same score
 
 1. ***index.html:***
 
-    ![Mobile Lighthouse Score for index.html](docs/screenshots/lighthouse-mobile-indx.jpg) 
+    ![Mobile Lighthouse Score for index.html](docs/screenshots/lighthouse-mobile-indx.JPG) 
 
     * Originally, the performance score on the page was around 83. But by using a slightly smaller version of the same hero image, I resolved the issue and maintained the responsiveness up to 4000 px in width.
 
 2. ***teaching:***
 
-    ![Mobile Lighthouse Score for teachings.html](docs/screenshots/lighthouse-mobile-teach.jpg)
+    ![Mobile Lighthouse Score for teachings.html](docs/screenshots/lighthouse-mobile-teach.JPG)
 
 3. ***community.html:***
 
-    ![Mobile Lighthouse Score for community.html](docs/screenshots/lighthouse-mobile-comm.jpg) 
+    ![Mobile Lighthouse Score for community.html](docs/screenshots/lighthouse-mobile-comm.JPG) 
 
 4. ***Contact.html:***
 
