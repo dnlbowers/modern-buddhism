@@ -320,6 +320,7 @@ This project could not have happened without the support of the following people
 * The golden gradient colour scheme - [brandgradients.com](http://www.brandgradients.com/gold-gradient).
 * All fonts imported from - [Google Fonts](https://fonts.google.com/)
 * Hero image quotes taken from a range of sources - [About (index) Page Quote](https://www.azquotes.com/quote/864975), [Teachings Page Quote](https://www.goodreads.com/author/quotes/13768667.Kelsang_Gyatso#:~:text=%E2%80%9CHappiness%20and%20suffering%20are%20states,be%20found%20outside%20the%20mind.%E2%80%9D&text=Therefore%2C%20if%20we%20want%20to,we%20must%20transform%20our%20mind.%E2%80%9D), [Community Page Quote](https://kadampa.org/buddhism/refuge), [Contact Page/Form-Feedback Page Quote](https://books.google.at/books?id=rLq0icrylRAC&pg=PA4&lpg=PA4&dq=%22If+Everyone+Sincerely+Practices+The+Path+Of+Compassion+And+Wisdom,+All+Their+Problems+Will+Be+Solved.+I+Guarantee+This&source=bl&ots=cnWI9WrXmy&sig=ACfU3U00afgbFxI8NXS6LrvBonG8Vlh1CQ&hl=en&sa=X&ved=2ahUKEwjF1vv939zyAhUi_7sIHTPjAQEQ6AF6BAgCEAM#v=onepage&q=%22If%20Everyone%20Sincerely%20Practices%20The%20Path%20Of%20Compassion%20And%20Wisdom%2C%20All%20Their%20Problems%20Will%20Be%20Solved.%20I%20Guarantee%20This&f=false)
+* Accessability checker - [WAVE - Web accessability evaluation tool](https://wave.webaim.org/)
   
 ### **Media:**
 * New Kadampa Traditions logos - [meditateinvictoria.org](https://meditateinvictoria.org/wp-content/uploads/2019/02/NKT-Logo-white-transparent-300x300.png)
