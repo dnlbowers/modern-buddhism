@@ -4,7 +4,6 @@ The New Kadampa Tradition (NKT) is a modern form of Buddhism without any cultura
 
 ![Am I responsive screenshot](docs/screenshots/am-i-responsive.jpg)
 ## Table of contents:
-***
 1. [**Site Overview**](#site-overview)
 1. [**Planning stage**](#planning-stage)
     * [***Target Audiences***](#target-audiences)
@@ -346,4 +345,6 @@ This project could not have happened without the support of the following people
 * Hero image contact.html/form-feedback.html - [meditateinleicester.org](https://meditateinleicester.org/buddhism-3/)
 
 * Images requiring compression were done using - [tiny.png](https://tinypng.com) 
+
+* Screenshot under README.md section titled "site overview" was created view [Am I responsive](http://ami.responsivedesign.is)
 
