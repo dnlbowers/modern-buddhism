@@ -113,7 +113,7 @@ Below is a list of bugs I found during the development process by testing myself
 ### **Test conditions**
 * I did all lighthouse tests in incognito mode to avoid interference from browser extensions. 
 * I ran the tests for both mobile and desktop. 
-* I asked people to run from their own devices. 
+* I asked people to run lighthouse tests from their own devices. 
 #### ***Desktop Version:***
 I have only included one screenshot for desktop as all pages were the same score, only changing by one or two points in performance if I ran it multiple times. 
 
@@ -126,7 +126,7 @@ I have only included one screenshot for desktop as all pages were the same score
 1. The best practice score was first 93 and impacted by three factors:
     * Aspect ratio of the images on the teachings page. I fixed this by resizing the images proportionately with the calculator found on https://andrew.hedges.name/experiments/aspect_ratio/.
 
-    * There were some anchor tags on the community page and the form feedback page where the text was "here". I changed these anchor texts to a more descriptive text indicating where the links would lead the user.
+    * There were some anchor tags on the community page and the form feedback page where the contained text was "here". I changed these anchor texts to a more descriptive text indicating where the links would lead the user.
 
     * The graphic used as an anchor to download the book Modern Buddhism on index.html was the correct size with no need to specify width and height. However, the best practice scored suggested it should have a height and width specified. I used an extension called pesticide to get the dimension of the image and added these to the CSS file under an ID explicitly created for this element (#modbudd-ebook). Once I added the dimensions best practice score became 100.
 
@@ -165,10 +165,10 @@ I have only included one screenshot for desktop as all pages were the same score
 #### ***Lighthouse score Feedback From Third Party Testers***
 On the whole all scores reported back from third party testers using the lighthouse tool concurred with my own. One interesting thing that was reported back to me was the following when tested outside of Incognito mode: -
   * The best practice score on the pages with a video embedded dropped to 93 due to a console error. 
-    * I was able to replicate this to see the error specified that the set:cookie property on the embedded video was set automatically by the browser to "lax" due to not being specified in my code. 
+    * I was able to replicate this to see the error specified that the set:cookie property on the embedded video was being set automatically by the browser to "lax" due to not being specified in my code. 
     * I reduced this error by using "no-cookie" in the youtube URL. However, I was unable to get rid of it outside of incognito mode completely. This error did not show at all in incognito mode.
-    * All documentation found on the set:cookie attribute pointed towards Javascript, which was outside of my current knowledge base and the scope requirements for this project. 
-    * Since, in reality, the browser was only alerting me that by default, the attribute was now "lax" and there was no user impact, I decided that this was not a bug but something I will be able to fix in the future.
+    * All documentation found on the set:cookie attribute pointed towards Javascript/API, which was outside of my current knowledge base and the scope requirements for this project. 
+    * Since, in reality, the browser was only alerting me that by default, the attribute was now "lax" and there was no user impact, I decided that this was not a bug but a browser feature. This is something I would be looking to fix in the future by replacing the embed url with an API call.
   
 ### **Accessability**
 In addition to the accessability score on light house I also used [WAVE - Web accessability evaluation tool](https://wave.webaim.org/) to check my pages for accessability and no errors were returned.
